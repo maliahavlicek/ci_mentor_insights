@@ -1,4 +1,55 @@
-# PROJECT_NAME
+# OVERVIEW
+
+This template was made as a guide to ensure you cover assessment criteria in your first write up. It is specific to the **USER CENTRIC FRONTEND MILESTONE** project.
+
+# Table of Contents
+- [PROJECT_NAME](#project-name)
+  * [Author](#author)
+  * [Project Overview](#project-overview)
+  * [UX](#ux)
+    + [Project Goals](#project-goals)
+      - [User Goals](#user-goals)
+      - [Developer Goals](#developer-goals)
+      - [Website Owner Goals](#website-owner-goals)
+    + [User Stories](#user-stories)
+    + [Design Choices](#design-choices)
+      - [Colors](#colors)
+      - [Typography](#typography)
+      - [Images](#images)
+      - [Design Elements](#design-elements)
+      - [Animations and Transitions](#animations-and-transitions)
+    + [Wireframes](#wireframes)
+    + [Features](#features)
+      - [Implemented Features](#implemented-features)
+      - [Future Features](#future-features)
+  * [Technologies Used](#technologies-used)
+    + [Programing Languages](#programing-languages)
+    + [Frameworks and Extensions](#frameworks-and-extensions)
+    + [Fonts](#fonts)
+    + [Tools](#tools)
+    + [APIs](#apis)
+  * [Testing](#testing)
+    + [Validation Testing](#validation-testing)
+    + [Cross Browser and Cross Device Testing](#cross-browser-and-cross-device-testing)
+    + [Automated Testing](#automated-testing)
+    + [Manual Testing](#manual-testing)
+    + [Defect Tracking](#defect-tracking)
+    + [Defects of Note](#defects-of-note)
+    + [Outstanding Defects](#outstanding-defects)
+  * [Deployment](#deployment)
+    + [Deploy Locally](#deploy-locally)
+    + [Deploy To GitHub Pages](#deploy-to-github-pages)
+  * [Credits](#credits)
+    + [Content](#content)
+    + [Media](#media)
+    + [Acknowledgments](#acknowledgments)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+
+# PROJECT NAME
+*replace the **PROJECT NAME** header with your project's name*
 - Screen shot of logo/navigation of mobile deployed site
 - Include link to deployed project with one one line explanation of project
 
@@ -40,6 +91,8 @@ As a user type, I want to perform an action, so that I can achieve a goal.
 
 ### Design Choices
 Your site is most likely geared to a certain audience and your design choices should tie into them. Let the assessors know your thought process.
+
+You may want to re-watch the videos about the [5 planes of UX development ](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/22905698f3be425d918ebc64c87801b7/9c295bdc5a4048308460e262b14ab7df/) when writing up this section
 
 #### Colors
 
@@ -142,12 +195,9 @@ Please note, if this gets more than 5 items, you may want to break it down into 
 ### Tools
 - [github](https://github.com/) - used for version control of project files and branching out to try different things without adversely affecting a functional set of code
 - [balsamiq](https://balsamiq.com/) - used to create professional looking wire frames.
-- [draw.io](https://about.draw.io/features/) - used to create Entity Relationship diagrams and CRUD flow diagrams.
 - [markdown table generator](https://www.tablesgenerator.com/markdown_tables) - used to help with documentation table formatting
 - [mardown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/) - used to create table of contents (be weary it does have some bugs if you have dashes or trailing spaces in your headers)
 - [colors.co](https://coolors.co/) I used a colors.co's color pallet tool to help pick complementary colors.
-- [color contrast](https://webaim.org/resourceshttps://webaim.org/resources/contrastchecker//contrastchecker/) Tool was used to adjust colors on fonts flagged as needing a higher contrast ratio from google's lighthouse audit tool.
-- [lighthouse audit](https://developers.google.com/web/tools/lighthouse) Google's open source tool to help improve the quality of your website. Specifically paid attention to Accessibility and SEO aiming for scores above 80.
 
 ### APIs
 - [SMTP](https://github.com/python/cpython/blob/3.8/Lib/smtplib.py) - Send emails to users 
@@ -161,13 +211,13 @@ In this section, you need to convince the assessor that you have conducted enoug
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ### Validation Testing
-You should try to ensure you code is valid and follows proper indentation.  In this section you should write up any websites you used to validate your code. As your projects become more complex these tools may change.
+You should try to ensure you code is valid and follows proper indentation.  In this section you should write up any websites you used to validate your code. As your projects becomes more complex these tools may change.
 
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) Note, any error associated with root: color variables were ignored.
 - [HTML Validator](https://validator.w3.org/)
 
 ### Cross Browser and Cross Device Testing
-Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers and viewport breakpoints.
+Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
 
 | TOOL / Device                 | BROWSER     | OS         | SCREEN WIDTH  |
 |-------------------------------|-------------|------------|---------------|
@@ -186,6 +236,8 @@ Create a table that lists out what devices, browsers, and operating system you t
 ### Automated Testing
 Whenever it is feasible, automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
+If you did not run automating testing. State why you chose not to.
+
 ### Manual Testing
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
@@ -201,6 +253,7 @@ Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/189Vp
 It's ok to spot check specific functionality across devices and browsers but each page should be viewed as a whole for each device/browser combo at least once.
 
 A quick way to check if items are exceeding the screen width of a project is to run this javascript in the console for various screen emulations:
+
 ```
 var docWidth = document.documentElement.offsetWidth;
 [].forEach.call(document.querySelectorAll('*'),function(el){if(el.offsetWidth > docWidth){console.log(el);}});
@@ -208,9 +261,13 @@ var docWidth = document.documentElement.offsetWidth;
 
 ### Defect Tracking
 
-You should mention  any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+You should mention  any  bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 Here is a [Defect Tracking Template](https://docs.google.com/spreadsheets/d/1tYB4X4wTCNEW_Y1no3hsGbclh2bLokl_I5Ev3s5EuJA/edit?usp=sharing) you use as a starting point to track defects. Make a copy of the sheet to your own account and update the Features sheet to match your project. 
+
+
+### Defects of Note
+Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and how you finally ended up resolving them.
 
 
 ### Outstanding Defects
@@ -229,13 +286,15 @@ Remember to use proper markdown for commands and enumerated steps.
 
 Write out the steps you take starting from cloning the repository in github or clicking a gitpod button to run your code locally. Test it out and make sure it works.
 
+You may want to re-watch the [initial deployment in gitpod video](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/dcd449bd41a446f49df3268f91dd06fc/072c95175f1148438de9d82e7a756ee1/?child=first) when writing up this section.
+
 ### Deploy To GitHub Pages
 
 Write out steps you would take and test them to deploy your code to GitHub Pages.
 
 ## Credits
 
-To avoid plagiarism amd copyright infringement, you should mention any other projects, stackoverflow, blogs, etc that you used to gather imagery or ideas for your code.
+To avoid plagiarism amd copyright infringement, you should mention any other projects, stackoverflow, videos, blogs, etc that you used to gather imagery or ideas for your code even if you used it as a starting point and modified things. Giving credit to other people's efforts and ideas that saved you time acknowledges the hard work others did. 
 
 ### Content
 

@@ -6,7 +6,7 @@ The hope is to provide a more standard writeup to lead students to success and m
 
 ## Project Specific Readme Templates
 
-- [User Centric Frontend Readme Template](USER_CENTRIC_FRONTENT_README.md) 
+- [User Centric Frontend Readme Template](USER_CENTRIC_FRONTEND_README.md) 
 
 ## Helpful Templates
 
@@ -16,4 +16,11 @@ I've also added links to helpful google templates that I created for myself when
 - [Defect Tracking Template](https://docs.google.com/spreadsheets/d/1tYB4X4wTCNEW_Y1no3hsGbclh2bLokl_I5Ev3s5EuJA/edit?usp=sharing)
 
 
+## Helpful tools
+
+Markdown's not all that easy so sometimes you may want to use some tools to make tables. 
+
+- [Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
+- [markdown table generator](https://www.tablesgenerator.com/markdown_tables) - used to help with documentation table formatting
+- [mardown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/) - used to create table of contents (be weary it does have some bugs if you have dashes or trailing spaces in your headers)
 
