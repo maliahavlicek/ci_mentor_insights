@@ -2,6 +2,14 @@
 
 This template was made as a guide to ensure you cover assessment criteria in your first write up. It is specific to the **USER CENTRIC FRONTEND MILESTONE** project.
 
+## Helpful tools
+
+Markdown's not all that easy so sometimes you may want to use some tools to make tables. 
+
+- [Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
+- [markdown table generator](https://www.tablesgenerator.com/markdown_tables) - used to help with documentation table formatting
+- [mardown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/) - used to create table of contents (be weary it does have some bugs if you have dashes or trailing spaces in your headers)
+
 # Table of Contents
 - [PROJECT_NAME](#project-name)
   * [Author](#author)
