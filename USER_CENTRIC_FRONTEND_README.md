@@ -58,17 +58,17 @@ Markdown's not all that easy so sometimes you may want to use some tools to make
 
 # PROJECT NAME
 *replace the **PROJECT NAME** header with your project's name*
-- Screen shot of logo/navigation of mobile deployed site
-- Include link to deployed project with one one line explanation of project
+- Screenshot of logo/navigation of mobile deployed site
+- Include a link to deployed project with one line explanation of project
 
 ## Author
 DEVELOPER_NAME
 
 ## Project Overview
-- Include picture of site that shows it in responsive states and links to deployed code: http://ami.responsivedesign.is/
+- Include a picture of site that shows it in responsive states and links to deployed code: http://ami.responsivedesign.is/
 - One or two paragraphs providing an overview of your project.
 - Write this as a sales pitch or commercial making users want to purchase your website.
-- Include link to your deployed website
+- Include a link to your deployed website
 
 ## UX
 
@@ -83,6 +83,9 @@ Write goals form the perspective of each user group of your website. Common type
 > - admins 
 > - logged in user
 > - unauthenticated user
+> - future employers
+> - job recruiters
+> - followers
 
 #### Developer Goals
 
@@ -98,19 +101,19 @@ In particular, as part of this section we recommend that you provide a list of U
 As a user type, I want to perform an action, so that I can achieve a goal.
 
 ### Design Choices
-Your site is most likely geared to a certain audience and your design choices should tie into them. Let the assessors know your thought process.
+Your site is most likely geared to a certain audience, and your design choices should tie into them. Let the assessors know your thought process.
 
 You may want to re-watch the videos about the [5 planes of UX development ](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/22905698f3be425d918ebc64c87801b7/9c295bdc5a4048308460e262b14ab7df/) when writing up this section
 
 #### Colors
 
-- Discuss your color pallet
-- include a screen shot using a tool like coolors.co
+- Discuss your color pallet choices and how it ties into users' emotions or target audience.
+- include a screenshot of your pallet using a tool like coolors.co
 
 #### Typography
 
-- discuss font size, font types for headers vs buttons vs general text
-- include screen shots of fonts used and links to the appropriate website ex) https://fonts.google.com/specimen/Raleway
+- discuss font size, font types for headers vs buttons vs general text and how it ties into users' emotions or target audience.
+- include screenshots of fonts used and links to the appropriate website ex) https://fonts.google.com/specimen/Raleway
 
 #### Images
 
@@ -118,7 +121,7 @@ Explain why you used certain icons and images on your site
 
 #### Design Elements
 
-- list out the type of elements you want to use on your site, this will help you  when choosing a framework and goes hand in hand when doing the wireframes. If you did something out of the ordinary, or think something was particularly clever, add a sentence and a screen shot or reference the file the code or css is in.
+- list out the type of elements you want to use on your site, this will help you  when choosing a framework and goes hand in hand when doing the wireframes. If you did something out of the ordinary, or think something was particularly clever, add a sentence and a screenshot or reference the file the code or css is in.
 
 > - top menu (desktop navigation)
 > - sidebar menu (mobile navigation)
@@ -146,7 +149,7 @@ Explain why you used certain icons and images on your site
 
 ### Wireframes
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in a separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ### Features
 
@@ -164,11 +167,11 @@ Don't forget your 404 error page.
 
 Use this section to discuss plans for additional features to be implemented in the future:
 
-If you end up not developing some of the features you hoped to implement, you can include those in this section.
+If you end up not developing some features you hoped to implement, you can include those in this section.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+In this section, you should mention the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - If you included a js file that isn't your own, add it here.
 
@@ -292,7 +295,7 @@ Remember to use proper markdown for commands and enumerated steps.
 
 ### Deploy Locally
 
-Write out the steps you take starting from cloning the repository in github or clicking a gitpod button to run your code locally. Test it out and make sure it works.
+Write out the steps you take starting from cloning the repository in github or clicking a gitpod button to run your code locally. Test it out and make sure it works. This can be running from your IDE of choice like VSCode or PyCharm or GitPod.
 
 You may want to re-watch the [initial deployment in gitpod video](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/dcd449bd41a446f49df3268f91dd06fc/072c95175f1148438de9d82e7a756ee1/?child=first) when writing up this section.
 
@@ -306,15 +309,16 @@ To avoid plagiarism amd copyright infringement, you should mention any other pro
 
 ### Content
 
-Use bullet points to list out sites you copied text from and cross reference where those show up on your site
+Use bullet points to list out sites you copied text from and cross-reference where those show up on your site
 
 ### Media
 
-Make a list of sites you used images from. If you used several sites try to match up each image to the correct site. This includes icons.
+Make a list of sites you used images from. If you used several sites try to match up each image to the correct site. This includes attribution for icons if they came from font awesome or other sites, give them credit.
 
 ### Acknowledgments
 
-This is the section where you refer to code examples, mentors, blogs that helped you accomplish your end project. Even if it's an idea that you updated you should note the site and why it was important to your completed project.
+This is the section where you refer to code examples, mentors, blogs, stack overflow answers and videos that helped you accomplish your end project. Even if it's an idea that you updated you should note the site and why it was important to your completed project.
 
+If you used a CodeInstitute Example project as a starting point. Make note of that here.
 
 
