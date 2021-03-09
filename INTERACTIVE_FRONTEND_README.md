@@ -11,49 +11,7 @@ Markdown's not all that easy so sometimes you may want to use some tools to make
 - [mardown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/) - used to create table of contents (be weary it does have some bugs if you have dashes or trailing spaces in your headers)
 
 # Table of Contents
-- [PROJECT_NAME](#project-name)
-  * [Author](#author)
-  * [Project Overview](#project-overview)
-  * [UX](#ux)
-    + [Project Goals](#project-goals)
-      - [User Goals](#user-goals)
-      - [Developer Goals](#developer-goals)
-      - [Website Owner Goals](#website-owner-goals)
-    + [User Stories](#user-stories)
-    + [Design Choices](#design-choices)
-      - [Colors](#colors)
-      - [Typography](#typography)
-      - [Images](#images)
-      - [Design Elements](#design-elements)
-      - [Animations and Transitions](#animations-and-transitions)
-    + [Wireframes](#wireframes)
-    + [Features](#features)
-      - [Implemented Features](#implemented-features)
-      - [Future Features](#future-features)
-  * [Technologies Used](#technologies-used)
-    + [Programing Languages](#programing-languages)
-    + [Frameworks and Extensions](#frameworks-and-extensions)
-    + [Fonts](#fonts)
-    + [Tools](#tools)
-    + [APIs](#apis)
-  * [Testing](#testing)
-    + [Validation Testing](#validation-testing)
-    + [Cross Browser and Cross Device Testing](#cross-browser-and-cross-device-testing)
-    + [Automated Testing](#automated-testing)
-    + [Manual Testing](#manual-testing)
-    + [Defect Tracking](#defect-tracking)
-    + [Defects of Note](#defects-of-note)
-    + [Outstanding Defects](#outstanding-defects)
-  * [Deployment](#deployment)
-    + [Deploy Locally](#deploy-locally)
-    + [Deploy To GitHub Pages](#deploy-to-github-pages)
-  * [Credits](#credits)
-    + [Content](#content)
-    + [Media](#media)
-    + [Acknowledgments](#acknowledgments)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
+Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a table of contents.  This will help assessors to see the structure of your readme. Just test it out ast this tool isn't perfect. It tends to mess up with special characters like dashes.
 
 
 # PROJECT NAME
@@ -144,6 +102,9 @@ Explain why you used certain icons and images on your site
 
 - discuss any special animations or transitions you've included 
 - special hover state effects
+
+#### Custom Javascript
+- call attention to any custom javascript you created to help your User Experience you can organize this by functions or files
 
 ### Wireframes
 

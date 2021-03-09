@@ -29,8 +29,8 @@ This project requires STRIPE payments and USER AUTHENTICATION you should include
 ### Admin User
 - only necessary if some functionality is limited to admin users only
 
-## Table of Contents
-
+# Table of Contents
+Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a table of contents.  This will help assessors to see the structure of your readme. Just test it out ast this tool isn't perfect. It tends to mess up with special characters like dashes.
 
 ## UX
 
@@ -117,6 +117,10 @@ Explain why you used certain icons and images on your site
 
 - discuss any special animations or transitions you've programmed 
 - special hover state effects
+
+
+#### Custom Javascript
+- call attention to any custom javascript you created to help your User Experience you can organize this by functions or files
 
 ### Wireframes
 
