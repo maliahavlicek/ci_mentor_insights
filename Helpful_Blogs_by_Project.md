@@ -34,6 +34,11 @@ This is an attempt to put helpful links and sites for basic tutorials together w
 
 - [favicon generator](https://favicon.io/favicon-generator/) - free site to help in website icon generation
 
+## File Storage & Media Management
+
+- [cloudinary](https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/pd69kiotrwjo4xyhsfsl)
+- [aws](https://aws.amazon.com/s3/)
+
 
 ## Icons
 - https://www.flaticon.com, just be sure you add their required footer
@@ -50,10 +55,22 @@ This is an attempt to put helpful links and sites for basic tutorials together w
 - [markdown table generator](https://www.tablesgenerator.com/markdown_tables) - used to help with documentation table formatting. 
 
 
+## Stack Overflow
+
+- https://stackoverflow.com/questions search this site for solutions to your problems.
+
+
 # User Centric Front End
 
+## Flexbox
+
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://tobiasahlin.com/blog/common-flexbox-patterns/
+- https://www.w3schools.com/css/css3_flexbox.asp
+
+
 ## Grid
-Grid based CSS example: [Tania Rascia's pen](https://codepen.io/taniarascia/pen/rOLEGe/)
+- Grid based CSS example: [Tania Rascia's pen](https://codepen.io/taniarascia/pen/rOLEGe/)
 
 
 # Interactive Front End
