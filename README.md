@@ -6,7 +6,16 @@ The hope is to provide a more standard writeup to lead students to success and m
 
 ## Project Specific Readme Templates
 
-- [User Centric Frontend Readme Template](USER_CENTRIC_FRONTEND_README.md) 
+### Ecommerce Path with 4 Milestone Projects
+
+- [MS1: User Centric Frontend Readme Template](USER_CENTRIC_FRONTEND_README.md) 
+- [MS2: Interactive Frontend Template](INTERACTIVE_FRONTEND_README.md)
+- [MS3: Backend Development with Flask Template](BACKEND_DEVELOPMENT_FLASK.md)
+- [MS4: Fullstack Django Template](FULL_STACK_FRAMEWORKS_WITH_DJANGO_README.md)
+
+### Ecommerce Path with 5 Portfolio Projects
+
+- [Portfolio 1: HTML/CSS Essentials]
 
 ## Helpful Templates
 
