@@ -126,16 +126,14 @@ In this section, you should mention the languages, frameworks, libraries, and an
 Please note, if this gets more than 5 items, you may want to break it down into logical subsections
 
 ### Programing Languages
-- [JQuery](https://jquery.com) The project uses **JQuery** to simplify DOM manipulation.
+You should list out the languages you used to create your project
+
 - [CSS](https://www.w3schools.com/w3css/default.asp) The project uses **CSS** to define DOM appearance. 
 - [HTML](https://www.w3schools.com/html/default.asp) The project uses **HTML** to define DOM elements.
 - [Markdown](https://www.markdownguide.org/) Documentation within the readme was generated using markdown
 
-### Frameworks and Extensions
-- [Bootstrap 4.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/) Rather than re-invent many things, I chose to customize the look and feel of bootstrap 4.0 
-- [google sheets & drive](https://drive.google.com/drive/folders/1mYY4M0jXf6sPWesmP9Q-wFvjpgT1v8IU?usp=sharing) - Used to create testing documents and project plan (feature to do list) 
-
 ### Fonts
+Replace this with the fonts you use in your project.
 - [FontAwesome](https://fontawesome.com/icons?m=free) - for icons associated with buttons and inputs
 - [Patrick Hand SC](https://fonts.google.com/specimen/Patrick+Hand+SC) - Google Font's Patrick Hand font was used for headers and home page dialog
 - [Raleway](https://fonts.google.com/specimen/Raleway) - Google's Raleway font was used as the main font
