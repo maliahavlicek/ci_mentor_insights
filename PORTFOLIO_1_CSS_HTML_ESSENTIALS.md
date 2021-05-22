@@ -1,6 +1,6 @@
 # OVERVIEW
 
-This template was made as a guide to ensure you cover assessment criteria in your second milestone write up. It is specific to the **PORTFOLIO 1: HTML/CSS Essentials** project.
+This template was made as a guide to ensure you cover assessment criteria in your second milestone write up. It is specific to the **PORTFOLIO 1: HTML/CSS Essentials** project. It was based off the [loaves running readme.md](https://github.com/lucyrush/readme-love-running#readme) with a few additions.
 
 ## Helpful tools
 
@@ -9,10 +9,12 @@ Markdown's not all that easy so sometimes you may want to use some tools to make
 - [Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
 - [markdown table generator](https://www.tablesgenerator.com/markdown_tables) - used to help with documentation table formatting
 - [mardown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/) - used to create table of contents (be weary it does have some bugs if you have dashes or trailing spaces in your headers)
+- [readme.so](https://readme.so/) - if you don't want to learn markdown, this tool might help you
 
 # Table of Contents
 Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a table of contents.  This will help assessors to see the structure of your readme. Just test it out ast this tool isn't perfect. It tends to mess up with special characters like dashes.
 
+====================================== The Sections you Fill in are below ==============================
 
 # PROJECT NAME
 *replace the **PROJECT NAME** header with your project's name*
@@ -29,32 +31,6 @@ DEVELOPER_NAME
 - Include a link to your deployed website
 
 ## UX
-
-### Project Goals
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. Do age groups, gender, or hobbies play a role in the demographics of whom this site is for?
-
-#### User Goals
-
-Write goals form the perspective of each user group of your website. Common types of users are:
-> - new users
-> - existing users
-> - people looking for vacations
-> - people wanting to play a game
-
-#### Developer Goals
-
-List out the goals as a developer you hope to achieve by making this website. 
-> - Develop an intuitive and easy to use website
-> - Build own portfolio with a solid example project for future employers
-
-#### Website Owner Goals
-
-List out any goals a website owner would have for this website. You may not develop them, but investors would want to know how they could make money.
-
-### User Stories
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
 
 ### Design Choices
 Your site is most likely geared to a certain audience, and your design choices should tie into them. Let the assessors know your thought process.
@@ -75,12 +51,10 @@ You may want to re-watch the videos about the [5 planes of UX development ](http
 
 Explain why you used certain icons and images on your site
 
-
 #### Animations and Transitions
 
 - discuss any special animations or transitions you've included 
 - special hover state effects
-
 
 ### Wireframes
 
@@ -96,7 +70,7 @@ In this section, you should go over the different parts of your project, and des
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-It's easiest to break this section down into the header, footer, layer, and each page of your website. Call out any differences for mobile vs desktop presentations, include a screenshot of the implemented feature.
+It's easiest to break this section down into the header, footer, and each page/layer of your website. Call out any differences for mobile vs desktop presentations, include a screenshot of the implemented feature.
 
 Don't forget your 404 error page.
 
@@ -105,45 +79,6 @@ Don't forget your 404 error page.
 Use this section to discuss plans for additional features to be implemented in the future:
 
 If you end up not developing some features you hoped to implement, you can include those in this section.
-
-## Technologies Used
-
-In this section, you should mention the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- If you included a js file that isn't your own, add it here.
-
-- If you included a css file that isn't your own, add it here.
-
-- Common 3rd party technologies to list:
-  - wirefames
-  - favicons
-  - color palette images
-  - fonts
-  - CSS Frameworks
-  - markdown tables
-  - markdown table of contents
-  
-Please note, if this gets more than 5 items, you may want to break it down into logical subsections
-
-### Programing Languages
-You should list out the languages you used to create your project
-
-- [CSS](https://www.w3schools.com/w3css/default.asp) The project uses **CSS** to define DOM appearance. 
-- [HTML](https://www.w3schools.com/html/default.asp) The project uses **HTML** to define DOM elements.
-- [Markdown](https://www.markdownguide.org/) Documentation within the readme was generated using markdown
-
-### Fonts
-Replace this with the fonts you use in your project.
-- [FontAwesome](https://fontawesome.com/icons?m=free) - for icons associated with buttons and inputs
-- [Patrick Hand SC](https://fonts.google.com/specimen/Patrick+Hand+SC) - Google Font's Patrick Hand font was used for headers and home page dialog
-- [Raleway](https://fonts.google.com/specimen/Raleway) - Google's Raleway font was used as the main font
-
-### Tools
-- [github](https://github.com/) - used for version control of project files and branching out to try different things without adversely affecting a functional set of code
-- [balsamiq](https://balsamiq.com/) - used to create professional looking wire frames.
-- [markdown table generator](https://www.tablesgenerator.com/markdown_tables) - used to help with documentation table formatting
-- [mardown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/) - used to create table of contents (be weary it does have some bugs if you have dashes or trailing spaces in your headers)
-- [colors.co](https://coolors.co/) I used a colors.co's color pallet tool to help pick complementary colors.
 
 
 ## Testing
@@ -210,6 +145,10 @@ Some defects are more pesky than others. Highlight 3-5 of the bugs that drove yo
 ### Outstanding Defects
 It's ok to not resolve all the defects you found. If you know of something that isn't quite right, list it out and explain why you chose not to resolve it.
 
+## Lighthouse Audits
+
+You should run your deployed website pages through lighthouse's audit to check performance, accessibility, best practices and SEO scores. You should aim to get 85 or higher score. 
+https://web.dev/measure/  If you have lower scores, read the report and follow the links to address the flagged issues. You can run this tool from Chrome Dev Tools too against your local machine, but the performance will the worst (I personally ignore my performance results unless it's deployed code. I hope for > 60 on that mark, but > 85 on the other 3)
 
 ## Deployment
 
@@ -219,15 +158,11 @@ In particular, you should provide all details of the differences between the dep
 
 Remember to use proper markdown for commands and enumerated steps.
 
-### Deploy Locally
 
-Write out the steps you take starting from cloning the repository in github or clicking a gitpod button to run your code locally. Test it out and make sure it works. This can be running from your IDE of choice like VSCode or PyCharm or GitPod.
+You may want to re-watch the [initial deployment in gitpod video](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/9b06129195c64fada6783de9cfe82d60/) when writing up this section.
 
-You may want to re-watch the [initial deployment in gitpod video](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/dcd449bd41a446f49df3268f91dd06fc/072c95175f1148438de9d82e7a756ee1/?child=first) when writing up this section.
 
-### Deploy To GitHub Pages
-
-Write out steps you would take and test them to deploy your code to GitHub Pages.
+Write out steps you would take and test them to deploy your code to GitHub Pages, include screenshots if you think they would make the process easier.
 
 ## Credits
 
