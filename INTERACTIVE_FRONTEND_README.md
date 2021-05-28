@@ -230,6 +230,9 @@ var docWidth = document.documentElement.offsetWidth;
 [].forEach.call(document.querySelectorAll('*'),function(el){if(el.offsetWidth > docWidth){console.log(el);}});
 ```
 
+### Lighthouse Audits 
+You should run your deployed website pages through lighthouse's audit to check performance, accessibility, best practices and SEO scores. You should aim to get 85 or higher score. https://web.dev/measure/ If you have lower scores, read the report and follow the links to address the flagged issues. You can run this tool from Chrome Dev Tools too against your local machine, but the performance will the worst (I personally ignore my performance results unless it's deployed code. I hope for > 60 on that mark, but > 85 on the other 3)
+
 ### Defect Tracking
 
 You should mention  any  bugs or problems you discovered during your testing, even if you haven't addressed them yet.
