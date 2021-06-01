@@ -15,7 +15,8 @@ The hope is to provide a more standard writeup to lead students to success and m
 
 ### Ecommerce Path with 5 Portfolio Projects
 
-- [Portfolio 1: HTML/CSS Essentials]
+- [Portfolio 1: HTML/CSS Essentials](PORTFOLIO_1_CSS_HTML_ESSENTIALS.md)
+- [Portfolio 2: Javascript Essentials](PORTFOLIO_2_JAVASCRIPT_ESSENTIALS.md)
 
 ## Helpful Templates
 
