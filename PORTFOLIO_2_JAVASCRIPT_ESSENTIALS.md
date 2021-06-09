@@ -1,6 +1,6 @@
 # OVERVIEW
 
-This template was made as a guide to ensure you cover assessment criteria in your second milestone write up. It is specific to the **PORTFOLIO 2: Javascript Essentials** project. It was based off the [loaves running readme.md](https://github.com/lucyrush/readme-love-running#readme) with a few additions.
+This template was made as a guide to ensure you cover assessment criteria in your second milestone write up. It is specific to the **PORTFOLIO 2: Javascript Essentials** project. It was based off the [loaves maths_readmd.md](https://github.com/Code-Institute-Solutions/readme-love-maths) with a few additions to help elevate you to possible distinction status.
 
 ## Helpful tools
 
