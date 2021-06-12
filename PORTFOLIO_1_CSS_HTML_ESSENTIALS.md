@@ -1,6 +1,6 @@
 # OVERVIEW
 
-This template was made as a guide to ensure you cover assessment criteria in your second milestone write up. It is specific to the **PORTFOLIO 1: HTML/CSS Essentials** project. It was based off the [loaves running readme.md](https://github.com/lucyrush/readme-love-running#readme) with a few additions to help elevate you to possible distinction status.
+This template was made as a guide to ensure you cover assessment criteria in your second milestone write up. It is specific to the **PORTFOLIO 1: HTML/CSS Essentials** project. It was based off the [loves running readme.md](https://github.com/lucyrush/readme-love-running#readme) with a few additions to help elevate you to possible distinction status.
 
 ## Helpful tools
 
@@ -126,7 +126,7 @@ For any scenarios that have not been automated, test the user stories manually a
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
     
-Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/189VpSeEG9oevSRhvb2WZl8zCk9L3s2iWQyrJ_1jjAGQ/edit?usp=sharing) that you can use as a starting point to keep track of your testing efforts. Make a copy of it in your own account and update as needed to reflect the browsers you are testing and features.  
+Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/1vc1IVL-ydQwWeWMqnk_GRox6HE6qxDLpchGse8Crayo/edit#gid=296578096) that you can use as a starting point to keep track of your testing efforts. Make a copy of it in your own account and update as needed to reflect the browsers you are testing and features.  
 
 It's ok to spot check specific functionality across devices and browsers but each page should be viewed as a whole for each device/browser combo at least once.
 
