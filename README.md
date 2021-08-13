@@ -34,3 +34,26 @@ Markdown's not all that easy so sometimes you may want to use some tools to make
 - [markdown table generator](https://www.tablesgenerator.com/markdown_tables) - used to help with documentation table formatting
 - [mardown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/) - used to create table of contents (be weary it does have some bugs if you have dashes or trailing spaces in your headers)
 
+The hope is to provide a more standard writeup to lead students to success and make assessments easier to conduct and less reliant on an assessor's ability to dig into code and hunt and peck for specific assessment criteria.
+
+## README Screen shots
+1. Scroll down and Click the README.md edit buton (it looks like a pencil)
+![image](https://user-images.githubusercontent.com/23039742/129390239-4ab8c18c-acff-48e1-83a2-58635b232680.png)
+
+2. Capture your screenshot
+  - **For Windows:** Use Shift+Windows Key+S to bring up Snip & Sketch, after you have the screenshot taken
+  - **For Mac:** Control+ Command + Shift + 4
+
+3. The image should now be in your compture's memory so all you do is go to the place in your readme where you want that image
+5. Use the paste command and it'll autoupload the image and make the right markdown for you! Magic! 
+  - **Windows** Control + V
+  - **Mac** Command + V
+  
+ ![image](https://user-images.githubusercontent.com/23039742/129392738-38d80b4c-0d50-4bb0-9c9a-c89a4c26ef7c.png)
+
+4. Make sure add a line return before and after so it doesn't mash up to your text in a weird way. Seriously this is what I did. with this documentation.
+5. Commit the change in your github bit.
+
+**Note** This will get your behind in your gitpod if you have that open, so watch out for that and do a pull.
+
+
