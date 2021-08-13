@@ -44,16 +44,20 @@ The hope is to provide a more standard writeup to lead students to success and m
   - **For Windows:** Use Shift+Windows Key+S to bring up Snip & Sketch, after you have the screenshot taken
   - **For Mac:** Control+ Command + Shift + 4
 
-3. The image should now be in your compture's memory so all you do is go to the place in your readme where you want that image
-5. Use the paste command and it'll autoupload the image and make the right markdown for you! Magic! 
+3. The image should now be in your computer's memory so all you do is go to the place in your readme where you want that image
+5. Use the paste command, and github will auto upload the image and make the right markdown for you! Magic! 
   - **Windows** Control + V
   - **Mac** Command + V
   
  ![image](https://user-images.githubusercontent.com/23039742/129392738-38d80b4c-0d50-4bb0-9c9a-c89a4c26ef7c.png)
 
 4. Make sure add a line return before and after so it doesn't mash up to your text in a weird way. Seriously this is what I did. with this documentation.
-5. Commit the change in your github bit.
+   
+5. Commit the change in your github browser:
+![image](https://user-images.githubusercontent.com/23039742/129395711-409c13e9-9c36-468d-9d59-ee1d6caf3441.png)
 
-**Note** This will get your behind in your gitpod if you have that open, so watch out for that and do a pull.
+6. **Note** This will get your behind in your gitpod if you have that open, so watch out for that and do a pull.
+![image](https://user-images.githubusercontent.com/23039742/129395847-4120ffe1-36ad-4eec-b069-c8ad88d8fdea.png)
 
+  
 
