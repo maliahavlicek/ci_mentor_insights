@@ -56,7 +56,7 @@ The hope is to provide a more standard writeup to lead students to success and m
 5. Commit the change in your github browser:
 ![image](https://user-images.githubusercontent.com/23039742/129395711-409c13e9-9c36-468d-9d59-ee1d6caf3441.png)
 
-6. **Note** This will get your behind in your gitpod if you have that open, so watch out for that and do a pull.
+6. **Note** This will get you behind in your gitpod if you have that open, so watch out for that and do a pull.
 ![image](https://user-images.githubusercontent.com/23039742/129395847-4120ffe1-36ad-4eec-b069-c8ad88d8fdea.png)
 
   

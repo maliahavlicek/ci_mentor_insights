@@ -43,6 +43,7 @@ For some/all of your features, you may choose to reference the specific project 
 
 It's easiest to break this section down into piece parts or core functionality blocks such as data upload, user input, analysis and data output; focusing on the atomic functions and data model(s) you created to make the program work. 
 
+
 ### Implemented Features
 In each subsection, write out what the feature is for and what value it adds. If there is terminal interaction or output associated with the function, include a screenshot.
 
@@ -64,6 +65,8 @@ The flowchart can be as simple as a picture of a drawing of how you envisioned l
 In this section write our your data model(s).
 
 You might want to include subsections that include how the data in the model is . initialized and then the methods that you created to update it through the program.
+
+
 
 ## Libraries used
 List out the python libraries you purposefully used in your project and why. You can look at your requirements.txt file and go back to https://pypi.org/ to rediscover the purpose of a library if needed.
@@ -97,10 +100,9 @@ Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/189Vp
 
 ### Defect Tracking
 
+You can use git hub issues to track any bugs rather than a spread sheet and just link to that page for your repository.
+
 You should mention  any  bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-Here is a [Defect Tracking Template](https://docs.google.com/spreadsheets/d/1tYB4X4wTCNEW_Y1no3hsGbclh2bLokl_I5Ev3s5EuJA/edit?usp=sharing) you use as a starting point to track defects. Make a copy of the sheet to your own account and update the Features sheet to match your project. 
-
 
 ### Defects of Note
 Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and how you finally ended up resolving them.
