@@ -106,7 +106,7 @@ Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/189Vp
 
 Make sure you  use triple double quotes to document fuctions and classes.
  Here'a  documentation worthy example:
-`
+```$python
 def yes_no(question):
     """
     Function to ask a simple yes no question of the user.
@@ -122,7 +122,7 @@ def yes_no(question):
         answer = input("enter your answer here \n").strip()
     return answer
 
-`
+```
 ### Defect Tracking
 
 You can use git hub issues to track any bugs rather than a spread sheet and just link to that page for your repository.
