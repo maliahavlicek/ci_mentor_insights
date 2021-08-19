@@ -84,6 +84,9 @@ You should try to ensure you code is valid and follows proper indentation.  In t
 
 - [PEP8 Validator](http://pep8online.com/) include a screenshot of results
 
+If the line is too long just add ' # noqa' There is a space before the # and after it to skip the quality assurance for that line.
+
+
 
 ### Manual Testing
 
@@ -99,7 +102,27 @@ For any scenarios that have not been automated, test the user stories manually a
     
 Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/189VpSeEG9oevSRhvb2WZl8zCk9L3s2iWQyrJ_1jjAGQ/edit?usp=sharing) that you can use as a starting point to keep track of your testing efforts. Make a copy of it in your own account and update as needed to reflect the browsers you are testing and features.  
 
+### Commenting Code
 
+Make sure you  use triple double quotes to document fuctions and classes.
+ Here'a  documentation worthy example:
+`
+def yes_no(question):
+    """
+    Function to ask a simple yes no question of the user.
+    :param question: String displayed as the question
+    :return: answer: String equal to "1" or "2" representing yes or no respectfully
+    """
+    print(question)
+    print("yes = 1")
+    print("no = 2")
+    answer = input("enter your answer here \n").strip()
+    while answer not in ("1", "2"):
+        print("please choose 1 for yes and 2 for no")
+        answer = input("enter your answer here \n").strip()
+    return answer
+
+`
 ### Defect Tracking
 
 You can use git hub issues to track any bugs rather than a spread sheet and just link to that page for your repository.
