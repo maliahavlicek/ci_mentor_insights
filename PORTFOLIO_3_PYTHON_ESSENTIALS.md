@@ -84,7 +84,11 @@ You should try to ensure you code is valid and follows proper indentation.  In t
 
 - [PEP8 Validator](http://pep8online.com/) include a screenshot of results
 
-If the line is too long just add ' # noqa' There is a space before the # and after it to skip the quality assurance for that line.
+If the line is too long just add 
+```$python 
+# noqa
+```
+There is a space before the # and after it to skip the quality assurance for that line.
 
 
 
