@@ -65,6 +65,7 @@ The flowchart can be as simple as a picture of a drawing of how you envisioned l
 In this section write our your data model(s).
 
 You might want to include subsections that include how the data in the model is . initialized and then the methods that you created to update it through the program.
+![image](https://user-images.githubusercontent.com/23039742/130148204-b56406bf-0fff-48f3-9dee-2f3cdbe67cc5.png)
 
 
 
