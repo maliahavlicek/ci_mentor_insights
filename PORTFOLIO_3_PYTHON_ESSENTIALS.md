@@ -109,27 +109,35 @@ Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/189Vp
 
 Or you could open a Project in github and write your tests there in a basic khanban board. 
 1. Click on the projects menu:
+
 ![image](https://user-images.githubusercontent.com/23039742/132130197-465d3db9-04e0-4843-9509-041cd0639551.png)
 
 2. Click on the create project button:
+
 ![image](https://user-images.githubusercontent.com/23039742/132130216-1623af38-827f-4fd6-9729-c9bc5a1e5485.png)
 
 3. Select the Basic Kanban template
+
 ![image](https://user-images.githubusercontent.com/23039742/132130414-4e60b081-555f-49e3-a446-da6fc88951f2.png)
 
 4. Fill in the information and click Create
+
 ![image](https://user-images.githubusercontent.com/23039742/132130417-f6051c42-4a1d-4faf-8ed7-780215d1805d.png)
 
 4. Click the + sign on the project board to craete a new Test
+
 ![image](https://user-images.githubusercontent.com/23039742/132130433-dcb741ac-9deb-401a-8801-6e3d1861c7f7.png)
 
 5. You can use the templates provided to steal the checkbox mardown to write out your test by clicking the ... button and selecting edit note option:
+
 ![image](https://user-images.githubusercontent.com/23039742/132130460-2314a026-ed12-493c-a4e9-16726e812b94.png)
 
 6. Just copy the example text you want:
+
 ![image](https://user-images.githubusercontent.com/23039742/132130503-d4611154-d62b-4eff-9ec5-004fd89f440e.png)
 
 7. Then you can past that into your new note and update as needed then save:
+
 ![image](https://user-images.githubusercontent.com/23039742/132130729-161ff2e6-65c0-4344-a4d4-e3baf4670a24.png)
 
 8. Then when you start to test, just move it into progress and update as you finish the tasks in your test.  There are ways to create issues with these project cards.
