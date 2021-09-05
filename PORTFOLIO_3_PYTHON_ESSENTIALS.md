@@ -27,14 +27,15 @@ DEVELOPER_NAME
 ## Project Overview
 - Include a recording of site that shows the terminal interaction.
   https://chrome.google.com/webstore/detail/loom-for-chrome/liecbddmkiiihnedobmlmillhodjkdmb is a very intuitive and free tool to do a web recording.
+- Then you can use https://cloudconvert.com/mp4-to-gif to convert the mp4 to a gif and just paste it into the readme via git hub and it'll resovle itself.
 - One or two sentences providing an overview of your project.
 - Include a link to your deployed website
 
 ## Table of Contents
 Generate after readme is complete for UX and below
 
-## How To Play
-Paragraph or bullet points of how the user initiates the program and plays the game
+## How To Play/Use
+Paragraph or bullet points of how the user initiates the program and interfaces with it. You could have videos of each bit if you want and ditact what the user should do.
 
 ## Features
 Use this section to itemize the features of your project. 
@@ -106,6 +107,54 @@ For any scenarios that have not been automated, test the user stories manually a
     
 Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/189VpSeEG9oevSRhvb2WZl8zCk9L3s2iWQyrJ_1jjAGQ/edit?usp=sharing) that you can use as a starting point to keep track of your testing efforts. Make a copy of it in your own account and update as needed to reflect the browsers you are testing and features.  
 
+Or you could open a Project in github and write your tests there in a basic khanban board. 
+1. Click on the projects menu:
+![image](https://user-images.githubusercontent.com/23039742/132130197-465d3db9-04e0-4843-9509-041cd0639551.png)
+
+2. Click on the create project button:
+![image](https://user-images.githubusercontent.com/23039742/132130216-1623af38-827f-4fd6-9729-c9bc5a1e5485.png)
+
+3. Select the Basic Kanban template
+![image](https://user-images.githubusercontent.com/23039742/132130414-4e60b081-555f-49e3-a446-da6fc88951f2.png)
+
+4. Fill in the information and click Create
+![image](https://user-images.githubusercontent.com/23039742/132130417-f6051c42-4a1d-4faf-8ed7-780215d1805d.png)
+
+4. Click the + sign on the project board to craete a new Test
+![image](https://user-images.githubusercontent.com/23039742/132130433-dcb741ac-9deb-401a-8801-6e3d1861c7f7.png)
+
+5. You can use the templates provided to steal the checkbox mardown to write out your test by clicking the ... button and selecting edit note option:
+![image](https://user-images.githubusercontent.com/23039742/132130460-2314a026-ed12-493c-a4e9-16726e812b94.png)
+
+6. Just copy the example text you want:
+![image](https://user-images.githubusercontent.com/23039742/132130503-d4611154-d62b-4eff-9ec5-004fd89f440e.png)
+
+7. Then you can past that into your new note and update as needed then save:
+![image](https://user-images.githubusercontent.com/23039742/132130729-161ff2e6-65c0-4344-a4d4-e3baf4670a24.png)
+
+8. Then when you start to test, just move it into progress and update as you finish the tasks in your test.  There are ways to create issues with these project cards.
+
+For more information you can visit: https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards 
+
+
+### Defect Tracking
+
+You can use git hub issues to track any bugs rather than a spread sheet and just link to that page for your repository.
+
+![image](https://user-images.githubusercontent.com/23039742/130149053-bf506388-a791-426e-8ffc-a56c1212e01c.png)
+
+You should created issues in real time and close them out as you fix the bugs. Include steps to recreate and screenshots.
+
+Create a link to the issues dashboard  of your repository
+[ci_insights isssues](https://github.com/maliahavlicek/ci_mentor_insights/issues)
+
+### Defects of Note
+Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and how you finally ended up resolving them.
+
+
+### Outstanding Defects
+It's ok to not resolve all the defects you found. If you know of something that isn't quite right, list it out and explain why you chose not to resolve it.
+
 ### Commenting Code
 
 Make sure you  use triple double quotes to document fuctions and classes.
@@ -127,32 +176,34 @@ def yes_no(question):
     return answer
 
 ```
-### Defect Tracking
-
-You can use git hub issues to track any bugs rather than a spread sheet and just link to that page for your repository.
-
-![image](https://user-images.githubusercontent.com/23039742/130149053-bf506388-a791-426e-8ffc-a56c1212e01c.png)
-
-You should created issues in real time and close them out as you fix the bugs. Include steps to recreate and screenshots.
-
-Create a link to the issues dashboard  of your repository
-[ci_insights isssues](https://github.com/maliahavlicek/ci_mentor_insights/issues)
-
-### Defects of Note
-Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and how you finally ended up resolving them.
-
-
-### Outstanding Defects
-It's ok to not resolve all the defects you found. If you know of something that isn't quite right, list it out and explain why you chose not to resolve it.
 
 ## Deployment
 
 ### Heroku
 This section should describe the process you went through to deploy the project to Heroku. Include screenshots if you think they would make the process easier.
 
-
-
 You may want to re-watch the [python essentials deployment video](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LS101+2021_T1/courseware/293ee9d8ff3542d3b877137ed81b9a5b/e3b664e16366444c8d722c5d8340b340/?child=first) when writing up this section.
+
+If you have project settings required for either a local deployment such as a creds.json file, please provide an example of that file in the writeup:
+```$python
+{
+    "type": "service_account",
+    "project_id": "<YOUR_VALUE>",
+    "private_key_id": "<YOUR_VALUE>",
+    "private_key": "<YOUR_VALUE>",
+    "client_email": "<YOUR_VALUE>",
+    "client_id": "<YOUR_VALUE>",
+    "auth_uri": "https://accoutns.google.com/0/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cer_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "clien_x509_cert_url": "<YOUR_VALUE>"
+}
+```
+
+If you have project settings required for Heroku, provide a table of the keys and values.
+Do not share your personal keys but either cut them out of the screen shot or say <YOUR_VALUE> and include links on how the user would obtain such values.
+
+
 
 
 ## Credits
