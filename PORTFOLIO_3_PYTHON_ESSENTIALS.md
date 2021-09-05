@@ -194,27 +194,28 @@ If the user is required to have certain keys and credentials you should include 
 ex)
 1. **Google Account:** In order to have this program work, you need a google account. If you don't have one  [Create a google account](https://accounts.google.com/Signup)
 2. **Google APIs**
-  a. in a new incognito tab, log into your new google account.
-  b. then update the url to be: https://console.cloud.google.com/getting-started?pli=1 
-  **GOOGLE DRIVE API Access**
-    1.  create a new project for this, call it XXXXXX (You might want to refer to what you see in this video: https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LS101+2021_T1/courseware/293ee9d8ff3542d3b877137ed81b9a5b/071036790a5642f9a6f004f9888b6a45/ at the bottom of the screen to write out steps.)
-    2. Then click on Add APIs and Services and select Libraries
-    3. Search for Google Drive
-    4. Click Enable
-    5. Click Create Credentials
-    6. Select Google Drive API from the drop down, Application Data, then no and click the Next Button
-    7.  (https://developers.google.com/drive/api/v3/enable-drive-api) 
-    8. for service account details fill in a service account name ex) xxx_API, then click Create and Continue
-    9. For the Accoun acces, select Role: Basic/Editor then continue
-    10. Then Click Done
-    11. Now select the newly created service account
-    12. Click on the KEYS Tab
-    13. Click Add Key
-    14. Select JSON type (right click to show in folder so you know where the file was saved.
-  **GOOGLE SHEETS API Access**
-  You may need to us the back button get to the APIS & SErvices section from where you were.
-    1. click the Libray  Tab and serarch for Google Sheets
-    2. click enable
+    a. in a new incognito tab, log into your new google account.
+    b. then update the url to be: https://console.cloud.google.com/getting-started?pli=1 
+    **GOOGLE DRIVE API Access**
+      1.  create a new project for this, call it XXXXXX (You might want to refer to what you see in this video: https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LS101+2021_T1/courseware/293ee9d8ff3542d3b877137ed81b9a5b/071036790a5642f9a6f004f9888b6a45/ at the bottom of the screen to write out steps.)
+      2. Then click on Add APIs and Services and select Libraries
+      3. Search for Google Drive
+      4. Click Enable
+      5. Click Create Credentials
+      6. Select Google Drive API from the drop down, Application Data, then no and click the Next Button
+      7.  (https://developers.google.com/drive/api/v3/enable-drive-api) 
+      8. for service account details fill in a service account name ex) xxx_API, then click Create and Continue
+      9. For the Accoun acces, select Role: Basic/Editor then continue
+      10. Then Click Done
+      11. Now select the newly created service account
+      12. Click on the KEYS Tab
+      13. Click Add Key
+      14. Select JSON type (right click to show in folder so you know where the file was saved.
+    **GOOGLE SHEETS API Access**
+    You may need to us the back button get to the APIS & SErvices section from where you were.
+      1. click the Libray  Tab and serarch for Google Sheets
+      2. click enable
+
 3. The downloaded credentialsJSON file is basically your creds.json file that you need to put into your heroku settings or gitpod environment to access your google drive.
 
 4. Google Sheet Template
