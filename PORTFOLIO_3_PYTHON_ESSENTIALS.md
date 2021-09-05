@@ -258,7 +258,31 @@ You may want to re-watch the [python essentials deployment video](https://learn.
 If you have project settings required for Heroku, provide a table of the keys and values.
 Do not share your personal keys but either cut them out of the screen shot or say <YOUR_VALUE> and include links on how the user would obtain such values.
 
-At a bar minimum you should show the user that they need to add the PORT. 8000 key value pair.
+#### Settings
+On the settings tab you have to address two things:
+1. **Config Vars**
+
+  ![image](https://user-images.githubusercontent.com/23039742/132135869-215d2e0f-805d-40a8-a8c2-fb1098e2645d.png)
+
+  At a bar minimum you should show the user that they need to add the PORT. 8000 key value pair.
+
+
+2. **Build Packs**
+
+  ![image](https://user-images.githubusercontent.com/23039742/132135918-28cac112-7766-4277-905c-4a4963d8442d.png)
+
+  add Python Then Node.js
+
+
+#### Deploy
+1. Set up to github and select the correct repository:
+
+  ![image](https://user-images.githubusercontent.com/23039742/132136113-c257c921-d10c-4ccc-af09-6a1d25136395.png)
+
+2. Deploy either manual or automatic
+
+![image](https://user-images.githubusercontent.com/23039742/132136241-9d76fabb-39f0-4696-bc5f-047398fdaf41.png) 
+
 
 
 ## Credits
