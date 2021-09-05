@@ -258,6 +258,16 @@ You may want to re-watch the [python essentials deployment video](https://learn.
 If you have project settings required for Heroku, provide a table of the keys and values.
 Do not share your personal keys but either cut them out of the screen shot or say <YOUR_VALUE> and include links on how the user would obtain such values.
 
+#### Fork the repository
+Make a fork so you have a copy of the repository in your own git hub account: https://github.com/maliahavlicek/portfolio_project_03
+
+![image](https://user-images.githubusercontent.com/23039742/132136504-eb79a6f3-0205-4c82-80c2-eef136ec7e4c.png)
+
+
+#### New Project
+Log into Heroku and create a new project. Name it something like XXX_coders_bistro.
+
+
 #### Settings
 On the settings tab you have to address two things:
 1. **Config Vars**
