@@ -140,7 +140,9 @@ Or you could open a Project in github and write your tests there in a basic khan
 
 ![image](https://user-images.githubusercontent.com/23039742/132130729-161ff2e6-65c0-4344-a4d4-e3baf4670a24.png)
 
-8. Then when you start to test, just move it into progress and update as you finish the tasks in your test.  There are ways to create issues with these project cards.
+8. Then when you start to test, just move it into progress and update as you finish the tasks in your test.  If you've used checkboxes to track the testing tasks, you should mark them off and then once all are done, you can move the item to the done list.
+
+There are ways to create issues with these project cards so you don't have to write up everything. You can create an issue from a test item. 
 
 For more information you can visit: https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards 
 
@@ -187,12 +189,10 @@ def yes_no(question):
 
 ## Deployment
 
-### Heroku
-This section should describe the process you went through to deploy the project to Heroku. Include screenshots if you think they would make the process easier.
+### Gitpod
+This section should describe the process someone would have to go through to get the local working in gitpod.  Such as install requirements.txt  and setting up a creds.json file that is in the gitignore and keeping their workspace.
 
-You may want to re-watch the [python essentials deployment video](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LS101+2021_T1/courseware/293ee9d8ff3542d3b877137ed81b9a5b/e3b664e16366444c8d722c5d8340b340/?child=first) when writing up this section.
-
-If you have project settings required for either a local deployment such as a creds.json file, please provide an example of that file in the writeup:
+If you have project settings required such as a creds.json file, please provide an example of that file in the writeup with the project key values:
 ```$python
 {
     "type": "service_account",
@@ -208,10 +208,16 @@ If you have project settings required for either a local deployment such as a cr
 }
 ```
 
+### Heroku
+This section should describe the process you went through to deploy the project to Heroku. Include screenshots if you think they would make the process easier.
+
+You may want to re-watch the [python essentials deployment video](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LS101+2021_T1/courseware/293ee9d8ff3542d3b877137ed81b9a5b/e3b664e16366444c8d722c5d8340b340/?child=first) when writing up this section.
+
+
 If you have project settings required for Heroku, provide a table of the keys and values.
 Do not share your personal keys but either cut them out of the screen shot or say <YOUR_VALUE> and include links on how the user would obtain such values.
 
-
+At a bar minimum you should show the user that they need to add the PORT. 8000 key value pair.
 
 
 ## Credits
