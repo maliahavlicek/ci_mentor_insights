@@ -71,6 +71,9 @@ Explain why you used certain icons and images on your site
 - special hover state effects
 
 
+#### Custom Styles
+- call out any overrides you did for bootstrap styles even if they are fonts and colors, perhaps lead assessors to the file of interest in your repo 
+
 #### Custom Javascript
 - call attention to any custom javascript you created to help your User Experience you can organize this by functions or files
 
@@ -90,20 +93,25 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 You should be using Git Hub Issues to write your user stories.  To get to merit levels you need to show you have refined stories from Epics to Generic User stories.
 
-https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AG101+2021_T1/courseware/a4e548ca70a3473aa890ba2ab9bf612c/db69a5829de8467eb071e63bde630a2e/ is the lesson with how to create a User Story Template. 
+[Here's the lesson](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AG101+2021_T1/courseware/a4e548ca70) on how to create a User Story Templates. 
 
-I'd suggest you have two user story templates: One for Epics and one for the more granular ones. Then name your stories in a way that it's easy to tie the children to the EPICS by name.
+If you want a chance at **DISTINCTION**, I'd suggest the following:
+- Create an Epic Story template, this would have a title, the story and children stories
+- Create a User Story template, this would initially have the title, the story, and a link to the Epic. Then you'd come back when you are prioritizing it to include the acceptance criteria, and story points, then again when you are working on it and fill in the tasks and adjust the story points if needed.
+- Name your stories in a way that it's easy to tie the children to the EPICS by name.
 
 Example: 
 EPIC: Navigation
 As a user, I want to have easy to see navigation on the page, so I can intuitively interact with the site without getting frustrated.
 
-USER STORY: Navigation: Template
+USER STORY: Navigation: Create Template
 As a developer, I don't want to have copy and paste my navigation on every page. I want to use a template to house this information, so my code is easier to maintain.
 
 USER STORY: Navigation: Desktop
 As a user I want clear navigation that is up to industry standards for my desktop experience, so I can easily find what I need on a website.
 
+USER STORY: Navigation: Mobile
+As a user I want clear navigation that is up to industry standards for my mobile experience, so I can easily find what I need on a website without the navigation taking up the entire screen.
 
 #### EPIC Stories
 
@@ -111,7 +119,7 @@ I created epic stories for the main features and page components used on  my web
 
 You can decide if you want to have any acceptance Criteria or not for Epic stories. 
 
-You can find my epic stories by either looking at issues that are prefixed with EPIC, or look at my milestone for EPIC stories.
+Tell the assessors where they can find your epic stories and call out the 
 
 - Link to Epic Milestone
 - link to Issues
@@ -119,7 +127,7 @@ You can find my epic stories by either looking at issues that are prefixed with 
 
 #### User Stories
 
-After creating the epic stories or main features for my website, I created user stories that were more granular that could be story pointed and help keep me on task and make it easier to follow the Agile Process. To manage these better I included the EPIC story name in my Title.
+After creating the epic stories or main features for my website, I created user stories that could be story pointed and tasked to help keep me feel like I was making progress, plus it shows I tried to follow the Agile Process. To manage these better I included the EPIC story name in my Title.
 
 You can find my user stories by either looking at issues that are prefixed with USER STORY, or look at my milestone for  USER Stories.
 ![user story template](documentation/images/user_story.png)
