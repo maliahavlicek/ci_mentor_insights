@@ -98,6 +98,8 @@ You should try to ensure you code is valid and follows proper indentation.  In t
 
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) Note, any error associated with root: color variables were ignored.
 - [HTML Validator](https://validator.w3.org/)
+- [JS validation](https://jshint.com) for each .js file/ , if using ES6, add this before pasting in your file: `/*jshint esversion: 6 */ `
+- [JSON validation](https://jsonlint.com/) for each .json file 
 
 ### Cross Browser and Cross Device Testing
 Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
