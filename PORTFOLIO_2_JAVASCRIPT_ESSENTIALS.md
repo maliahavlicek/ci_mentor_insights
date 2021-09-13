@@ -120,17 +120,25 @@ Create a table that lists out what devices, browsers, and operating system you t
 
 ### Manual Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
+
+There are 3 ways you can document your testing:
+**1. Markdown**
+Describing your testing process is via scenarios, right here such as:
 
 1. Contact form:
     1. Go to the "Contact Us" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
-    
+
+**2. Use Spreadsheets**    
 Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/1vc1IVL-ydQwWeWMqnk_GRox6HE6qxDLpchGse8Crayo/edit#gid=296578096) that you can use as a starting point to keep track of your testing efforts. Make a copy of it in your own account and update as needed to reflect the browsers you are testing and features.  
 
-It's ok to spot check specific functionality across devices and browsers but each page should be viewed as a whole for each device/browser combo at least once.
+**3.Use Github Agile Tools**
+Create Custom Issue Template and A Pojrect Board in git hub.[Here's a brief overview](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit?usp=sharing) I put together on how to do this
+
+It's ok to spot check specific functionality across devices and browsers but each page should be viewed as a whole for each device/browser combo at least once too.
 
 A quick way to check if items are exceeding the screen width of a project is to run this javascript in the console for various screen emulations:
 
@@ -142,9 +150,19 @@ var docWidth = document.documentElement.offsetWidth;
 ### Defect Tracking
 
 You should mention  any  bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Again there are 3 different ways to do this, by your final project you should be using git hub tools.
 
+**1. Markdown**
+Desribe the issue in markdown. Include steps to reproduce, then what you did to resolve it.
+
+1. Contact form allows anything for email collection, even blank.
+   1. added pattern to HTML to make it have at least one character then the @ sybmol then a least one character and the . sign and at least one - 3 characters at the end.
+
+**2. Use Spreadsheets**
 Here is a [Defect Tracking Template](https://docs.google.com/spreadsheets/d/1tYB4X4wTCNEW_Y1no3hsGbclh2bLokl_I5Ev3s5EuJA/edit?usp=sharing) you use as a starting point to track defects. Make a copy of the sheet to your own account and update the Features sheet to match your project. 
 
+**3. Use Github Agile Tools**
+Create Custom Issue Template and a milestone in git hub.[Here's a brief overview](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit?usp=sharing) I put together on how to do this.
 
 ### Defects of Note
 Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and how you finally ended up resolving them.
