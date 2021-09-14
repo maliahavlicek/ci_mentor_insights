@@ -1,12 +1,15 @@
 ---
 name: Test Case Template
 about: Template for tests
-title: ''
+title: 'TEST CASE: <title>'
 labels: ''
 assignees: ''
 
 ---
 
-# Things to check
-- [ ] no console errors
-- [ ]
+# What Functionality are you checking
+Do you want to play hangman question/ user input
+- [ ] case sensitivity
+- [ ] leading whitespace
+- [ ] trailing whitespace
+- [ ] numbers
