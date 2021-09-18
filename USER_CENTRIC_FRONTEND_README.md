@@ -215,10 +215,11 @@ If you did not run automating testing. State why you chose not to.
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 **Contact form:**
-    Go to the "Contact Us" page
-    - [x] Try to submit the empty form and verify that an error message about the required fields appears
-    - [x] Try to submit the form with an invalid email address and verify that a relevant error message appears
-    - [x] Try to submit the form with all inputs valid and verify that a success message appears.
+
+  Go to the "Contact Us" page
+  - [x] Try to submit the empty form and verify that an error message about the required fields appears
+  - [x] Try to submit the form with an invalid email address and verify that a relevant error message appears
+  - [x] Try to submit the form with all inputs valid and verify that a success message appears.
 
 
     
