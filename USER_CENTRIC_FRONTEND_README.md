@@ -68,6 +68,9 @@ You may want to re-watch the videos about the [5 planes of UX development ](http
 - Discuss your color pallet choices and how it ties into users' emotions or target audience.
 - include a screenshot of your pallet using a tool like coolors.co
 
+![image](https://user-images.githubusercontent.com/23039742/133895118-75efa6ac-c54b-4016-a877-f995a5b6e0b6.png)
+
+
 #### Typography
 
 - discuss font size, font types for headers vs buttons vs general text and how it ties into users' emotions or target audience.
