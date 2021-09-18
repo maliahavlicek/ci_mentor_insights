@@ -214,11 +214,13 @@ If you did not run automating testing. State why you chose not to.
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+**Contact form:**
+    Go to the "Contact Us" page
+    - [x] Try to submit the empty form and verify that an error message about the required fields appears
+    - [x] Try to submit the form with an invalid email address and verify that a relevant error message appears
+    - [x] Try to submit the form with all inputs valid and verify that a success message appears.
+
+
     
 Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/189VpSeEG9oevSRhvb2WZl8zCk9L3s2iWQyrJ_1jjAGQ/edit?usp=sharing) that you can use as a starting point to keep track of your testing efforts. Make a copy of it in your own account and update as needed to reflect the browsers you are testing and features.  
 
