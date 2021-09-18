@@ -288,22 +288,22 @@ You can track your test in various ways.
 But for any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
 
 1. Markdown
- A particularly useful form for describing your testing process is via scenarios, such as:
-
- **Register Page**
- Go to the Register page: http://<YOUR APPP>.herokuapp.com/register
-   - [x] Try to submit the empty form and verify that an error message about the required fields appears
-   - [x] Try to submit the form with an invalid username format and verify that a relevant error message appears
-   - [x] Try to submit the form with an invalid password format and verify that a relevant error message appears
-   - [x] Try to submit the form with an existing username, should re-render page with relevant error message/warning
-   - [x] Try to submit the form with all inputs valid and verify that a success message appears and user is on profile page
-   - [x] Be logged in and go to register page url http://<YOUR APPP>.herokuapp.com/register, should have error saying you are already registered and be on profile page
+>  A particularly useful form for describing your testing process is via scenarios, such as:
+> 
+>  **Register Page**
+>  Go to the Register page: http://<YOUR APPP>.herokuapp.com/register
+>    - [x] Try to submit the empty form and verify that an error message about the required fields appears
+>    - [x] Try to submit the form with an invalid username format and verify that a relevant error message appears
+>    - [x] Try to submit the form with an invalid password format and verify that a relevant error message appears
+>    - [x] Try to submit the form with an existing username, should re-render page with relevant error message/warning
+>    - [x] Try to submit the form with all inputs valid and verify that a success message appears and user is on profile page
+>    - [x] Be logged in and go to register page url http://<YOUR APPP>.herokuapp.com/register, should have error saying you are already registered and be on profile page
 
 2. Spreadsheet    
- Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/189VpSeEG9oevSRhvb2WZl8zCk9L3s2iWQyrJ_1jjAGQ/edit?usp=sharing) that you can use as a starting point to keep track of your testing efforts. Make a copy of it in your own account and update as needed to reflect the browsers you are testing and features.  
+> Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/189VpSeEG9oevSRhvb2WZl8zCk9L3s2iWQyrJ_1jjAGQ/edit?usp=sharing) that you can use as a starting point to keep track of your testing efforts. Make a copy of it in your own account and update as needed to reflect the browsers you are testing and features.  
 
 3. GitHub Issues, Milestones & Boards
- You can also use agile tools in github to help track your testing and defects. Here's a document that I put together about that [process](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit?usp=sharing)
+> You can also use agile tools in github to help track your testing and defects. Here's a document that I put together about that [process](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit?usp=sharing)
 
 It's ok to spot check specific functionality across devices and browsers but each page should be viewed as a whole for each device/browser combo at least once.
 
@@ -320,7 +320,8 @@ You should mention  any  bugs or problems you discovered during your testing, ev
 
 Here is a [Defect Tracking Template](https://docs.google.com/spreadsheets/d/1tYB4X4wTCNEW_Y1no3hsGbclh2bLokl_I5Ev3s5EuJA/edit?usp=sharing) you use as a starting point to track defects. Make a copy of the sheet to your own account and update the Features sheet to match your project. 
 
-
+Again, you could use github issues to track you defects. Or write them up with markdown.
+ 
 ### Defects of Note
 Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and how you finally ended up resolving them.
 
