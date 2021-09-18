@@ -186,7 +186,12 @@ If this section grows too long, you may want to split it off into a separate fil
 You should try to ensure you code is valid and follows proper indentation.  In this section you should write up any websites you used to validate your code. As your projects becomes more complex these tools may change.
 
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) Note, any error associated with root: color variables were ignored.
-- [HTML Validator](https://validator.w3.org/)
+- [HTML Validator](https://validator.w3.org/) 
+
+Note any errors or warnings you are ignorning and why. IT IS BEST NOT to have ERRORS, but COLOR VARIABLES sometimes are ok to ignore if you say the IDE that has the correct linters noted no errors. Or you can take the rendered HTML and run it through the HTML validator for the Flask html templates.
+
+Ideally you would bullet point your each of your HTML files and each ofyour CSS files and add a screenshot of the validation tool's output proving all was good.
+
 
 ### Cross Browser and Cross Device Testing
 Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
@@ -208,22 +213,31 @@ Create a table that lists out what devices, browsers, and operating system you t
 ### Automated Testing
 Whenever it is feasible, automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
-If you did not run automating testing. State why you chose not to.
+If you did not run automating testing. State why you chose not to. (Lacking the skill set or time is totally valid, just let the assessor know)
 
 ### Manual Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
 
-**Contact form:**
+You can track your test in various ways choose the one you are comfortable with and have time to do:  
 
-  Go to the "Contact Us" page
-  - [x] Try to submit the empty form and verify that an error message about the required fields appears
-  - [x] Try to submit the form with an invalid email address and verify that a relevant error message appears
-  - [x] Try to submit the form with all inputs valid and verify that a success message appears.
+1. Markdown
+>  A particularly useful form for describing your testing process is via scenarios, such as:
+> 
+>  **Contact Page**
+>  Go to the Register page: http://YOUR_APP.com/contact.html
+>    - [x] Try to submit the empty form and verify that an error message about the required fields appears
+>    - [x] Try to submit the form with an invalid email format and verify that a relevant error message appears
+>    - [x] Try to submit the form with an invalid password format and verify that a relevant error message appears
+>    - [x] Try to submit the form with an existing username, should re-render page with relevant error message/warning
+>    - [x] Try to submit the form with all inputs valid and verify that a success message appears and user is on profile page
+>
 
+2. Spreadsheet    
+> Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/189VpSeEG9oevSRhvb2WZl8zCk9L3s2iWQyrJ_1jjAGQ/edit?usp=sharing) that you can use as a starting point to keep track of your testing efforts. Make a copy of it in your own account and update as needed to reflect the browsers you are testing and features.  
 
-    
-Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/189VpSeEG9oevSRhvb2WZl8zCk9L3s2iWQyrJ_1jjAGQ/edit?usp=sharing) that you can use as a starting point to keep track of your testing efforts. Make a copy of it in your own account and update as needed to reflect the browsers you are testing and features.  
+3. GitHub Issues, Milestones & Boards
+> You can also use agile tools in github to help track your testing and defects. Here's a document that I put together about that [process](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit?usp=sharing)
 
 It's ok to spot check specific functionality across devices and browsers but each page should be viewed as a whole for each device/browser combo at least once.
 
@@ -240,6 +254,8 @@ You should mention  any  bugs or problems you discovered during your testing, ev
 
 Here is a [Defect Tracking Template](https://docs.google.com/spreadsheets/d/1tYB4X4wTCNEW_Y1no3hsGbclh2bLokl_I5Ev3s5EuJA/edit?usp=sharing) you use as a starting point to track defects. Make a copy of the sheet to your own account and update the Features sheet to match your project. 
 
+
+Again, you could use [github issues](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit?usp=sharing) to track you defects. Or write them up with markdown.
 
 ### Defects of Note
 Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and how you finally ended up resolving them.
@@ -259,17 +275,19 @@ Remember to use proper markdown for commands and enumerated steps.
 
 ### Deploy Locally
 
-Write out the steps you take starting from cloning the repository in github or clicking a gitpod button to run your code locally. Test it out and make sure it works. This can be running from your IDE of choice like VSCode or PyCharm or GitPod.
+Write out the steps you take starting from cloning the repository in github or clicking a gitpod button to run your code locally. Test it out and make sure it works. This can be running from your IDE of choice like VSCode or PyCharm or GitPod. (Add screenshots to steps to make it really easy for a newbie to know what to do )
 
 You may want to re-watch the [initial deployment in gitpod video](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/dcd449bd41a446f49df3268f91dd06fc/072c95175f1148438de9d82e7a756ee1/?child=first) when writing up this section.
 
 ### Deploy To GitHub Pages
 
-Write out steps you would take and test them to deploy your code to GitHub Pages.
+Write out steps you would take and test them to deploy your code to GitHub Pages. (Add screenshots to steps to make it really easy for a newbie to know what to do )
 
 ## Credits
 
 To avoid plagiarism amd copyright infringement, you should mention any other projects, stackoverflow, videos, blogs, etc that you used to gather imagery or ideas for your code even if you used it as a starting point and modified things. Giving credit to other people's efforts and ideas that saved you time acknowledges the hard work others did. 
+
+(Include the lessons or templates from CI and this guide if you copy some stuff from it. )
 
 ### Content
 
