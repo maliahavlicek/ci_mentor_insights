@@ -159,7 +159,7 @@ If you end up not developing some features you hoped to implement, you can inclu
 
 # Information Architecture
 
-As part of the requirements for this project you need to have at least 2 original data models.  It's this section that discusses your data and how each piece relates to another.
+As part of the requirements for this project you need to have at least one original data models.  It's this section that discusses your data and how each piece relates to another.
 
  - [draw.io](https://about.draw.io/features/) - is a free program that can be used to create Entity Relationship diagrams and CRUD flow diagrams.
 
