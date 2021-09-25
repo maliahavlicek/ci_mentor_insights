@@ -125,7 +125,7 @@ Tell the assessors where they can find your epic stories and call out the
 - link to Issues
 - link to Epic Story Template
 
-#### User Stories
+#### Child Stories
 
 After creating the epic stories or main features for my website, I created user stories that could be story pointed and tasked to help keep me feel like I was making progress, plus it shows I tried to follow the Agile Process. To manage these better I included the EPIC story name in my Title.
 
@@ -135,3 +135,27 @@ You can find my user stories by either looking at issues that are prefixed with 
 - Link to Issues
 - Link to User Stories Milestone
 - Link to User Story Template
+
+
+### Product Backlog
+https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AG101+2021_T1/courseware/a4e548ca70a3473aa890ba2ab9bf612c/085f3a8e344a4cf28b5b5355399abcc1/?child=last
+This is the MILESTONE where you grab stories from the issues or USER stories you created and prioritize them  and order them.
+
+Include a link to your Product Catalog Milestone
+
+## Labels
+
+Must haves
+Could Have
+
+
+### Iterations
+https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AG101+2021_T1/courseware/a4e548ca70a3473aa890ba2ab9bf612c/71fe6c52cccf477688e924c9889f5fec/?child=first
+
+Add links to iteration milestones
+
+
+
+### Progress Boards
+https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AG101+2021_T1/courseware/a4e548ca70a3473aa890ba2ab9bf612c/7ad7f487cc6148ecb182d77feaeda269/?child=first
+Add links to Progress boards
