@@ -42,7 +42,7 @@ Use this section to itemize the features of your project.
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-It's easiest to break this section down into piece parts or core functionality blocks such as data upload, user input, analysis and data output; focusing on the atomic functions and data model(s) you created to make the program work. 
+It's easiest to break this section down into piece parts or core functionality blocks such as data upload, user input, analysis and data output; focusing on the atomic functions and data model(s) or classes you created to make the program work. 
 
 
 ### Implemented Features
@@ -62,14 +62,26 @@ This section is where you would share logic diagrams and spreadsheets that you c
 
 The flowchart can be as simple as a picture of a drawing of how you envisioned laying out the logic for you project, or done with a professional tool such as powerpoint, googlesheets, or [https://app.diagrams.net/](https://app.diagrams.net/) They are a roadmap and do not have to be 100% accurate of the final product.
 
-## Data Model
-In this section write our your data model(s).
+## Data Model/ Classes
+In this section write our your data model(s) or classes. 
 
-You might want to include subsections that include how the data in the model is . initialized and then the methods that you created to update it through the program.
+You might want to include subsections that include how the data in the model is initialized and then the methods that you created to update it through the program.
+
+
+You can create a table and take a screenshot, or you can write up subsections in markdown:
 
 ![image](https://user-images.githubusercontent.com/23039742/130148204-b56406bf-0fff-48f3-9dee-2f3cdbe67cc5.png)
 
+### Class X
+To better group the game as an object, I wrote a class representing its properties and had method functions to update those properties: 
 
+**Properties**
+- property 1: is a {string} it represents {something} 
+- property 2: is a {string} it represents {something} 
+
+**Methods**
+- **\_\_init\_\_**: Initialize method, it starts the class off with default parameters as if a user just started to play a game.
+- **\_\_str\_\_**: Returns a string representation of the class/object
 
 ## Libraries used
 List out the python libraries you purposefully used in your project and why. You can look at your requirements.txt file and go back to https://pypi.org/ to rediscover the purpose of a library if needed.
@@ -83,7 +95,13 @@ In this section, you need to convince the assessor that you have conducted enoug
 ### Validation Testing
 You should try to ensure you code is valid and follows proper indentation.  In this section you should write up any websites you used to validate your code. As your projects becomes more complex these tools may change.
 
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) Note, any error associated with root: color variables were ignored.
+- [HTML Validator](https://validator.w3.org/)
+- [JS validation](https://jshint.com) for each .js file/ , if using ES6, add this before pasting in your file: `/*jshint esversion: 6 */ `
+- [JSON validation](https://jsonlint.com/) for each .json file 
 - [PEP8 Validator](http://pep8online.com/) include a screenshot of results
+
+Note any errors or warnings you are ignoring and why. IT IS BEST NOT to have ERRORS, but NINJA, COLOR VARIABLES sometimes are ok to ignore if you say the IDE that has the correct linters noted no errors. Or you can take the rendered HTML and run it through the HTML validator for the Flask html templates.
 
 If the line is too long just add 
 ```$python 
@@ -91,61 +109,33 @@ If the line is too long just add
 ```
 There is a space before the # and after it to skip the quality assurance for that line.
 
-
-
 ### Manual Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+You can track your test in various ways.  
 
-1. Startup:
-    1. User enters name
-    2. try to submit no entry, blank name not allowed
-    3. Try to submit the name with spaces
-    4. Try to submit the name as special characters
-    5. Try to submit the name as calling a function in the code
-   
-    
-Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/189VpSeEG9oevSRhvb2WZl8zCk9L3s2iWQyrJ_1jjAGQ/edit?usp=sharing) that you can use as a starting point to keep track of your testing efforts. Make a copy of it in your own account and update as needed to reflect the browsers you are testing and features.  
+But for any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
 
-Or you could open a Project in github and write your tests there in a basic khanban board. 
-1. Click on the projects menu:
+1. Markdown
+>  A particularly useful form for describing your testing process is via scenarios, such as:
+> 
+>  **Register Page**
+>  Go to the Register page: http://<YOUR APPP>.herokuapp.com/register
+>    - [x] Try to submit the empty form and verify that an error message about the required fields appears
+>    - [x] Try to submit the form with an invalid username format and verify that a relevant error message appears
+>    - [x] Try to submit the form with an invalid password format and verify that a relevant error message appears
+>    - [x] Try to submit the form with an existing username, should re-render page with relevant error message/warning
+>    - [x] Try to submit the form with all inputs valid and verify that a success message appears and user is on profile page
+>    - [x] Be logged in and go to register page url http://<YOUR APPP>.herokuapp.com/register, should have error saying you are already registered and be on profile page
 
-![image](https://user-images.githubusercontent.com/23039742/132130197-465d3db9-04e0-4843-9509-041cd0639551.png)
+2. Spreadsheet    
+> Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/189VpSeEG9oevSRhvb2WZl8zCk9L3s2iWQyrJ_1jjAGQ/edit?usp=sharing) that you can use as a starting point to keep track of your testing efforts. Make a copy of it in your own account and update as needed to reflect the browsers you are testing and features.  
 
-2. Click on the create project button:
+3. GitHub Issues, Milestones & Boards
+> You can also use agile tools in github to help track your testing and defects. Here's a document that I put together about that [process](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit?usp=sharing)
+> 
+> For more information you can visit: https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards 
 
-![image](https://user-images.githubusercontent.com/23039742/132130216-1623af38-827f-4fd6-9729-c9bc5a1e5485.png)
-
-3. Select the Basic Kanban template
-
-![image](https://user-images.githubusercontent.com/23039742/132130414-4e60b081-555f-49e3-a446-da6fc88951f2.png)
-
-4. Fill in the information and click Create
-
-![image](https://user-images.githubusercontent.com/23039742/132130417-f6051c42-4a1d-4faf-8ed7-780215d1805d.png)
-
-4. Click the + sign on the project board to craete a new Test
-
-![image](https://user-images.githubusercontent.com/23039742/132130433-dcb741ac-9deb-401a-8801-6e3d1861c7f7.png)
-
-5. You can use the templates provided to steal the checkbox mardown to write out your test by clicking the ... button and selecting edit note option:
-
-![image](https://user-images.githubusercontent.com/23039742/132130460-2314a026-ed12-493c-a4e9-16726e812b94.png)
-
-6. Just copy the example text you want:
-
-![image](https://user-images.githubusercontent.com/23039742/132130503-d4611154-d62b-4eff-9ec5-004fd89f440e.png)
-
-7. Then you can past that into your new note and update as needed then save:
-
-![image](https://user-images.githubusercontent.com/23039742/132130729-161ff2e6-65c0-4344-a4d4-e3baf4670a24.png)
-
-8. Then when you start to test, just move it into progress and update as you finish the tasks in your test.  If you've used checkboxes to track the testing tasks, you should mark them off and then once all are done, you can move the item to the done list.
-
-There are ways to create issues with these project cards so you don't have to write up everything. You can create an issue from a test item. 
-
-For more information you can visit: https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards 
-
+It's ok to spot check specific functionality across devices and browsers but each page should be viewed as a whole for each device/browser combo at least once.
 
 ### Defect Tracking
 
