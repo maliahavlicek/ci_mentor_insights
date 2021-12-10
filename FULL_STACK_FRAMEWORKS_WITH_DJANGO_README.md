@@ -231,8 +231,12 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validation Testing
 You should try to ensure you code is valid and follows proper indentation.  In this section you should write up any websites you used to validate your code. As your projects becomes more complex these tools may change.
 
-- [CSS Validator](https://jigsaw.w3.org/css-validator/) Note, any error associated with root: color variables were ignored.
-- [HTML Validator](https://validator.w3.org/)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) Note, any errors you choose to ignore (such as variables)
+- [HTML Validator](https://validator.w3.org/) Go to each page of your deployed website. Right click to view source and copy it into the HTML validator. Take a screen shot of the green bar.
+- [JS validation](https://jshint.com) for each .js file/ , if using ES6, add this before pasting in your file: `/*jshint esversion: 6 */ ` take a screen shot where it has no warnings on the left hand side.
+- [JSON validation](https://jsonlint.com/) for each .json file 
+- [PEP8 Validator](http://pep8online.com/) include a screenshot of results
+
 
 ### Cross Browser and Cross Device Testing
 Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
@@ -257,6 +261,8 @@ Whenever it is feasible, automate your tests, and if you've done so, provide a b
 If you did not run automating testing. State why you chose not to.
 
 ### Manual Testing
+
+NOTE: You can write tests in 
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
