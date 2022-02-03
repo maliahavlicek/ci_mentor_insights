@@ -118,13 +118,29 @@ Create a table that lists out what devices, browsers, and operating system you t
 
 ### Manual Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+For any scenarios that have not been automated, test the user stories/features manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios in markdown such as:
 
+**Manual Testing For Contact Form**
 1. Contact form:
     1. Go to the "Contact Us" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
+
+Or you can use mardown check boxes and write them up per feature:
+
+**Manual Testing For Contact Form**
+- [x] try to submit 
+- [x] Try to submit the empty form and verify that an error message about the required fields appears
+- [x] Try to submit the form with an invalid email address and verify that a relevant error message appears
+- [x] Try to submit the form with all inputs valid and verify that a success message appears.
+- [x] no console errors
+- [x] submit goes to code institute data dump page in new tab
+- [x] looks good on mobile (one column)
+- [x] looks good on tablet (two columns)
+- [x] looks good on desktop (two columns but not SUPER HUGE)
+
+Or you can use a spreadsheet
     
 Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/1vc1IVL-ydQwWeWMqnk_GRox6HE6qxDLpchGse8Crayo/edit#gid=296578096) that you can use as a starting point to keep track of your testing efforts. Make a copy of it in your own account and update as needed to reflect the browsers you are testing and features.  
 
