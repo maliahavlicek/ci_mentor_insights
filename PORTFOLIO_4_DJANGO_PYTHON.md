@@ -1,11 +1,29 @@
+
+# OVERVIEW
+
+This template was made as a guide to ensure you cover assessment criteria in your fourth portfolio write up. It is specific to the **PORTFOLIO 4: Full-Stack Toolkit** project. It was based off the [battleship readme](https://codeinstitute.s3.amazonaws.com/CSSEssentials/p3-readme.png) with a few additions to help elevate you to possible distinction status.
+
+## Helpful tools
+
+Markdown's not all that easy so sometimes you may want to use some tools to make tables. 
+
+- [Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
+- [markdown table generator](https://www.tablesgenerator.com/markdown_tables) - used to help with documentation table formatting
+- [mardown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/) - used to create table of contents (be weary it does have some bugs if you have dashes or trailing spaces in your headers)
+- [readme.so](https://readme.so/) - if you don't want to learn markdown, this tool might help you
+
+# Table of Contents
+Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a table of contents.  This will help assessors to see the structure of your readme. Just test it out ast this tool isn't perfect. It tends to mess up with special characters like dashes.
+
+====================================== The Sections you Fill in are below ==============================
+
+
 # PROJECT_NAME
 
 *replace the **PROJECT NAME** header with your project's name*
 - Screenshot of logo/navigation of mobile deployed site
 - Include a link to deployed project with one line explanation of project
 
-- (optional) Include a travis build status if you hooked up automated builds
-[![Travis Automated Builds](https://docs.travis-ci.com/user/tutorial/)
 
 ## Author
 DEVELOPER_NAME
@@ -18,8 +36,7 @@ DEVELOPER_NAME
 - Include a link to your deployed website
 
 
-
-# Design Choices
+# UX
 Your site is most likely geared to a certain audience, and your design choices should tie into them. Let the assessors know your thought process.
 
 You may want to re-watch the videos about the [5 planes of UX development ](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/22905698f3be425d918ebc64c87801b7/9c295bdc5a4048308460e262b14ab7df/) when writing up this section
