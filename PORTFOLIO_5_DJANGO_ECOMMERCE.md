@@ -1,5 +1,7 @@
 # Table of contents
+# Table of contents
 
+- [Table of contents](#table-of-contents)
 - [OVERVIEW](#overview)
   - [Helpful tools](#helpful-tools)
 - [Table of Contents](#table-of-contents)
@@ -33,18 +35,23 @@
   - [Future Features](#future-features)
 - [Testing](#testing)
   - [Validation Testing](#validation-testing)
-  - [Cross Browser and Cross Device Testing](#cross-browser-and-cross-device-testing)
+  - [Responsive Testing](#responsive-testing)
   - [Manual Testing](#manual-testing)
   - [Automated Testing](#automated-testing)
   - [Defects of Note](#defects-of-note)
     - [Outstanding Defects](#outstanding-defects)
   - [Lighthouse Audits](#lighthouse-audits)
-- [SEO](#seo)
+- [E-commerence Business Model](#e-commerence-business-model)
+  - [Facebook Business Page](#facebook-business-page)
+  - [Newsletter Signup](#newsletter-signup)
+  - [Sponsored Links](#sponsored-links)
   - [SEO Strategy](#seo-strategy)
     - [Keywords](#keywords)
     - [Description](#description)
     - [Title](#title)
     - [Relevant Content](#relevant-content)
+    - [Sitemap](#sitemap)
+    - [Robots.txt](#robotstxt)
 - [Deployment](#deployment)
   - [Requirements](#requirements)
   - [Gitpod](#gitpod)
@@ -57,7 +64,6 @@
   - [Content](#content)
   - [Media](#media)
   - [Acknowledgments](#acknowledgments)
-
 
 # OVERVIEW
 
@@ -223,14 +229,13 @@ https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AG101+2021_T1/co
 Add links to iteration milestones
 
 
-
 ## Progress Boards
 https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AG101+2021_T1/courseware/a4e548ca70a3473aa890ba2ab9bf612c/7ad7f487cc6148ecb182d77feaeda269/?child=first
 Add links to Progress boards
 
 
 # Information Architecture
-As part of the requirements for this project you need to have at least 1 original data model.  It's this section that discusses your data and how each piece relates to another and draws out the CRUD functionality you built.
+As part of the requirements for this project you need to have at **least 3 original data models**.  It's this section that discusses your data and how each piece relates to another and draws out the CRUD functionality you built. You must have CREATE, READ, UPDATE & DELETE for at least one model.
 
 ## Entity Relationship Diagram
 Wade Williams wrote a great blog about how to add a django extension to auto create an ERD. https://wadewilliams.com/technology-software/generating-erd-for-django-applications/ You can always draw one out by hand or google sheets. You can also draw this up by hand if you want or use a spreadsheet to show your data model.
@@ -282,7 +287,11 @@ For some/all of your features, you may choose to reference the specific project 
 
 It's easiest to break this section down into the header, footer, and each page/layer of your website. Call out any differences for mobile vs desktop presentations, **include a screenshot of the implemented feature** and **at least 2 bullet points of their importance**.
 
-Don't forget your 404 error page.
+**Required for passing**
+- Authentication Process
+- Custom 404 
+- Fabcebook Business page
+- Newsletter signup Form
 
 ## Future Features
 
@@ -305,7 +314,7 @@ You should try to ensure you code is valid and follows proper indentation.  In t
 - [JSON validation](https://jsonlint.com/) for each .json file
 - [PEP8 Validator](http://pep8online.com/) include a screenshot of results. (you should do this for all .py files in your repo, or note that there are no red errors in gitpod after the file is saved)
 
-## Cross Browser and Cross Device Testing
+## Responsive Testing 
 Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
 
 | TOOL / Device                 | BROWSER     | OS         | SCREEN WIDTH  |
@@ -331,9 +340,14 @@ At this point you really should be using GITHUB's Issues to track these as it he
 Create Custom Issue Template and a milestone in git hub.[Here's a brief overview](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit?usp=sharing) I put together on how to do this.
 
 ## Automated Testing
-If you managed to write jasmine tests or some django tests, note those files out here and how to run them.  I only did this in my last project as I didn't have the time or energy to learn how to write tests. https://github.com/maliahavlicek/ms4_challenger/blob/master/documentation/TESTING.md is my write up about those and how I ran them, but a simple test I'd recommend is authentication and any views you limit to superusers or logged in users
+**NOTE: If you want MERIT or Higher, you MUST have some automated testing**
+If you managed to write jasmine tests or some django tests, note those files out here and how to run them.  
+
+https://github.com/maliahavlicek/ms4_challenger/blob/master/documentation/TESTING.md is my write up about my automated testing and how I ran them, but a simple test I'd recommend is a views test that tests authentication and any views you limit to superusers or logged in users.
 
 https://github.com/maliahavlicek/ms4_challenger/blob/master/challenges/tests/test_views.py
+
+
 ## Defects of Note
 Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and how you finally ended up resolving them.
 
@@ -343,23 +357,33 @@ It's ok to not resolve all the defects you found. If you know of something that 
 
 ## Lighthouse Audits
 
-You should run your deployed website pages through lighthouse's audit to check performance, accessibility, best practices and SEO scores. You should aim to get 85 or higher score.
+You should run your deployed website pages through lighthouse's audit to check performance, accessibility, best practices and scores. You should aim to get 85 or higher score.
 https://web.dev/measure/  If you have lower scores, read the report and follow the links to address the flagged issues. You can run this tool from Chrome Dev Tools too against your local machine, but the performance will the worst (I personally ignore my performance results unless it's deployed code. I hope for > 60 on that mark, but > 85 on the other 3)
 
-# SEO
-This site was build with attention to Search Engine Optimization in the following manner:
-- [robots.txt file]() to restrict pages that are should be searched by google, authentication and others are blocked to only allow relevant pages to be searched by google
-- [sitemap.xml file() call out files that exist so browsers can easily crawl site
-- social links and other links that go outside domain have `rel="nofollower"` to signal to search engines that those links are not associated with our specific domain
+# E-commerence Business Model
+In this section discuss your business model, how you use  SEO to get users to your site and how you hope to generate more traffic and get sponsors to back link to your site. 
 
+## Facebook Business Page
+- copy a screenshot of the FB page and the goals of what this fills for building out followers & special content
+## Newsletter Signup
+- copy a screenshot of the signup and the goals of what this fills for building out followers
+## Links
+- sponsored links are flagged with rel="sponsored"
+- social links and other links that go outside domain have `rel="nofollower"` to signal to search engines that those links are not associated with our specific domain
+- 
 ## SEO Strategy
 In this section write out the process you used to come up with short tailed and long tailed results to help refine the keywords you came up with. You should call out attention to the following:
 
 ### Keywords
 ### Description
 ### Title
+Call out that you have this set in your base.html so it can be changed per page
 ### Relevant Content
-
+Call out how you purposefully incorporated keywords into your content, H1, meta data etc. 
+### Sitemap
+- [sitemap.xml file]() call out files that exist so browsers can easily crawl site
+### Robots.txt
+- [robots.txt file]() to restrict pages that are should be searched by google, authentication and others are blocked to only allow relevant pages to be searched by google
 
 # Deployment
 
@@ -367,36 +391,11 @@ In this section write out the process you used to come up with short tailed and 
 If the user is required to have certain keys and credentials you should include this section with diretions on how to get the necessary information.
 ex)
 1. **Google Account:** In order to have verification and forgot password emails sent to registered users you need a google account. If you don't have one  [Create a google account](https://accounts.google.com/Signup)
-2. **Google APIs**
-    1. in a new incognito tab, log into your new google account.
-    1. then update the url to be: https://console.cloud.google.com/getting-started?pli=1
+2. **FB Account **
+3. **GMAIL Account**
+4. **STRIPE account**
 
-        **GOOGLE DRIVE API Access**
-        1.  create a new project for this, call it XXXXXX (You might want to refer to what you see in this video: https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LS101+2021_T1/courseware/293ee9d8ff3542d3b877137ed81b9a5b/071036790a5642f9a6f004f9888b6a45/ at the bottom of the screen to write out steps.)
-        2. Then click on Add APIs and Services and select Libraries
-        3. Search for Google Drive
-        4. Click Enable
-        5. Click Create Credentials
-        6. Select Google Drive API from the drop down, Application Data, then no and click the Next Button
-        7.  (https://developers.google.com/drive/api/v3/enable-drive-api)
-        8. for service account details fill in a service account name ex) xxx_API, then click Create and Continue
-        9. For the Accoun acces, select Role: Basic/Editor then continue
-        10. Then Click Done
-        11. Now select the newly created service account
-        12. Click on the KEYS Tab
-        13. Click Add Key
-        14. Select JSON type (right click to show in folder so you know where the file was saved.
 
-        **GOOGLE SHEETS API Access**
-        You may need to us the back button get to the APIS & SErvices section from where you were.
-        1. click the Libray  Tab and serarch for Google Sheets
-        2. click enable
-
-3. The downloaded credentialsJSON file is basically your creds.json file that you need to put into your heroku settings or gitpod environment to access your google drive.
-
-4. Google Sheet Template
-  - If you had to create specific sheets for your project, instruct users to make their own copy of it from yours and rename it back to what the python project expects
-  - And don't forget to share the spreadsheet in question with the client_email from the creds.json
 ## Gitpod
 This section should describe the process someone would have to go through to get the local working in gitpod.  Such as install requirements.txt  and setting up a creds.json file that is in the gitignore and keeping their workspace and what goes in the env.py file without REAL KEYS.
 
