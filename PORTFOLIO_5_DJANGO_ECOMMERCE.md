@@ -75,7 +75,7 @@ Markdown's not all that easy so sometimes you may want to use some tools to make
 
 - [Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
 - [markdown table generator](https://www.tablesgenerator.com/markdown_tables) - used to help with documentation table formatting
-- [mardown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/) - used to create table of contents (be weary it does have some bugs if you have dashes or trailing spaces in your headers)
+- [markdown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/) - used to create table of contents (be weary it does have some bugs if you have dashes or trailing spaces in your headers)
 - [readme.so](https://readme.so/) - if you don't want to learn markdown, this tool might help you
 
 # Table of Contents

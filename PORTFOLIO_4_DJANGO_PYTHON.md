@@ -9,7 +9,7 @@ Markdown's not all that easy so sometimes you may want to use some tools to make
 
 - [Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
 - [markdown table generator](https://www.tablesgenerator.com/markdown_tables) - used to help with documentation table formatting
-- [mardown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/) - used to create table of contents (be weary it does have some bugs if you have dashes or trailing spaces in your headers)
+- [markdown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/) - used to create table of contents (be weary it does have some bugs if you have dashes or trailing spaces in your headers)
 - [readme.so](https://readme.so/) - if you don't want to learn markdown, this tool might help you
 
 # Table of Contents
@@ -45,13 +45,13 @@ If you don't feel like the overview gave enough detail about the site, you can w
 ## Target Audience
 Can be a paragraph or a list
 
-> **Paragaph Example**
-> The target audience for What2do2day comes in two flavors. The revenue driving forces is children ages 12-18 who have a bit of freedom to move around unsupervised but very little means to addend costly mass entertainment complexes more than 5 miles from home. Their parents are expected to be a customer group too as they will want to ensure the site is safe and not a preditory place where their kids could be scammed into unsafe adventures. Other groups of users are the businesses that want to promote themselves as community friendly who will be hosting events for the primary customer group. The business owners will want a friendly interface to upload details of their place and events.
+> **Paragraph Example**
+> The target audience for What2do2day comes in two flavors. The revenue driving forces is children ages 12-18 who have a bit of freedom to move around unsupervised but very little means to addend costly mass entertainment complexes more than 5 miles from home. Their parents are expected to be a customer group too as they will want to ensure the site is safe and not a predatory place where their kids could be scammed into unsafe adventures. Other groups of users are the businesses that want to promote themselves as community friendly who will be hosting events for the primary customer group. The business owners will want a friendly interface to upload details of their place and events.
 
 > **List example**
 > 1. Patients who have been referred for radiology examinations by registered physicians
 > 2. External healthcare companies who have equipment to sell
-> 3. Radiology staff who want to have a more managable and predictable workload
+> 3. Radiology staff who want to have a more manageable and predictable workload
 
 ## Design Choices
 Now that you have let the assessors know about the target audience and users, you can go into the design choices
@@ -115,22 +115,24 @@ Explain why you used certain icons and images on your site
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in a separate directory), or  hosted elsewhere online and can be in any format that is viewable inside the browser.
 
-- You should minimally have wireframes for desktop and mobile. Adding a Tablet view will help you get into merit and distinction.
+- You should minimally have wireframes for desktop and mobile for the pages you are making for you register, login, read(list/detail), add, update, delete functionality. Adding a Tablet view will help you get into merit and distinction.
+
+You can hand draw these, but CI posts a yearly license in the general channel for Balsamiq which is pretty easy to use. Here is the [2022 announcement](https://code-institute-room.slack.com/archives/C0L316Z96/p1640099614368000)
 
 ## Goals
-Bullet point out things from web users to web site owners and other groups of people
+Bullet point out things from web users to website owners and other groups of people
 
 **Booking Site Example**
 > - To allow the opportunity for patients to book and manage their own radiology appointments
 > - To give patients the opportunity to educate themselves on radiation safety prior to their visit
-> - To provide a simple to use contact form for site visitors to use in order to contact the radiology department
+> - To provide a simple-to-use contact form for site visitors to use in order to contact the radiology department
 > - To provide useful information to patients about radiology and the department to reduce 'white-coat-syndrome' and anxiety during their visit
 > - To give external companies the opportunity to partner with the radiology department and share their equipment prior to potential purchases
 > - To give radiology staff the opportunity to manage their workload and see in advance the patients they will encounter during the day
 
 **Granular Goals Example**
 > **Customers**
-> Customers of What2do2day are children ages 12-18 who have a bit of freedom to move around unsupervised but a short range of mobility, approximagely 5 miles from home.
+> Customers of What2do2day are children ages 12-18 who have a bit of freedom to move around unsupervised but a short range of mobility, approximately 5 miles from home.
 >  
 **Customer Goals:**
 > - Bring up the site and look for an inexpensive event to attend close to home
@@ -145,14 +147,14 @@ Bullet point out things from web users to web site owners and other groups of pe
 > - Receive updates about events they've joined
 > 
 > **Place Owners**
-> Owners of Places would ideally have a different set of user permissions and the Update and Contribute sections of navigation would be under a strict workflow, but in the initial phase, I wanted to show off the ability to add, update and delete items from the website's view so it's not hidden behind permissions or workflow at this point. Place owners are those that have a business or an organization that hosts free events within a community. Examples are a group that wants to play pickup soccer or a bicycle shop that leads group rides once a month.
+> Owners of Places would ideally have a different set of user permissions and the Update and Contribute sections of navigation would be under a strict workflow, but in the initial phase, I wanted to show off the ability to add, update and delete items from the website's view,so it's not hidden behind permissions or workflow at this point. Place owners are those that have a business or an organization that hosts free events within a community. Examples are a group that wants to play pickup soccer or a bicycle shop that leads group rides once a month.
 > 
 > **Place Owner Goals:**
 > 
-> - I want my place to be easily found on the site so I can get more customers
-> - I want users to share community reviews so I build trust with future customers
-> - I want to add events to my place to build a repertoire with my clients
-> - I want users to join my events so I can track how successful community events are to my bottom line
+> - I want my place to be easily found on the site, so I can get more customers
+> - I want users to share community reviews, so I build trust with future customers
+> - I want to add events to my place, to build a repertoire with my clients
+> - I want users to join my events, so I can track how successful community events are to my bottom line
 > - I want the ability to update my place's details
 > - I want to update events associated with my organization
 > - I want to protect against bloated ratings
@@ -171,7 +173,7 @@ Bullet point out things from web users to web site owners and other groups of pe
 
 
 ## User Stories
-User stories evovle over a project's lifetime. Start with a wish list, do a feasabilty analysis then move the ones you will work on into gitHub so you can track their progress.
+User stories evolve over a project's lifetime. Start with a wish list, do a feasibility analysis then move the ones you will work on into gitHub, so you can track their progress.
 
 ## Initial Stories
 To start the agile process this section kicks off with a bullet list/brainstorming dump about features you'd like to have. EVERYTHING write them out in bullet form:
@@ -182,8 +184,8 @@ To start the agile process this section kicks off with a bullet list/brainstormi
 - [places/events searching site](https://github.com/maliahavlicek/what2do2day#user-stories)
 
 
-## Feasiblity vs Importance
-To scope the project for a MVP (mimimally viable product) a feasbilty analysis was done. 
+## Feasibility vs Importance
+To scope the project for a MVP (minimally viable product) a feasibility analysis was done. 
 
 The features in the table below have been taken from the user stories above. Generic features found in most websites will also be implemented such as nav-bar, footer, obvious website purpose etc.
 
@@ -194,10 +196,10 @@ The features in the table below have been taken from the user stories above. Gen
 |                     |                                        |                                             |           |
 |                     |                                        |                                             |           |
 
-> You should dicuss the outcome of what you will be dropping based on the outcome.
+> You should discuss the outcome of what you will be dropping based on the outcome.
 
 ## Scope
-Now you have to talk about the scope to recude things more, you don't necessarily need all the bells and whisltes, they could be beyond your skill set.  Think basic stuff.
+Now you have to talk about the scope to reduce things more, you don't necessarily need all the bells and whistles, they could be beyond your skill set.  Think basic stuff.
 
 ## GitHub Stories
 
@@ -234,7 +236,7 @@ This is the MILESTONE where you grab stories from the issues or USER stories you
 **What to keep in this section**
 Include a link to your Product Catalog Milestone, 
 
-an initila  screen shot might help to of intial, mid point and end
+an initial screenshot, mid-point and final will help document the agile process.
 
 ## Iterations
 https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AG101+2021_T1/courseware/a4e548ca70a3473aa890ba2ab9bf612c/71fe6c52cccf477688e924c9889f5fec/?child=first
@@ -242,11 +244,9 @@ https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AG101+2021_T1/co
 Add links to iteration milestones (most people have ONE iteration since they are the solo worker, just state that here), it could be that you won't have all your product backlog worked in the end, and that is ok, hte MVP might morph, you might find other stories you want instead, it's OK.
 
 
-
 ## Progress Boards
 https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AG101+2021_T1/courseware/a4e548ca70a3473aa890ba2ab9bf612c/7ad7f487cc6148ecb182d77feaeda269/?child=first
 Add links to Progress boards
-
 
 # Information Architecture
 As part of the requirements for this project you need to have at least **1 original data model**.  It's this section that discusses your data and how each piece relates to another and draws out the CRUD functionality you built. 
@@ -284,7 +284,7 @@ Below is an example of a write up for an Activies Data Model
 > The reading/writing of the activities table is housed in the [what2do2day/activities/views.py](what2do2day/activities/views.py) file.
 
 ### CRUD Diagrams
-This is if you want to go for distinction.  You can also have CRUD diagrams to show them visually how the model is used in your site. 
+**This is if you want to go for distinction.**  You can also have CRUD diagrams to show them visually how the model is used in your site. 
 
 I used [draw.io](https://app.diagrams.net/) and hooked it up to my google drive to create the screenshot below
 
@@ -345,24 +345,24 @@ Start with a brief explanation of why you chose the mixture you did. The point i
 Note, you might find it easier to create a test case for each tool/device and link to the test case in the table here. 
 
 
-## Accessiblity Testing
+## Accessibility Testing
 
-You should have test cases for accessiblity and links to them here. Start with a brief paragraph and then link to the test cases. If you are ambitious you can record the screen of you using the keyboard, convert it to a gif and upload it to the test case too. 
+You should have test cases for accessibility and links to them here. Start with a brief paragraph and then link to the test cases. If you are ambitious you can record the screen of you using the keyboard, convert it to a gif and upload it to the test case too. 
 
 
 **example**
-> To ensure that the site was accessible to people with visual impairments, I used chrome's dev tools, lighthouse audits to ensure I had a scrore in the green for accessiblity and that I could keyboard navigate through the page.  
+> To ensure that the site was accessible to people with visual impairments, I used chrome's dev tools, lighthouse audits to ensure I had a score in the green for accessibility and that I could keyboard navigate through the page.  
 > 
 > Here are links to the test cases for each which contains the screenshot for the lighthouse audit. 
 > - [home page accessibility test](https://github.com/maliahavlicek/ci_mentor_insights/issues/12)
-> - [experience page accessiblity test](https://github.com/maliahavlicek/ci_mentor_insights/issues/13)
-> - [skills page accessibilty test](https://github.com/maliahavlicek/ci_mentor_insights/issues/14)
-> - [recommendations page accessiblity test](https://github.com/maliahavlicek/ci_mentor_insights/issues/15)
+> - [experience page accessibility test](https://github.com/maliahavlicek/ci_mentor_insights/issues/13)
+> - [skills page accessibility test](https://github.com/maliahavlicek/ci_mentor_insights/issues/14)
+> - [recommendations page accessibility test](https://github.com/maliahavlicek/ci_mentor_insights/issues/15)
 >
-> To ensure the site was accessiblity to people with physical imparitments, I tried to navigate the site using tabbed navigation:
+> To ensure the site was accessibility to people with physical impairments, I tried to navigate the site using tabbed navigation:
 > - [site tabbed navigation test](https://github.com/maliahavlicek/ci_mentor_insights/issues/10)
 
-You can totally combine the tabbed navigation in the accessiblity test and have 2 expected criteria, it's all up to you!
+You can totally combine the tabbed navigation in the accessibility test and have 2 expected criteria, it's all up to you!
 
 
 ## Validation Testing
@@ -374,7 +374,7 @@ The following site were used to aid in validation testing:
 
 - **[HTML Validator](https://validator.w3.org/)**  
 > For each view you wrote, you should validate the HTML and have a test case for it linked to from here
-> NOTE: You may need to right click to view the source of each page and paste that into the validator if you need to go through authentication to get to the page.
+> NOTE: You may need to right-click to view the source of each page and paste that into the validator if you need to go through authentication to get to the page.
 
 - **[JS validation](https://jshint.com)** 
 > for each .js file, copy the code and paste it into this site, and have a test case for it linked to from here. You can have warnings, but no errors.
