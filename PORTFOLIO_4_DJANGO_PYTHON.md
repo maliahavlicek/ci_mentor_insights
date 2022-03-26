@@ -306,11 +306,11 @@ with no cost.
 Show the accessors you know your data. If you end up using some data models from an example project, call that out and
 don't be as detailed about writing those up unless you added to them.
 
-Each data model that you created yourself should have its Fields, Field Type and any validation documented. You should
+Each data model that you created yourself and customized should have its Fields, Field Type and any validation documented. You should
 also cross-reference any code in your repository that relate to CREATE, READ, UPDATE, DELETE operations for these
 models.
 
-Below is an example of a write up for an Activies Data Model
+Below is an example of a write-up for an Activities Data Model
 > **Activities Model**
 > Activities is a table to hold a unique icon image and name values that users have associated with events and places. It helps with sorting events and prevents the need from carrying around two data objects in the larger Events and Places data structures. The purpose of an Activities object is to provide an imagery association to a category.
 >
