@@ -371,7 +371,23 @@ USER STORY: Navigation: Desktop As a user I want clear navigation that is up to 
 experience, so I can easily find what I need on a website.
 
 USER STORY: Navigation: Mobile As a user I want clear navigation that is up to industry standards for my mobile
-experience, so I can easily find what I need on a website without the
+experience, so I can easily find what I need on a website without randoming clicking and scrolling around
+
+
+[Here is a quick link](https://github.com/maliahavlicek/go-hrvatska/tree/master/.github/ISSUE_TEMPLATE) to some templates I set up for these
+[Here is the UX for those templates where you choose a new type of issue](https://github.com/maliahavlicek/go-hrvatska/issues/new/choose)
+
+screenshot of EPIC new issue using template
+![image](https://user-images.githubusercontent.com/23039742/165651624-7ff6c839-1824-48df-81a3-fda444f2d7f5.png)
+
+
+screenshot of USER_STORY new issue using template
+![image](https://user-images.githubusercontent.com/23039742/165651758-beac7bc6-f62f-42e5-b8a0-feeefafcd5b4.png)
+
+
+Note: You can play around with the labels to add an EPIC one and a USER_STORY one or even ones for each MAJOR epic you have or page
+https://github.com/maliahavlicek/go-hrvatska/issues/labels 
+![image](https://user-images.githubusercontent.com/23039742/165651335-46ab8ff3-4014-4e55-a29d-35e1d998fb42.png)
 
 **What to keep in this section**
 
@@ -534,11 +550,15 @@ https://github.com/maliahavlicek/ms4_challenger/blob/master/challenges/tests/tes
 
 ## Defects
 
-At this point you really should be using GITHUB's Issues to track these as it helps you with the AGILE process
+At this point you need to be using GITHUB's Issues to track these as it helps you with the AGILE process
 requirement as it's really easy to copy/paste screenshots in and then write up how you closed them.
 
 [Here's a brief overview](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit#heading=h.542xzc8ufx4x)
 I put together on how to do this.
+
+is what my custom bug tempalte looks like in the UX
+![image](https://user-images.githubusercontent.com/23039742/165650359-a352d64e-b128-473d-ab60-7df0568a44df.png)
+
 
 ## Defects of Note
 
