@@ -275,7 +275,7 @@ I used [draw.io](https://app.diagrams.net/) and hooked it up to my google drive 
 
 # Agile Process
 
-## Git Hub User Stories
+## GitHub User Stories
 
 Now you are ready to start using Git Hub Issues to write your user stories. To get to merit levels you need to show you
 have refined stories from Epics to Generic User stories.
@@ -305,6 +305,10 @@ experience, so I can easily find what I need on a website.
 
 USER STORY: Navigation: Mobile As a user I want clear navigation that is up to industry standards for my mobile
 experience, so I can easily find what I need on a website without the
+
+[Here is a quick link](https://github.com/maliahavlicek/go-hrvatska/tree/master/.github/ISSUE_TEMPLATE) to some templates I set up for these
+
+Note: You can play around with the labels to add an EPIC one and a USER_STORY one or even ones for each MAJOR epic you have or page
 
 **What to keep in this section**
 
@@ -471,6 +475,9 @@ requirement as it's really easy to copy/paste screenshots in and then write up h
 
 [Here's a brief overview](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit#heading=h.542xzc8ufx4x)
 I put together on how to do this.
+
+![image](https://user-images.githubusercontent.com/23039742/165650359-a352d64e-b128-473d-ab60-7df0568a44df.png)
+
 
 ## Defects of Note
 
