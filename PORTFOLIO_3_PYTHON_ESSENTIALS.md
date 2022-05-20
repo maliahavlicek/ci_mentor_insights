@@ -92,16 +92,15 @@ A bulleted list is a good presentation for this information.
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your features and ensure that they all work as intended in an easy and straightforward way for the users to achieve their goals.
 
+
 ### Validation Testing
 You should try to ensure you code is valid and follows proper indentation.  In this section you should write up any websites you used to validate your code. As your projects becomes more complex these tools may change.
 
-- [CSS Validator](https://jigsaw.w3.org/css-validator/) Note, any error associated with root: color variables were ignored.
-- [HTML Validator](https://validator.w3.org/)
-- [JS validation](https://jshint.com) for each .js file/ , if using ES6, add this before pasting in your file: `/*jshint esversion: 6 */ `
-- [JSON validation](https://jsonlint.com/) for each .json file 
+For each python file in your project, run it through the pep8online validator
+
 - [PEP8 Validator](http://pep8online.com/) include a screenshot of results
 
-Note any errors or warnings you are ignoring and why. IT IS BEST NOT to have ERRORS, but NINJA, COLOR VARIABLES sometimes are ok to ignore if you say the IDE that has the correct linters noted no errors. Or you can take the rendered HTML and run it through the HTML validator for the Flask html templates.
+Note any errors or warnings you are ignoring and why. 
 
 If the line is too long just add 
 ```$python 
@@ -111,50 +110,73 @@ There is a space before the # and after it to skip the quality assurance for tha
 
 ### Manual Testing
 
-You can track your test in various ways.  
+Use Markdown to track how you tested each bit of user input for each valid option, various invalid entries and leading/trailing spaces
 
-But for any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
+**Feature 1**
+- [ ] invalid entry, says sorry and repropts
+- [ ] no entry, says sorry and reprompts
+- [ ] alpha when numeric expected, sorry and reprompts
+- [ ] valid entry with leading spaces, trimmed and shows proper next stage
+- [ ] valid entry with trailing spaces, trimed and shows proper next stage
 
-1. Markdown
->  A particularly useful form for describing your testing process is via scenarios, such as:
-> 
->  **Register Page**
->  Go to the Register page: http://<YOUR APPP>.herokuapp.com/register
->    - [x] Try to submit the empty form and verify that an error message about the required fields appears
->    - [x] Try to submit the form with an invalid username format and verify that a relevant error message appears
->    - [x] Try to submit the form with an invalid password format and verify that a relevant error message appears
->    - [x] Try to submit the form with an existing username, should re-render page with relevant error message/warning
->    - [x] Try to submit the form with all inputs valid and verify that a success message appears and user is on profile page
->    - [x] Be logged in and go to register page url http://<YOUR APPP>.herokuapp.com/register, should have error saying you are already registered and be on profile page
+You should also call out how you tested any other features such as:
+- Welcome Message, recaps user name
+- Score update shows current score
+- color change for correct vs incorrect
+- google sheet updated properly
 
-2. Spreadsheet    
-> Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/189VpSeEG9oevSRhvb2WZl8zCk9L3s2iWQyrJ_1jjAGQ/edit?usp=sharing) that you can use as a starting point to keep track of your testing efforts. Make a copy of it in your own account and update as needed to reflect the browsers you are testing and features.  
-
-3. GitHub Issues, Milestones & Boards
-> You can also use agile tools in github to help track your testing and defects. Here's a document that I put together about that [process](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit?usp=sharing)
-> 
-> For more information you can visit: https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards 
-
-It's ok to spot check specific functionality across devices and browsers but each page should be viewed as a whole for each device/browser combo at least once.
+If you prefer spreadsheets, create a googlesheet and link to it in this section, just make sure you update the permissions to allow anyone to view it.
 
 ### Defect Tracking
 
-You can use git hub issues to track any bugs rather than a spread sheet and just link to that page for your repository.
+Try to create issues in real time as it better reflects the daily life of a developer.
 
-![image](https://user-images.githubusercontent.com/23039742/130149053-bf506388-a791-426e-8ffc-a56c1212e01c.png)
+The easiest way to track defects is by using GITHUB's Issues to track these as it's really easy to copy/paste screenshots in and then write up how you closed them. At this stage you don't need a custom template or labels, that comes in P4.
 
-You should created issues in real time and close them out as you fix the bugs. Include steps to recreate and screenshots.
+**Creating Defects**
+1. Click the Issues menu item 
+![image](https://user-images.githubusercontent.com/23039742/169566835-240ce89c-6ab1-45b6-8ee8-5f693de70e5d.png)
 
-Create a link to the issues dashboard  of your repository
-[ci_insights isssues](https://github.com/maliahavlicek/ci_mentor_insights/issues)
+2. click the Green New Issue button
+![image](https://user-images.githubusercontent.com/23039742/169567026-07ff2fb7-ebc0-4ce0-b8a8-38ab7da8844b.png)
+
+3. Fill in the default form
+![image](https://user-images.githubusercontent.com/23039742/169567286-c85218d1-1118-4472-93be-04eda040ecc5.png)
+ - Fill in a descriptive title
+ - add steps to reproduce if it's not straight forward
+ - include a screenshot
+<img width="967" alt="image" src="https://user-images.githubusercontent.com/23039742/169567840-255b514c-0a1e-4514-8593-9c2aab295b6e.png">
+4. click the submit New issue button
+
+**Closing Defects**
+1. Go to the issue list in GitHub and click on the issue you have fixed 
+<img width="1476" alt="image" src="https://user-images.githubusercontent.com/23039742/169568053-6e34b94c-ff31-4d7f-9faf-1d04286f0397.png">
+
+2. Add a brief write up of what you fixed and include a screenshot if necessary then Click the Close with Comment Button
+![image](https://user-images.githubusercontent.com/23039742/169570025-6d559641-d573-4749-bc0f-33a151358481.png)
+
+**Reopening Defects**
+1. If you find you didn't fix the issue, you can toggle to the closed items:
+![image](https://user-images.githubusercontent.com/23039742/169570117-274898ec-ee02-487a-ac14-4755095d5e8a.png)
+
+2. Click on the issue you want to re-open
+3. Scroll down and click the re-open button
+![image](https://user-images.githubusercontent.com/23039742/169570383-9fc53595-1761-4117-a369-d798877c7fe2.png)
+
 
 ### Defects of Note
-Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and how you finally ended up resolving them.
+Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and link to them directly here.
 
 
 ### Outstanding Defects
-It's ok to not resolve all the defects you found. If you know of something that isn't quite right, list it out and explain why you chose not to resolve it.
+It's ok to not resolve all the defects you found as long as:
+- it does not impacting a user from completing a vital function on the website
+- it only affects a very small subset of users
+- is an extreme edge case that very few users would try
 
+If you know of something that isn't quite right, create an issue and  link to it here and explain why you chose not to resolve it. 
+
+Sometimes it's as simple, word wrapping issue that makes the site look odd at a certain screensize that you just didn't have time to fix due to the impending deadline and lack of skills. It's best to mention it but note why you allowed it to go live than let asccessors think you didn't notice it. 
 ### Commenting Code
 
 Make sure you  use triple double quotes to document fuctions and classes.
