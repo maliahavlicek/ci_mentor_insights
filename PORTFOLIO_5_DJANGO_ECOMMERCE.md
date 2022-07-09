@@ -1,6 +1,6 @@
 # OVERVIEW
 
-This template was made as a guide to ensure you cover assessment criteria in your fourth portfolio write up. It is specific to the **PORTFOLIO 4: Full-Stack Toolkit** project.
+This template was made as a guide to ensure you cover assessment criteria in your fourth portfolio write up. It is specific to the **PORTFOLIO 5: Full-Stack Toolkit** project.
 
 ## Helpful tools
 
@@ -29,6 +29,7 @@ DEVELOPER_NAME
 
 
 ## Project Overview
+🚨**Required**
 
 - Include a picture of site that shows it in responsive states and links to deployed
   code: http://ami.responsivedesign.is/
@@ -45,6 +46,7 @@ If you don't feel like the overview gave enough detail about the site, you can w
 actually do on your site, book things, find thing then lead into the goals and target audience.
 
 ## Target Audience
+🚀 **merit & beyhond**
 
 Can be a paragraph or a list
 
@@ -57,6 +59,7 @@ Can be a paragraph or a list
 > 3. Radiology staff who want to have a more manageable and predictable workload
 
 ## Goals
+🚀 **merit & beyhond**
 
 Bullet point out things from web users to website owners and other groups of people
 
@@ -111,11 +114,13 @@ Bullet point out things from web users to website owners and other groups of peo
 > - Ads - target online sales related to equipment based on activities a place or event is associated with
 
 ## User Stories
+🚨**Required**
 
 User stories evolve over a project's lifetime. Start with a wish list, do a feasibility analysis then move the ones you
 will work on into gitHub, so you can track their progress.
 
 ## Initial Stories
+🚨**Required**
 
 To start the agile process this section kicks off with a bullet list/brainstorming dump about features you'd like to
 have. EVERYTHING write them out in bullet form:
@@ -128,6 +133,7 @@ have. EVERYTHING write them out in bullet form:
 - [places/events searching site](https://github.com/maliahavlicek/what2do2day#user-stories)
 
 ## Feasibility vs Importance
+🚀 **merit & beyhond**
 
 To scope the project for a MVP (minimally viable product) a feasibility analysis was done.
 
@@ -144,30 +150,36 @@ will also be implemented such as nav-bar, footer, obvious website purpose etc.
 > You should discuss the outcome of what you will be dropping based on the outcome. Making a scatter plot of the scores and coloring the dot
 
 ## Scope
+🚀 **merit & beyhond**
 
 Now you have to talk about the scope to reduce things more, you don't necessarily need all the bells and whistles, they
 could be beyond your skill set. Think basic stuff.
 
 ## Design Choices
+🚀 **merit & beyhond**
 
 Now that you have let the assessors know about the target audience and users, you can go into the design choices
 
 ### Colors
+🚀 **merit & beyhond**
 
 - Discuss your color pallet choices and how it ties into users' emotions or target audience.
 - include a screenshot of your pallet using a tool like coolors.co
 
 ### Typography
+🚀 **merit & beyhond**
 
 - discuss font size, font types for headers vs buttons vs general text and how it ties into users' emotions or target
   audience.
 - include screenshots of fonts used and links to the appropriate website ex) https://fonts.google.com/specimen/Raleway
 
 ### Images
+🚀 **merit & beyhond**
 
 Explain why you used certain icons and images on your site
 
 ### Design Elements
+🚀 **merit & beyhond**
 
 - list out the type of elements you want to use on your site, this will help you when choosing a framework and goes hand
   in hand when doing the wireframes. If you did something out of the ordinary, or think something was particularly
@@ -197,26 +209,31 @@ Explain why you used certain icons and images on your site
 > - audio players
 
 ### Animations and Transitions
+🚀 **merit & beyhond**
 
 - discuss any special animations or transitions you've programmed
 - special hover state effects
 
 ### Frameworks
+🚨**Required**
 
 - If you use bootstrap, tailwind, bulma, materialize or some other JS/CSS framework, call it out here and why you made
   that choice. (Typically I look at the design elements I want and make sure the framework supports them)
 
 ### Custom Styles
+🚨**Required**
 
 - call out any overrides you did for bootstrap styles or the framework you used, even if they are fonts and colors,
   perhaps lead assessors to the file of interest in your repo
 
 ### Custom Javascript
+🚨**Required**
 
 - call attention to any custom javascript you created to help your User Experience you can organize this by functions or
   files
 
 ## Wireframes
+🚨**Required**
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of
 the design process. These files should themselves either be included as a pdf file in the project itself (in a separate
@@ -234,38 +251,47 @@ Here is the [2022 announcement](https://code-institute-room.slack.com/archives/C
 As part of the requirements for this project you need to have at **least 3 custom data models**.  It's still under discussion what that means, but I'd make 1 original and then update the products to be custom to what you are selling and create another new one. It's this section that discusses your data and how each piece relates to another and draws out the CRUD functionality you built. You must have CREATE, READ, UPDATE & DELETE for at least one model.
 
 ## Entity Relationship Diagram
+🚨**Required**
+
 Wade Williams wrote a great blog about how to add a django extension to auto create an ERD. https://wadewilliams.com/technology-software/generating-erd-for-django-applications/ You can always draw one out by hand or google sheets. You can also draw this up by hand if you want or use a spreadsheet to show your data model.
 
 ## Database Choice
+🚀 **merit & beyhond**
+
 Just state you used postgres as the database because the data is relational and heroku serves this up realitvely easily with no cost.
 
 ## Data Models
+🚨**Required**
+
 Show the accessors you know your data. If you end up using some data models from an example project, call that out and don't be as detailed about writing those up unless you added to them.
 
 Each data model that you created yourself should have its Fields, Field Type and any validation documented.  You should also cross-reference any code in your repository that relate to CREATE, READ, UPDATE, DELETE operations for these models.
 
-Below is an example of a write up for an Activities Data Model
-### Activities Model
-Activities is a table to hold a unique icon image and name values that users have associated with events and places. It helps with sorting events and prevents the need from carrying around two data objects in the larger Events and Places data structures. The purpose of an Activities object is to provide an imagery association to a category.
+*Below is an example of a write up for an Activities Data Model*
 
-| DB Key 	| Data Type 	|          Purpose          	| Form Validation                        	| DB processing    	|
-|--------	|:---------:	|:-------------------------:	|----------------------------------------	|------------------	|
-| _id    	| ObjectId  	| unique identifier         	| None                                   	| n/a              	|
-| name   	| String    	| Name of Activity          	| Required<br>Min 1 char<br>Max 50 chars 	| trim<br>to lower 	|
-| icon   	| String    	| system path to image file 	| Required                               	|                  	|
+> ### Activities Model
+> Activities is a table to hold a unique icon image and name values that users have associated with events and places. It helps with sorting events and prevents the need from carrying around two data objects in the larger Events and Places data structures. The purpose of an Activities object is to provide an imagery association to a category.
+> 
+> | DB Key 	| Data Type 	|          Purpose          	| Form Validation                        	| DB processing    	|
+> |--------	|:---------:	|:-------------------------:	|----------------------------------------	|------------------	|
+> | _id    	| ObjectId  	| unique identifier         	| None                                   	| n/a              	|
+> | name   	| String    	| Name of Activity          	| Required<br>Min 1 char<br>Max 50 chars 	| trim<br>to lower 	|
+> | icon   	| String    	| system path to image file 	| Required                               	|                  	|
+> 
+> Activity entries are used by events, places and filtering.
+> 
+> - [x] Create - An activity is potentially created when a user successfully creates a place, creates an event, updates an event, or updates a place.
+> - [x] Read - The Activities table is read when a user is adding an event, updating an event, adding a place or updating a place, to determine if a new value should be created or not. The activities table is queried for using the name and icon pair, if it is found, the ObjectId is passed to the event and places. If no match is found, a new Activity is created and that ObjectID is passed to the the place or event.
+> - [ ] Update
+> - [ ] Delete
+> 
+>  This table has no deletion or updates associated with it. It's strictly create and read. Eventually, maintenance scripts should be written to delete unused/deprecated entries.
 
-Activity entries are used by events, places and filtering.
-
-- [x] Create - An activity is potentially created when a user successfully creates a place, creates an event, updates an event, or updates a place.
-- [x] Read - The Activities table is read when a user is adding an event, updating an event, adding a place or updating a place, to determine if a new value should be created or not. The activities table is queried for using the name and icon pair, if it is found, the ObjectId is passed to the event and places. If no match is found, a new Activity is created and that ObjectID is passed to the the place or event.
-- [ ] Update
-- [ ] Delete
-
- This table has no deletion or updates associated with it. It's strictly create and read. Eventually, maintenance scripts should be written to delete unused/deprecated entries.
-
-The reading/writing of the activities table is housed in the [what2do2day/activities/views.py](what2do2day/activities/views.py) file.
+> The reading/writing of the activities table is housed in the [what2do2day/activities/views.py](what2do2day/activities/views.py) file.
 
 ### CRUD Diagrams
+🚀 **merit & beyhond**
+
 This is if you want to go for distinction.  You can also have CRUD diagrams to show them visually how the model is used in your site.
 
 I used [draw.io](https://app.diagrams.net/) and hooked it up to my google drive to create the screenshot below
@@ -276,11 +302,13 @@ I used [draw.io](https://app.diagrams.net/) and hooked it up to my google drive 
 # Agile Process
 
 ## GitHub User Stories
+🚨**Required**
 
 Now you are ready to start using Git Hub Issues to write your user stories. To get to merit levels you need to show you
 have refined stories from Epics to Generic User stories.
 
 ### User Story Templates
+🚨**Required**
 
 [Here's the lesson](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AG101+2021_T1/courseware/a4e548ca70)
 on how to create a User Story Templates.
@@ -327,6 +355,7 @@ https://github.com/maliahavlicek/go-hrvatska/issues/labels
 - include links and/or screenshots of your story template(s)
 
 ### Product Backlog
+🚨**Required**
 
 https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AG101+2021_T1/courseware/a4e548ca70a3473aa890ba2ab9bf612c/085f3a8e344a4cf28b5b5355399abcc1/?child=last
 This is the MILESTONE where you grab stories from the issues or USER stories you created and prioritize them and order
@@ -338,6 +367,7 @@ Include a link to your Product Catalog Milestone,
 an initial screenshot, mid-point and final will help document the agile process.
 
 ## Iterations
+🚀 **merit & beyhond**
 
 https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AG101+2021_T1/courseware/a4e548ca70a3473aa890ba2ab9bf612c/71fe6c52cccf477688e924c9889f5fec/?child=first
 
@@ -346,11 +376,13 @@ it could be that you won't have all your product backlog worked in the end, and 
 might find other stories you want instead, it's OK.
 
 ## Progress Boards
+🚀 **merit & beyhond**
 
 https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AG101+2021_T1/courseware/a4e548ca70a3473aa890ba2ab9bf612c/7ad7f487cc6148ecb182d77feaeda269/?child=first
 Add links to Progress boards
 
 # Features
+🚨**Required**
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so and how they tie into  your user stories.
 
@@ -367,12 +399,14 @@ It's easiest to break this section down into the header, footer, and each page/l
 - Newsletter signup Form
 
 ## Future Features
+🚀 **merit & beyhond**
 
 Use this section to discuss plans for additional features to be implemented in the future:
 
 If you end up not developing some features you hoped to implement, you can include those in this section.
 
 # Testing
+🚨**Required**
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that
 the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and
@@ -386,6 +420,7 @@ I put together for this process.
 
 You should make sure your test cases cover the following: 
 ## Cross Browser and Cross Device Testing
+🚨**Required**
 
 To save time, you can create this type of table
 in [markdown table generator](https://www.tablesgenerator.com/markdown_tables)
@@ -422,6 +457,7 @@ you took or write it out here:
 Note, you might find it easier to create a test case for each tool/device and link to the test case in the table here.
 
 ## Accessibility Testing
+🚨**Required**
 
 You should have test cases for accessibility and links to them here. Start with a brief paragraph and then link to the
 test cases. If you are ambitious you can record the screen of you using the keyboard, convert it to a gif and upload it
@@ -443,6 +479,7 @@ You can totally combine the tabbed navigation in the accessibility test and have
 you!
 
 ## Validation Testing
+🚨**Required**
 
 You should try to ensure you code is valid and follows proper indentation. In this section you should write up any
 websites you used to validate your code so there is credit given to those sites. Then add links to the test cases you
@@ -474,6 +511,7 @@ The following site were used to aid in validation testing:
 > for each .json file, you should copy the code and paste it into this site, and have a test case for it linked to from here.
 
 ## Automated Testing
+🚀 **merit & beyhond**
 
 **NOTE: If you want MERIT or Higher, you MUST have some automated testing**
 If you managed to write jasmine tests or some django tests, note those files out here and how to run them.
@@ -483,6 +521,7 @@ https://github.com/maliahavlicek/ms4_challenger/blob/master/documentation/TESTIN
 https://github.com/maliahavlicek/ms4_challenger/blob/master/challenges/tests/test_views.py
 
 ## Defects
+🚨**Required**
 
 At this point you really should be using GITHUB's Issues to track these as it helps you with the AGILE process
 requirement as it's really easy to copy/paste screenshots in and then write up how you closed them.
@@ -497,6 +536,7 @@ is what my custom tempalte looks like in the UX
 
 
 ## Defects of Note
+🚀 **merit & beyhond**
 
 Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and how you finally
 ended up resolving them. Just create a link to the issues/defect of note.
@@ -508,33 +548,58 @@ explain why you chose not to resolve it. Again, do this in gitHub and provide a 
 and ensure they have a comment in them.
 
 # E-commerce Business Model
+🚨**Required**
+
 In this section discuss your business model, how you use  SEO to get users to your site and how you hope to generate more traffic and get sponsors to back link to your site. 
 
 ## Facebook Business Page
-- copy a screenshot of the FB page and the goals of what this fills for building out followers & special content
+🚨**Required**
+
+- copy a screenshot of the FB page
+- add a couple of bulletpoints about the goals of what this fills for building out followers & special content
+
 ## Newsletter Signup
-- copy a screenshot of the signup and the goals of what this fills for building out followers
+🚨**Required**
+
+- copy a screenshot of the signup 
+- add a couple of bullet oints outlining the goals of what this functionality provides for building out followers
+
 ## Links
 - sponsored links are flagged with rel="sponsored"
 - social links and other links that go outside domain have `rel="nofollower"` to signal to search engines that those links are not associated with our specific domain
-- 
+
 ## SEO Strategy
+🚨**Required**
+
 In this section write out the process you used to come up with short tailed and long tailed results to help refine the keywords you came up with. You should call out attention to the following:
 
 ### Keywords
+Describe the process you went through identifiying keywords that you want Google and other search engines to relate to your site.
+
 ### Description
+Note that you have a the meat description tag and if any of the content changes based on the page.
+
 ### Title
 Call out that you have this set in your base.html so it can be changed per page
+
 ### Relevant Content
 Call out how you purposefully incorporated keywords into your content, H1, meta data etc. 
+
 ### Sitemap
+🚨**Required**
+
 - [sitemap.xml file]() call out files that exist so browsers can easily crawl site
+
 ### Robots.txt
+🚨**Required**
+
 - [robots.txt file]() to restrict pages that are should be searched by google, authentication and others are blocked to only allow relevant pages to be searched by google
 
 # Deployment
+🚨**Required**
 
 ## Requirements
+🚀 **merit & beyhond**
 If the user is required to have certain keys and credentials you should include this section with diretions on how to get the necessary information.
 ex)
 1. **Google Account:** In order to have verification and forgot password emails sent to registered users you need a google account. If you don't have one  [Create a google account](https://accounts.google.com/Signup)
@@ -544,6 +609,8 @@ ex)
 
 
 ## Gitpod
+🚨**Required**
+
 This section should describe the process someone would have to go through to get the local working in gitpod.  Such as install requirements.txt  and setting up a creds.json file that is in the gitignore and keeping their workspace and what goes in the env.py file without REAL KEYS.
 
 If you have project settings required such as a creds.json file from the GOOGLE DRIVE API acess, please provide an example of that file in the writeup with the project key values:
@@ -569,6 +636,7 @@ pip3 install -r requirements.txt
 
 
 ## Heroku
+🚨**Required**
 This section should describe the process you went through to deploy the project to Heroku. Include screenshots if you think they would make the process easier.
 
 You may want to re-watch the lessons when writing up this section.
@@ -613,6 +681,7 @@ On the settings tab you have to address two things:
 
 
 # Credits
+🚨**Required**
 
 To avoid plagiarism amd copyright infringement, you should mention any other projects, stackoverflow, videos, blogs, etc that you used to gather imagery or ideas for your code even if you used it as a starting point and modified things. Giving credit to other people's efforts and ideas that saved you time acknowledges the hard work others did.
 
