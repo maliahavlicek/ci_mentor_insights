@@ -32,7 +32,7 @@ DEVELOPER_NAME
 🚨**Required**
 
 - Include a picture of site that shows it in responsive states and links to deployed
-  code: http://ami.responsivedesign.is/
+  code: https://ui.dev/amiresponsive
 - One or two paragraphs providing an overview of your project.
 - Write this as a sales pitch or commercial making users want to purchase your website.
 - Include a link to your deployed website
