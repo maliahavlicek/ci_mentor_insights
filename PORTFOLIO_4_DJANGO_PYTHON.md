@@ -26,7 +26,7 @@ characters like dashes.
 
 *replace the **PROJECT NAME** header with your project's name*
 
-- Screenshot of logo/navigation of mobile deployed site
+- Screenshot of logo/navigation of mobile deployed site 
 - Include a link to deployed project with one line explanation of project
 
 ## Author
@@ -87,7 +87,7 @@ DEVELOPER_NAME
 ## Project Overview
 
 - Include a picture of site that shows it in responsive states and links to deployed
-  code: http://ami.responsivedesign.is/
+  code: https://ui.dev/amiresponsive
 - One or two paragraphs providing an overview of your project.
 - Write this as a sales pitch or commercial making users want to purchase your website.
 - Include a link to your deployed website
