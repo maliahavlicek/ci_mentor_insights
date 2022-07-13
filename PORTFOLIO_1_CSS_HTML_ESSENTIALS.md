@@ -25,7 +25,7 @@ Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a tab
 DEVELOPER_NAME
 
 ## Project Overview
-- Include a picture of site that shows it in responsive states and links to deployed code: http://ami.responsivedesign.is/
+- Include a picture of site that shows it in responsive states and links to deployed code: https://ui.dev/amiresponsive
 - One or two paragraphs providing an overview of your project.
 - Write this as a sales pitch or commercial to entice users to interact with your site or how you want investors to purchase your website.
 - Include a link to your deployed website
