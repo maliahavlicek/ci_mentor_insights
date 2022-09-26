@@ -100,7 +100,13 @@ You should try to ensure you code is valid and follows proper indentation.  In t
 - [HTML Validator](https://validator.w3.org/)
 
 ### Cross Browser and Cross Device Testing
-Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
+1. Visit https://gs.statcounter.com/browser-market-share to figure out the most popular browsers & operating system combos seen across the we for the geographic region, and platoform(s) and screen sizes you expect your users to belong to. 
+
+1. Include a sentence about why you chose the combinations you did.
+
+1. Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
+
+1. if you can't find the brower/device/OS combinations you want on Browserstack with your github student webpack (or you didn't activate that in time), note what you'd ideally test on then what you ended up testing on as a compromise. 
 
 | TOOL / Device                 | BROWSER     | OS         | SCREEN WIDTH  |
 |-------------------------------|-------------|------------|---------------|
