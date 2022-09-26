@@ -465,8 +465,16 @@ Start with a brief explanation of why you chose the mixture you did. The point i
 across various browsers, operating systems, and viewport breakpoints. You can add a column about the spot checking path
 you took or write it out here:
 
+1. Visit https://gs.statcounter.com/browser-market-share to figure out the most popular browsers & operating system combos seen across the we for the geographic region, and platoform(s) and screen sizes you expect your users to belong to. 
+
+1. Include a sentence about why you chose the combinations you did.
+
+1. Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
+
+1. if you can't find the brower/device/OS combinations you want on Browserstack with your github student webpack (or you didn't activate that in time), note what you'd ideally test on then what you ended up testing on as a compromise. 
+
 > **Example:**
-> To ensure the code was functional and looked good on varoius devices I tested a couple of generic flows though my site on using the following Tool/Device combinations:
+> To ensure the code was functional and looked good on varoius devices I tested a couple of generic flows though my site on using the following Tool/Device combinations. The device/browser/and OS combinations were used based on reports found at [browser market share](https://gs.statcounter.com/browser-market-share) taken on MM/DD/YYYY:
 >
 > | TOOL / Device                 | BROWSER     | OS         | SCREEN WIDTH  |
 > |-------------------------------|-------------|------------|---------------|
