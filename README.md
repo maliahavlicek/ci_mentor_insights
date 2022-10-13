@@ -6,6 +6,16 @@ The hope is to provide a more standard writeup to lead students to success and m
 
 ## Project Specific Readme Templates
 
+
+### Ecommerce Path with 5 Portfolio Projects
+
+- [Portfolio 1: HTML/CSS Essentials](PORTFOLIO_1_CSS_HTML_ESSENTIALS.md)
+- [Portfolio 2: Javascript Essentials](PORTFOLIO_2_JAVASCRIPT_ESSENTIALS.md)
+- [Portfolio 3: Python Essentials](PORTFOLIO_3_PYTHON_ESSENTIALS.md)
+- [Portfolio 4: Full Stack Toolkit](PORTFOLIO_4_DJANGO_PYTHON.md)
+- [Portfolio 5: E-commerce Applications](PORTFOLIO_5_DJANGO_ECOMMERCE.md)
+
+
 ### Ecommerce Path with 4 Milestone Projects
 
 - [MS1: User Centric Frontend Readme Template](USER_CENTRIC_FRONTEND_README.md) 
@@ -13,11 +23,7 @@ The hope is to provide a more standard writeup to lead students to success and m
 - [MS3: Backend Development with Flask Template](BACKEND_DEVELOPMENT_FLASK.md)
 - [MS4: Fullstack Django Template](FULL_STACK_FRAMEWORKS_WITH_DJANGO_README.md)
 
-### Ecommerce Path with 5 Portfolio Projects
 
-- [Portfolio 1: HTML/CSS Essentials](PORTFOLIO_1_CSS_HTML_ESSENTIALS.md)
-- [Portfolio 2: Javascript Essentials](PORTFOLIO_2_JAVASCRIPT_ESSENTIALS.md)
-- [Protfolio 3: Python Essentials](PORTFOLIO_3_PYTHON_ESSENTIALS.md)
 
 ## Helpful Templates
 
