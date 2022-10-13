@@ -27,7 +27,7 @@ DEVELOPER_NAME
 ## Project Overview
 - Include a recording of site that shows the terminal interaction.
   https://chrome.google.com/webstore/detail/loom-for-chrome/liecbddmkiiihnedobmlmillhodjkdmb is a very intuitive and free tool to do a web recording.
-- Then you can use https://cloudconvert.com/mp4-to-gif to convert the mp4 to a gif and just paste it into the readme via git hub and it'll resovle itself.
+- Then you can use https://cloudconvert.com/mp4-to-gif to convert the mp4 to a gif and just paste it into the readme via GitHub, and it'll resolve itself.
 - One or two sentences providing an overview of your project.
 - Include a link to your deployed website
 

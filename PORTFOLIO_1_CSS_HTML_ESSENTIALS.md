@@ -63,14 +63,12 @@ The subsections provide insight into your UX process, focusing on why you made t
 
 Your site is most likely geared to a certain audience, and your design choices should tie into them, pay attention to age groups, genders, demographics, & interests of the people you are hoping to use your site. If it's everyone, say so.
 
-
 ## Project Goals
 🚀 **merit & beyond**
 
 Write bullet points of what this site is trying to achieve.  
 - This site presents X to Y with specific features.
-- Another completely valid project goal is building your skill set with a focus on HTML and CSS :) 
-
+- Another completely valid project goal is building your skill set with a focus on HTML and CSS :)
 
 ## User Stories
 🚀 **merit & beyond**
@@ -231,13 +229,13 @@ I ensured my site was worked well, and looked nice on a variety of devices & bro
 🚀 **merit & beyond**
 Document why you chose the devices:
 
-1. Visit https://gs.statcounter.com/browser-market-share to figure out the most popular browsers & operating system combos seen across the web for the geographic region, and platoform(s) and screen sizes you expect your users to belong to. 
+1. Visit https://gs.statcounter.com/browser-market-share to figure out the most popular browsers & operating system combos seen across the web for the geographic region, and platform(s) and screen sizes you expect your users to belong to. 
 
 2. Include a sentence about why you chose the combinations you did.
 
 3. Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
 
-4. if you can't find the browser/device/OS combinations you want on Browserstack with your github student webpack (or you didn't activate that in time), note what you'd ideally test on then what you ended up testing on as a compromise. 
+4. if you can't find the browser/device/OS combinations you want on Browserstack with your GitHub student webpack (or you didn't activate that in time), note what you'd ideally test on then what you ended up testing on as a compromise. 
 
 5. Build a table to summarize the choices you made [markdown table generator](https://www.tablesgenerator.com/markdown_tables)
 
@@ -356,16 +354,24 @@ If you know of something that isn't quite right, create an issue and link to it 
 
 Sometimes it's as simple, word wrapping issue that makes the site look odd at a certain screensize that you just didn't have time to fix due to the impending deadline it's best to mention it but note why you allowed it to go live: "Yes it looks odd, but it doesn't impact core functionality of the site." than to let the accessors think you didn't notice it. 
 
+## Core Web Vitals
+🚀 **merit & beyond**
+SEO is greatly impacted by your core web vitals. The readout from https://web.dev/measure/ which is essentially a lighthouse audit gives your site scores in 4 categories. Ideally you want your site to be in the green for all 4 scores. web.dev has dedicated servers to test deployed sites without extensions that skew the results, so it's best to get results from this site.
+ You should talk about the results for each section pay attention to 
+
+
 ## Accessibility Testing
 🚨**Required** 
 
 Accessibility testing is aimed to make sure that those with visual or physical disabilities can still browse your website. Some users have had strokes or accidents that make it difficult to use a mouse, so they use keyboard keys to tab through sites. Others use screen readers that rely on HTML tags to help the user navigate quickly through the site to find information they want, others have color blindness or contrast issues. It's the law to provide services 
 Here's a [site](https://www.w3.org/WAI/fundamentals/accessibility-intro/#:~:text=Accessibility%20is%20Important%20for%20Individuals%2C%20Businesses%2C%20Society,-The%20Web%20is&text=That%20is%2C%20the%20accessibility%20barriers,older%20people) where you can learn more about accessibility and the internet.
 
-### Lighthouse Audits
+### Accessibility Audits
 🚨**Required** 
-You should run your deployed website pages through lighthouse's audit to check performance, accessibility, best practices and SEO scores. You should aim to get 85 or higher score. 
-https://web.dev/measure/  If you have lower scores, read the report and follow the links to address the flagged issues. You can run this tool from Chrome Dev Tools too against your local machine, but the performance will the worst (I personally ignore my performance results unless it's deployed code. I hope for > 60 on that mark, but > 85 on the other 3)
+
+Accessibility audits run through the HTML and determine if the parts of the WCAG (web content accessibility guidelines ) that are implemented through HTML tags and attributes are present. They can do some checking for low vision/contrast stuff too.
+
+You should run your deployed website pages through  at least on auditing tool. lighthouse's audit to check performance, accessibility, best practices and SEO scores. You should aim to get 85 or higher score on accessibility. 
 
 **You should fix issues associated with:**
 - contrast 
@@ -374,16 +380,34 @@ https://web.dev/measure/  If you have lower scores, read the report and follow t
 - large images
 - skewed images
 
+**Lighthouse**
+https://web.dev/measure/  If you have lower scores, read the report and follow the links to address the flagged issues. You can run this tool from Chrome Dev Tools too against your local machine, but chrome extensions can sometimes give you missing alt text on things like the grammarly plug in tracking pixel.
+
+You want a score in the green for accessibility and should look at ways to get it to 100.
+
+
+
+**[WAVE chrome](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en-US) extension**
+Wave is developed by webaim.org and does a bit better at contrast issues and uses 2.1 guidelines
+
+**Contrast Checkers**
+- https://webaim.org/resources/contrastchecker/
+- https://color.a11y.com/
+
 ### Keyboard Navigation
 🚀 **merit & beyond**
-Another way to accessibility test you site is to try to click on the browser and see what happens if you use the tab, arrow and enter keys. Does it work well or does the user get stuck? Check this in a couple browsers as the focus & active outlines are typically styled by the browser
 
-You can take a video of this testing if you want and convert it to a gif and paste that into your readme. Record somethign to yourself in slack, then download it and convert it at 
+Another way to accessibility test your site is to try to click on the browser URL and see what happens if you use the tab, arrow and enter keys. Does it work well or does the user get stuck? Check this in a couple browsers as the focus & active outlines are typically styled by the browser
+
+The expected results for various keyboard entries and field types can be found [here](https://webaim.org/techniques/keyboard/#testing)
+
+You can take a video of this testing if you want and convert it to a gif and paste that into your readme. Record something to yourself in a Slack direct message, then download it. Then you can use https://cloudconvert.com/mp4-to-gif to convert the mp4 to a gif and just paste it into the readme via GiHu, and it'll resolve itself.
 
 
 ### Chrome Vox Reader
 🚀 **merit & beyond**
-If you are really ambitions you can use the VoxReader extension in chrome to see what your site sounds like to a screen reader. It really drives home the need for good aria-labels & semantic HTML.
+
+If you are really ambitious, you can use the [VoxReader](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en) extension in chrome to see what your site sounds like on a screen reader. It really drives home the need for good aria-labels & semantic HTML.
 
 # Technologies Used
 🚀 **merit & beyond**
@@ -422,10 +446,12 @@ You may want to re-watch the [initial deployment in gitpod video](https://learn.
 
 ## Deploy to GitHub Pages
 🚨**Required** 
+
 Write out steps you would take and test them to deploy your code to GitHub Pages, include screenshots if you think they would make the process easier.
 
 ## Forking The Repository
 🚀 **merit & beyond**
+
 A fork creates a completely independent copy of Git repository. In contrast to a fork, a Git clone creates a linked copy that will continue to synchronize with the target repository, so if you want to ensure other people don't commit to your public repo, you might want to tell them to fork the repository :) 
 
 ## Run Locally With GitPod
@@ -433,22 +459,24 @@ A fork creates a completely independent copy of Git repository. In contrast to a
 
 Enumerate and write the steps of how to run a project locally via gitPod. Include Screenshots to maximize the impact of the instructions.
 
-## Credits
+# Credits
 🚨**Required** 
 
-To avoid plagiarism amd copyright infringement, you should mention any other projects, stackoverflow, videos, blogs, etc that you used to gather imagery or ideas for your code even if you used it as a starting point and modified things. Giving credit to other people's efforts and ideas that saved you time acknowledges the hard work others did.  The accessors expect something here, there is no way you didn't have to get help on making such a nice project.
+To avoid plagiarism amd copyright infringement, you should mention any other projects, stackoverflow, videos, blogs, etc. that you used to gather imagery or ideas for your code even if you used it as a starting point and modified things. Giving credit to other people's efforts and ideas that saved you time acknowledges the hard work others did.  The accessors expect something here, there is no way you didn't have to get help on making such a nice project.
 
-### Content
+## Content
 🚨**Required** 
 
 Use bullet points to list out sites you copied text from and cross-reference where those show up on your site. If you truly are an expert in the content you provided, say that due to your exposure/experience of the topic covered, you created the content on your own.
 
-### Media
+## Media
 🚨**Required** 
 
-Make a list of sites you used images from. If you used several sites try to match up each image to the correct site. This includes attribution for icons if they came from font awesome or other sites, give them credit. If you took the images yourself, give yourself credit.
+Make a list of sites you used images, icons & youtube, & audio files from. If you used several sites try to match up each image to the correct site. This includes attribution for icons if they came from font awesome or other sites, give them credit. If you took the images yourself, give yourself credit.
 
-### Acknowledgments
+You should not be using images taken from copyrighted sites, but only royalty free ones. Try typing `!copyright` in slack and see what help it gives you for this topic.
+
+## Acknowledgments
 🚀 **merit & beyond**
 
 This is the section where you refer to code examples, mentors, blogs, stack overflow answers and videos that helped you accomplish your end project. Even if it's an idea that you updated you should note the site and why it was important to your completed project.
