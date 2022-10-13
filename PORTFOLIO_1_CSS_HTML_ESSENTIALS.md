@@ -3,7 +3,7 @@
 This template was made as a guide to ensure you cover assessment criteria in your second milestone write up. It is specific to the **PORTFOLIO 1: HTML/CSS Essentials** project. It was based off the [loves running readme.md](https://github.com/lucyrush/readme-love-running#readme) with a few additions to help elevate you to possible distinction status.
 
 
-Sections marked as 🚨**Required**  and 🚀 **merit & beyhond**
+Sections marked as 🚨**Required**  and 🚀 **merit & beyond**
 
 **Please note** that project assessment criteria changes more often than these guides are updated so double-check the submission criteria before assuming the  🚨**Required**  is all you have to do to pass.
 
