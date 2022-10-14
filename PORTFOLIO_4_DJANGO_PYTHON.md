@@ -1,7 +1,14 @@
 # OVERVIEW
 
-This template was made as a guide to ensure you cover assessment criteria in your fourth portfolio write up. It is
-specific to the **PORTFOLIO 4: Full-Stack Toolkit** project.
+This template was made as a guide to help ensure you cover assessment criteria in your fourth portfolio write up. It is specific to the **PORTFOLIO 4: Full-Stack Toolkit** project.
+
+There still is not an official readme example for this Project Provided by CI.
+
+
+Sections marked as 🚨**Required** and 🚀 **merit & beyond**
+
+**Please note** that project assessment criteria changes more often than these guides are updated so double-check the submission criteria before assuming the  🚨**Required**  is all you have to do to pass.
+
 
 ## Helpful tools
 
@@ -14,34 +21,15 @@ Markdown's not all that easy so sometimes you may want to use some tools to make
   contents (be weary these tools have some bugs if you have dashes or trailing spaces in your headers)
 - [readme.so](https://readme.so/) - if you don't want to learn markdown, this tool might help you
 
-# Table of Contents
+# GUIDE's Table of Contents
 
-Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a table of contents. This will help assessors
-to see the structure of your readme. Just test it out ast this tool isn't perfect. It tends to mess up with special
-characters like dashes.
-
-====================================== The Sections you Fill in are below ==============================
-
-# PROJECT_NAME
-
-*replace the **PROJECT NAME** header with your project's name*
-
-- Screenshot of logo/navigation of mobile deployed site 
-- Include a link to deployed project with one line explanation of project
-
-## Author
-
-DEVELOPER_NAME
-
-# Table of Contents
-
+- [PROJECT_NAME](#project_name)
+  - [Live Site](#live-site)
+  - [Repository](#repository)
+  - [Author](#author)
+- [Table of Contents](#table-of-contents)
 - [UX](#ux)
   - [Target Audience](#target-audience)
-  - [Goals](#goals)
-  - [User Stories](#user-stories)
-  - [Initial Stories](#initial-stories)
-  - [Feasibility vs Importance](#feasibility-vs-importance)
-  - [Scope](#scope)
   - [Design Choices](#design-choices)
     - [Colors](#colors)
     - [Typography](#typography)
@@ -56,24 +44,38 @@ DEVELOPER_NAME
   - [Entity Relationship Diagram](#entity-relationship-diagram)
   - [Database Choice](#database-choice)
   - [Data Models](#data-models)
-    - [CRUD Diagrams](#crud-diagrams)
+  - [CRUD Diagrams](#crud-diagrams)
 - [Agile Process](#agile-process)
-  - [Git Hub User Stories](#git-hub-user-stories)
-    - [User Story Templates](#user-story-templates)
-    - [Product Backlog](#product-backlog)
-  - [Iterations](#iterations)
-  - [Progress Boards](#progress-boards)
+  - [Project Goals](#project-goals)
+  - [Initial User Stories](#initial-user-stories)
+  - [Feasibility vs Importance](#feasibility-vs-importance)
+  - [Scope](#scope)
+  - [Agile Tool](#agile-tool)
+    - [User Story Example](#user-story-example)
+    - [Epic Stories](#epic-stories)
 - [Features](#features)
   - [Implemented Features](#implemented-features)
   - [Future Features](#future-features)
-- [Testing](#testing)
-  - [Cross Browser and Cross Device Testing](#cross-browser-and-cross-device-testing)
+  - [Testing](#testing)
+  - [Compatibility and Responsive Testing](#compatibility-and-responsive-testing)
   - [Accessibility Testing](#accessibility-testing)
+    - [Accessibility Audits](#accessibility-audits)
+    - [Keyboard Navigation](#keyboard-navigation)
+    - [Chrome Vox Reader](#chrome-vox-reader)
+  - [Core Web Vitals](#core-web-vitals)
   - [Validation Testing](#validation-testing)
+    - [CSS Validation](#css-validation)
+    - [HTML Validation](#html-validation)
+    - [JavaScript Validation](#javascript-validation)
+    - [Python Validation](#python-validation)
+    - [JSON Validation](#json-validation)
   - [Automated Testing](#automated-testing)
   - [Defects](#defects)
   - [Defects of Note](#defects-of-note)
-    - [Outstanding Defects](#outstanding-defects)
+  - [Outstanding Defects](#outstanding-defects)
+- [Technologies Used](#technologies-used)
+  - [Languages](#languages)
+  - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 - [Deployment](#deployment)
   - [Requirements](#requirements)
   - [Gitpod](#gitpod)
@@ -84,146 +86,72 @@ DEVELOPER_NAME
   - [Media](#media)
   - [Acknowledgments](#acknowledgments)
 
-## Project Overview
+====================================== The Sections you Fill in are below ==============================
 
-- Include a picture of site that shows it in responsive states and links to deployed
-  code: https://ui.dev/amiresponsive
+# PROJECT_NAME
+🚨**Required** 
+
+*replace the **PROJECT NAME** header with your project's name*
+
 - One or two paragraphs providing an overview of your project.
-- Write this as a sales pitch or commercial making users want to purchase your website.
-- Include a link to your deployed website
+- Write this as a sales pitch or commercial to entice users to interact with your site or how you want investors to invest in or purchase your website.
+- Include a picture of site that shows it in responsive states and links to deployed code: https://ui.dev/amiresponsive
+
+## Live Site
+🚨**Required** 
+
+- Include a link to deployed project (typically a Heroku Page)
+
+## Repository
+🚨**Required** 
+
+- Include a Link to the GitHub repository
+
+## Author
+🚨**Required** 
+
+DEVELOPER_NAME (take credit for the work you do!)
+
+# Table of Contents
+🚀 **merit & beyond**
+
+Generate after readme is complete by copying and pasting your readme from this point & below into this tool:
+- [mardown table of contents generator](https://luciopaiva.com/markdown-toc/)
+**NOTE:** It does have some bugs if you have dashes or trailing spaces in your headers, so make sure all these WORK!
 
 # UX
-
-Your site is most likely geared to a certain audience and goals for the business owner and users of the site, and your
-design choices should tie into them. Let the assessors know your thought process.
-
-If you don't feel like the overview gave enough detail about the site, you can write up what you are expecting users to
-actually do on your site, book things, find thing then lead into the goals and target audience.
+🚨**Required** 
 
 ## Target Audience
+🚀 **merit & beyond**
 
-Can be a paragraph or a list
-
-> **Paragraph Example**
-> The target audience for What2do2day comes in two flavors. The revenue driving forces is children ages 12-18 who have a bit of freedom to move around unsupervised but very little means to addend costly mass entertainment complexes more than 5 miles from home. Their parents are expected to be a customer group too as they will want to ensure the site is safe and not a predatory place where their kids could be scammed into unsafe adventures. Other groups of users are the businesses that want to promote themselves as community friendly who will be hosting events for the primary customer group. The business owners will want a friendly interface to upload details of their place and events.
-
-> **List example**
-> 1. Patients who have been referred for radiology examinations by registered physicians
-> 2. External healthcare companies who have equipment to sell
-> 3. Radiology staff who want to have a more manageable and predictable workload
-
-## Goals
-
-Bullet point out things from web users to website owners and other groups of people
-
-**Booking Site Example**
-> - To allow the opportunity for patients to book and manage their own radiology appointments
-> - To give patients the opportunity to educate themselves on radiation safety prior to their visit
-> - To provide a simple-to-use contact form for site visitors to use in order to contact the radiology department
-> - To provide useful information to patients about radiology and the department to reduce 'white-coat-syndrome' and anxiety during their visit
-> - To give external companies the opportunity to partner with the radiology department and share their equipment prior to potential purchases
-> - To give radiology staff the opportunity to manage their workload and see in advance the patients they will encounter during the day
-
-**Granular Goals Example**
-> **Customers**
-> Customers of What2do2day are children ages 12-18 who have a bit of freedom to move around unsupervised but a short range of mobility, approximately 5 miles from home.
->
-**Customer Goals:**
-> - Bring up the site and look for an inexpensive event to attend close to home
-> - Look at places to see how they rank without having to read much
-> - Quickly find activities that interest them without having to type much
-> - Read reviews about places that interest them
-> - See events related to places that interest them
-> - Easily know where an event they are interested in is located
-> - Join an event of interest
-> - See how many others are interested in an event
-> - Receive notification about an event they've joined
-> - Receive updates about events they've joined
->
-> **Place Owners**
-> Owners of Places would ideally have a different set of user permissions and the Update and Contribute sections of navigation would be under a strict workflow, but in the initial phase, I wanted to show off the ability to add, update and delete items from the website's view,so it's not hidden behind permissions or workflow at this point. Place owners are those that have a business or an organization that hosts free events within a community. Examples are a group that wants to play pickup soccer or a bicycle shop that leads group rides once a month.
->
-> **Place Owner Goals:**
->
-> - I want my place to be easily found on the site, so I can get more customers
-> - I want users to share community reviews, so I build trust with future customers
-> - I want to add events to my place, to build a repertoire with my clients
-> - I want users to join my events, so I can track how successful community events are to my bottom line
-> - I want the ability to update my place's details
-> - I want to update events associated with my organization
-> - I want to protect against bloated ratings
-> - I want to protect against accidental deletion of my information
->
-> **WebSite Goals**
-> The primary goal of what2do2day is to create a user-friendly app that allows customers to quickly find an event they want to attend. It's a meeting point between business/organizations and kids/parents to improve the likelihood of kids getting off their devices and interacting with others face to face at a low cost with minimal adult supervision.
-> In order to support the maintenance and development of cool features on the site, what2do2day hopes to produce monetary gains through the following means:
-> - Workflow Management Plans for Businesses around:
-    >
-- oversee approval/disapproval of reviews to ensure spamming and bad-mouthing in reviews does not occur
->   - batch event creation to help save time
->   - user account management to help with password recovery and assigning or removing roles as employees change
->   - sharing of user emails that attend events
-> - Affiliate linking - link to at-cost services provided by businesses and receive a kickback
-> - Ads - target online sales related to equipment based on activities a place or event is associated with
-
-## User Stories
-
-User stories evolve over a project's lifetime. Start with a wish list, do a feasibility analysis then move the ones you
-will work on into gitHub, so you can track their progress.
-
-## Initial Stories
-
-To start the agile process this section kicks off with a bullet list/brainstorming dump about features you'd like to
-have. EVERYTHING write them out in bullet form:
-
-- As a 'user type' I 'to perform an action' so that I can 'achieve a goal'
-
-**Examples**
-
-- [radiology booking](https://github.com/DeannaCarina/ELHTRadiology#user-stories)
-- [places/events searching site](https://github.com/maliahavlicek/what2do2day#user-stories)
-
-## Feasibility vs Importance
-
-To scope the project for a MVP (minimally viable product) a feasibility analysis was done.
-
-The features in the table below have been taken from the user stories above. Generic features found in most websites
-will also be implemented such as nav-bar, footer, obvious website purpose etc.
-
-| Opportunity/Feature | Feasibility/Viability (score out of 5) | PurposeLevel of Importance (score out of 5) | In Or Out |
-|---------------------|----------------------------------------|---------------------------------------------|-----------|
-|                     |                                        |                                             |           |
-|                     |                                        |                                             |           |
-|                     |                                        |                                             |           |
-|                     |                                        |                                             |           |
-
-> You should discuss the outcome of what you will be dropping based on the outcome. Making a scatter plot of the scores and coloring the dot 
-
-## Scope
-
-Now you have to talk about the scope to reduce things more, you don't necessarily need all the bells and whistles, they
-could be beyond your skill set. Think basic stuff.
+our site is most likely geared to a certain audience with a certain interest, that is looking for what your site offers. The type of users, age, gender, interests, and the topic of the site drives many UX decisions so write out what whom you expect to use your site.
 
 ## Design Choices
+🚀 **merit & beyond**
 
 Now that you have let the assessors know about the target audience and users, you can go into the design choices
 
 ### Colors
+🚀 **merit & beyond**
 
 - Discuss your color pallet choices and how it ties into users' emotions or target audience.
 - include a screenshot of your pallet using a tool like coolors.co
 
 ### Typography
+🚀 **merit & beyond**
 
 - discuss font size, font types for headers vs buttons vs general text and how it ties into users' emotions or target
   audience.
 - include screenshots of fonts used and links to the appropriate website ex) https://fonts.google.com/specimen/Raleway
 
 ### Images
+🚀 **merit & beyond**
 
 Explain why you used certain icons and images on your site
 
 ### Design Elements
+🚀 **merit & beyond**
 
 - list out the type of elements you want to use on your site, this will help you when choosing a framework and goes hand
   in hand when doing the wireframes. If you did something out of the ordinary, or think something was particularly
@@ -253,62 +181,83 @@ Explain why you used certain icons and images on your site
 > - audio players
 
 ### Animations and Transitions
+🚀 **merit & beyond**
 
 - discuss any special animations or transitions you've programmed
 - special hover state effects
 
 ### Frameworks
+🚨**Required** 
 
 - If you use bootstrap, tailwind, bulma, materialize or some other JS/CSS framework, call it out here and why you made
   that choice. (Typically I look at the design elements I want and make sure the framework supports them)
 
 ### Custom Styles
+🚨**Required**
 
-- call out any overrides you did for bootstrap styles or the framework you used, even if they are fonts and colors,
-  perhaps lead assessors to the file of interest in your repo
+- call out any overrides you did for bootstrap styles or the framework you used, even if they are fonts and colors, perhaps lead assessors to the file of interest in your repo
 
 ### Custom Javascript
+🚨**Required** 
 
-- call attention to any custom javascript you created to help your User Experience you can organize this by functions or
-  files
+- call attention to any custom javascript you created to help your User Experience you can organize this by functions or files
 
 ## Wireframes
+🚨**Required** 
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of
-the design process. These files should themselves either be included as a pdf file in the project itself (in a separate
-directory), or hosted elsewhere online and can be in any format that is viewable inside the browser.
+This section where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
 
-- You should minimally have wireframes for desktop and mobile for the pages you are making for you register, login,
-  read(list/detail), add, update, delete functionality. Adding a Tablet view will help you get into merit and
-  distinction.
+- you need **mobile** & **desktop** views
+- Capture Your Custom model's
+  - CREATE/ADD
+  - READ (LIST/DETAIL)
+  - UPDATE/EDIT
+  - DELETE
+  - & triggers for such things
+- call out differences for authentication levels:
+  - not logged in
+  - general user logged in
+  - super user logged in
+- HOW is the NAVIGATION different for admin users vs Logged-in users & unauthenticated users
+
+🚀 **merit & beyond**
+- tablet views
+- Custom 404
+- Profile Page
+- Login
+- Register
+- Forgot Password
 
 You can hand draw these, but CI posts a yearly license in the general channel for Balsamiq which is pretty easy to use.
 Here is the [2022 announcement](https://code-institute-room.slack.com/archives/C0L316Z96/p1640099614368000)
 
 # Information Architecture
+🚨**Required** 
 
-As part of the requirements for this project you need to have at least **1 original data model**. It's this section that
-discusses your data and how each piece relates to another and draws out the CRUD functionality you built.
+As part of the requirements for this project you need to have at least **1 original data model**. It's this section that discusses your data and how each piece relates to another and draws out the CRUD functionality you built.
 
 ## Entity Relationship Diagram
+🚨**Required** 
 
-Wade Williams wrote a great blog about how to add a django extension to auto create an
-ERD. https://wadewilliams.com/technology-software/generating-erd-for-django-applications/ You can always draw one out by
-hand or google sheets. You can also draw this up by hand if you want or use a spreadsheet to show your data model.
+ [draw.io](https://app.diagrams.net/) is a free tool that can help you draw up an ERD concerning your custom model.
+
+Wade Williams wrote a great [blog]( https://wadewilliams.com/technology-software/generating-erd-for-django-applications/) on how to add a django extension to auto create an ERD. 
+
+You can always draw one out by hand or in google sheets. 
 
 ## Database Choice
+🚨**Required** 
 
-Just state you used postgres as the database because the data is relational and heroku serves this up realitvely easily
-with no cost.
+Just state you used postgres as the database because the data is relational and heroku serves this up reactively easily with no cost. (this might be changing as Sales Force takes over in November 2022)
 
 ## Data Models
+🚨**Required** 
 
-Show the accessors you know your data. If you end up using some data models from an example project, call that out and
-don't be as detailed about writing those up unless you added to them.
+Show the accessors you know your data. If you end up using some data models from an example project, call that out and don't be as detailed about writing those up unless you added to them.
 
-Each data model that you created yourself and customized should have its Fields, Field Type and any validation documented. You should
-also cross-reference any code in your repository that relate to CREATE, READ, UPDATE, DELETE operations for these
-models.
+Each data model that you created yourself and customized should have its Fields, Field Type and any validation documented. You should also cross-reference any code in your repository that relate to CREATE, READ, UPDATE, DELETE operations for these models.
+
+You can try to use markdown, or just take a screenshot from a Google spreadsheet.
 
 Below is an example of a write-up for an Activities Data Model
 > **Activities Model**
@@ -323,7 +272,7 @@ Below is an example of a write-up for an Activities Data Model
 > Activity entries are used by events, places and filtering.
 >
 > - [x] Create - An activity is potentially created when a user successfully creates a place, creates an event, updates an event, or updates a place.
-> - [x] Read - The Activities table is read when a user is adding an event, updating an event, adding a place or updating a place, to determine if a new value should be created or not. The activities table is queried for using the name and icon pair, if it is found, the ObjectId is passed to the event and places. If no match is found, a new Activity is created and that ObjectID is passed to the the place or event.
+> - [x] Read - The Activities table is read when a user is adding an event, updating an event, adding a place or updating a place, to determine if a new value should be created or not. The activities table is queried for using the name and icon pair, if it is found, the ObjectId is passed to the event and places. If no match is found, a new Activity is created and that ObjectID is passed to the place or event.
 > - [ ] Update
 > - [ ] Delete
     >
@@ -331,9 +280,10 @@ Below is an example of a write-up for an Activities Data Model
 >
 > The reading/writing of the activities table is housed in the [what2do2day/activities/views.py](what2do2day/activities/views.py) file.
 
-### CRUD Diagrams
+## CRUD Diagrams
+🚀 **merit & beyond**
 
-**This is if you want to go for distinction.**  You can also have CRUD diagrams to show them visually how the model is
+You can also have CRUD diagrams to show the accessors visually how the model is
 used in your site.
 
 I used [draw.io](https://app.diagrams.net/) and hooked it up to my google drive to create the screenshot below
@@ -341,250 +291,384 @@ I used [draw.io](https://app.diagrams.net/) and hooked it up to my google drive 
 > ![image](https://user-images.githubusercontent.com/23039742/154406188-c9beb57a-2fd1-4f26-a8ed-bee320e46e3d.png)
 
 # Agile Process
+🚨**Required** 
 
-## Git Hub User Stories
+## Project Goals
+🚨**Required** 
 
-Now you are ready to start using Git Hub Issues to write your user stories. To get to merit levels you need to show you
-have refined stories from Epics to Generic User stories.
+This project was built to do something. Show blogs, engage users, track bookings, share recipes, provide admins nice ways to add/update/delete records. Privately store information.  Write out the purpose of this site.
 
-### User Story Templates
+Project Goals sum up what you expect different users to do on your site.
+- some just come and read things related to your topic.
+- some users are administrating the site (adding, updating & deleting models)
+- some users are registered, so they manage information of their choice, interact with others, do a certain tasks
 
-[Here's the lesson](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AG101+2021_T1/courseware/a4e548ca70)
-on how to create a User Story Templates.
+**what to keep in this section**
+Document your project goals by one of the following methods:
+- List the project goals by type of users
+- Flat list 
+- Quick paragraph
 
-If you want a chance at **DISTINCTION**, I'd suggest the following:
+## Initial User Stories
+🚨**Required**
 
-- Create an Epic Story template, this would have a title, the story and children stories
-- Create a User Story template, this would initially have the title, the story, and a link to the Epic. Then you'd come
-  back when you are prioritizing it to include the acceptance criteria, and story points, then again when you are
-  working on it and fill in the tasks and adjust the story points if needed.
-- Name your stories in a way that it's easy to tie the children to the EPICS by name.
+To start the agile process this section kicks off with a bullet list/brainstorming dump about features you'd like to have. EVERYTHING write them out in bullet form:
+
+- As a 'user type' I 'to perform an action' so that I can 'achieve a goal'
+
+You can put this into a googlesheet and link to it.
+
+**User Story Examples**
+
+- [radiology booking](https://github.com/DeannaCarina/ELHTRadiology#user-stories)
+- [places/events searching site](https://github.com/maliahavlicek/what2do2day#user-stories)
+
+## Feasibility vs Importance
+🚀 **merit & beyond**
+
+To scope the project for a MVP (minimally viable product) a feasibility analysis was done.
+
+The features in the table below have been taken from the user stories above. Generic features found in most websites
+will also be implemented such as nav-bar, footer, obvious website purpose etc.
+
+| Opportunity/Feature | Feasibility/Viability (score out of 5) | PurposeLevel of Importance (score out of 5) | In Or Out |
+|---------------------|----------------------------------------|---------------------------------------------|-----------|
+|                     |                                        |                                             |           |
+|                     |                                        |                                             |           |
+|                     |                                        |                                             |           |
+|                     |                                        |                                             |           |
+
+> You should discuss the outcome of what you will be dropping based on the outcome. Making a scatter plot of the scores and coloring the dot 
+
+## Scope
+🚀 **merit & beyond**
+
+Now you have to talk about the scope to reduce things more, you don't necessarily need all the bells and whistles, they could be beyond your skill set. Think basic stuff. Write a paragraph to sum up how you morphed the project goals into a prioritized list of user stories that would be delivered as an MVP (minimal viable product).
+
+## Agile Tool
+🚨**Required** 
+
+You are required to use an agile tool to track user stories through the development process. You could use a spreadsheet, JIRA, or another tool, and CI taught you how to use GitHub Issues to write your user stories.
+
+- State what tool you used
+- Include a link to the tool's progress board
+- Include a screenshot of the tool's progress board
+
+### User Story Example
+🚨**Required** 
+
+- include a screenshot of a user story with all it's details
+
+If you made a template, call that out and provide:
+- link to template
+- screenshot of template
+
+### Epic Stories
+🚀 **merit & beyond**
+
+If you want a chance at  **DISTINCTION**, you need to have epic stories to stories with tasks.
 
 Example:
-EPIC: Navigation As a user, I want to have easy to see navigation on the page, so I can intuitively interact with the
-site without getting frustrated.
+EPIC: Navigation As a user, I want to have easy to see navigation on the page, so I can intuitively interact with the site without getting frustrated both on mobile and desktop devices.
 
-USER STORY: Navigation: Create Template As a developer, I don't want to have copy and paste my navigation on every page.
-I want to use a template to house this information, so my code is easier to maintain.
+USER STORY: Navigation: Unauthenticated user: As an unauthenticated user I want to see what the site is about, and easily figure out how access more information. 
 
-USER STORY: Navigation: Desktop As a user I want clear navigation that is up to industry standards for my desktop
-experience, so I can easily find what I need on a website.
+Tasks:
+- [ ] Build Template so information in one spot
+- [ ] Rough in Logo
+- [ ] Add in Register/Login/Forgot Password
+- [ ] Add Main List Page
+- [ ] Rough in CSS
 
-USER STORY: Navigation: Mobile As a user I want clear navigation that is up to industry standards for my mobile
-experience, so I can easily find what I need on a website without randoming clicking and scrolling around
-
-
-[Here is a quick link](https://github.com/maliahavlicek/go-hrvatska/tree/master/.github/ISSUE_TEMPLATE) to some templates I set up for these
-[Here is the UX for those templates where you choose a new type of issue](https://github.com/maliahavlicek/go-hrvatska/issues/new/choose)
-
-screenshot of EPIC new issue using template
-![image](https://user-images.githubusercontent.com/23039742/165651624-7ff6c839-1824-48df-81a3-fda444f2d7f5.png)
-
-
-screenshot of USER_STORY new issue using template
-![image](https://user-images.githubusercontent.com/23039742/165651758-beac7bc6-f62f-42e5-b8a0-feeefafcd5b4.png)
-
-
-Note: You can play around with the labels to add an EPIC one and a USER_STORY one or even ones for each MAJOR epic you have or page
-https://github.com/maliahavlicek/go-hrvatska/issues/labels 
-![image](https://user-images.githubusercontent.com/23039742/165651335-46ab8ff3-4014-4e55-a29d-35e1d998fb42.png)
+Acceptance Criteria
+- [ ] navigation sticks in view as user scrolls
+- [ ] looks good on mobile
+- [ ] looks good on desktop
+- [ ] links work & go where expect
+- [ ] passes accessibility
 
 **What to keep in this section**
-
-- include links and/or screenshots of your story template(s)
-
-### Product Backlog
-
-https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AG101+2021_T1/courseware/a4e548ca70a3473aa890ba2ab9bf612c/085f3a8e344a4cf28b5b5355399abcc1/?child=last
-This is the MILESTONE where you grab stories from the issues or USER stories you created and prioritize them and order
-them, leave the epics out.
-
-**What to keep in this section**
-Include a link to your Product Catalog Milestone,
-
-an initial screenshot, mid-point and final will help document the agile process.
-
-## Iterations
-
-https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AG101+2021_T1/courseware/a4e548ca70a3473aa890ba2ab9bf612c/71fe6c52cccf477688e924c9889f5fec/?child=first
-
-Add links to iteration milestones (most people have ONE iteration since they are the solo worker, just state that here),
-it could be that you won't have all your product backlog worked in the end, and that is ok, hte MVP might morph, you
-might find other stories you want instead, it's OK.
-
-## Progress Boards
-
-https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AG101+2021_T1/courseware/a4e548ca70a3473aa890ba2ab9bf612c/7ad7f487cc6148ecb182d77feaeda269/?child=first
-Add links to Progress boards
+- screenshot of epic story
+- EPIC TEMPLATE screenshot
+- link to EPIC TEMPLATE
 
 # Features
+🚨**Required** 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so and how
-they tie into your user stories. Have screenshots with any callouts to differences for responsive display.
+In this section, you should go over the different parts of your project, and describe each in a sentence or so and how they tie into  your user stories.
 
 ## Implemented Features
+🚨**Required** 
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this
-is entirely optional.
+It's easiest to break this section down into the header, footer, and each page/layer/signification section of your website. Call out any differences for mobile vs desktop presentations, include a screenshot of the implemented feature.
 
-It's easiest to break this section down into the header, footer, and each page/layer of your website. Call out any
-differences for mobile vs desktop presentations, **include a screenshot of the implemented feature** and **at least 2
-bullet points of their importance**.
+Don't forget your custom 404 error page
 
-Don't forget your 404 error page.
+Don't forget the 3 phases of navigation:
+- unauthenticated
+- general authenticated user
+- superuser authenticated
+
+For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 ## Future Features
+🚀 **merit & beyond**
 
-Use this section to discuss plans for additional features to be implemented in the future:
+Use this section to discuss plans for additional features to be implemented in the future
 
-If you end up not developing some features you hoped to implement, you can include those in this section.
+If you end up not developing some features you hoped to implement, you can include those in this section too.
 
-# Testing
+## Testing
+🚨**Required** 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that
-the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and
-ensure that they all work as intended, with the project providing an easy and straightforward way for the users to
-achieve their goals.
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the Features section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-**At this point, you should use gitHub Issues Templates** to track test cases and defects. Here's
-a [document](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit#heading=h.3kdbr3tqbzi)
-I put together for this process.
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-## Cross Browser and Cross Device Testing
+**At this point, you should use gitHub Issues Templates** to track test cases and defects. Here's a [document](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit#heading=h.3kdbr3tqbzi) I put together for this process.
 
-To save time, you can create this type of table
-in [markdown table generator](https://www.tablesgenerator.com/markdown_tables)
+## Compatibility and Responsive Testing
+🚨**Required** 
 
-As of Feb 14, 2022 CI students can take advantage of the Student Developer Pack where you have access to great things
-like [browserstack](https://education.github.com/pack/offers/#browserstack) You should have received an email about how
-to activate your student Developer Pack, here's
-a [slack](https://code-institute-room.slack.com/archives/C0L316Z96/p1644946870567999) with details if you can't find it
-in the associated thread.
-
-Start with a brief explanation of why you chose the mixture you did. The point is to prove that you looked at the site
-across various browsers, operating systems, and viewport breakpoints. You can add a column about the spot checking path
-you took or write it out here:
-
-1. Visit https://gs.statcounter.com/browser-market-share to figure out the most popular browsers & operating system combos seen across the we for the geographic region, and platoform(s) and screen sizes you expect your users to belong to. 
-
-1. Include a sentence about why you chose the combinations you did.
-
-1. Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
-
-1. if you can't find the brower/device/OS combinations you want on Browserstack with your github student webpack (or you didn't activate that in time), note what you'd ideally test on then what you ended up testing on as a compromise. 
-
-> **Example:**
-> To ensure the code was functional and looked good on varoius devices I tested a couple of generic flows though my site on using the following Tool/Device combinations. The device/browser/and OS combinations were used based on reports found at [browser market share](https://gs.statcounter.com/browser-market-share) taken on MM/DD/YYYY:
+>To save time, you can create this type of table in [markdown table generator](https://www.tablesgenerator.com/markdown_tables)
 >
-> | TOOL / Device                 | BROWSER     | OS         | SCREEN WIDTH  |
-> |-------------------------------|-------------|------------|---------------|
-> | real phone: motog6            | chrome      | android    | XS 360 x 640  |
-> | browser stack: iPhone5s       | safari      | iOs        | XS 320 x 568  |
-> | dev tools emulator: pixel 2   | firefox     | android    | SM 411 x 731  |
-> | browserstack: iPhone 10x      | Chrome      | iOs        | SM 375 x 812  |
-> | browserstack: nexus 7 - vert  | Chrome      | android    | M 600 x 960   |
-> | real tablet: ipad mini - vert | safari      | iOs        | M 768 x 1024  |
-> | browserstack: nexus 7 - horiz | firefox     | android    | LG 960 x 600  |
-> | chrome emulator: ipad - horiz | safari      | iOs        | LG 1024 x 768 |
-> | browserstack                  | Chrome      | windows    | XL 1920 x 946 |
-> | real computer: mac book pro   | safari 12.1 | Mohave     | XL 1400 x 766 |
-> | browserstack                  | IE Edge 88  | windows 10 | XL 1920 x 964 |
->
-> Here is a link to the [test case](https://github.com/maliahavlicek/ci_mentor_insights/issues/9).
+>As of Feb 14, 2022 CI students can take advantage of the Student Developer Pack where you have access to great things like [browserstack](https://education.github.com/pack/offers/#browserstack) You should have received an email about how to activate your student Developer Pack, here's a [slack](https://code-institute-room.slack.com/archives/C0L316Z96/p1644946870567999) with details if you can't find it in the associated thread.
 
-Note, you might find it easier to create a test case for each tool/device and link to the test case in the table here.
+
+Minimally you should use dev tools and emulators to try to test you site on various screen sizes and browsers and note it in a table:
+
+I ensured my site was worked well, and looked nice on a variety of devices & browsers as noted in the table below:
+
+| TOOL / Device                 | BROWSER     | OS         | SCREEN WIDTH  |
+|-------------------------------|-------------|------------|---------------|
+| real phone: motog6            | chrome 78   | android 8  | XS 360 x 640  |
+| browser stack: iPhone5s       | safari  13  | iOs        | XS 320 x 568  |
+| dev tools emulator: pixel 2   | firefox  69 | android 8  | SM 411 x 731  |
+| browserstack: iPhone 10x      | Chrome 78   | iOs 11     | SM 375 x 812  |
+| browserstack: nexus 7 - vert  | Chrome 78   | android 7  | M 600 x 960   |
+| real tablet: ipad mini - vert | safari  13  | iOs 6      | M 768 x 1024  |
+| browserstack: nexus 7 - horiz | firefox 69  | android 7  | LG 960 x 600  |
+| chrome emulator: ipad - horiz | safari 13   | iOs        | LG 1024 x 768 |
+| browserstack windows PC       | Chrome 78   | windows 10 | XL 1920 x 946 |
+| real computer: mac book pro   | safari 12.1 | Mohave     | XL 1400 x 766 |
+| browserstack windows pc       | IE Edge 88  | windows 10 | XL 1920 x 964 |
+
+
+🚀 **merit & beyond**
+Document why you chose the devices:
+
+1. Visit https://gs.statcounter.com/browser-market-share to figure out the most popular browsers & operating system combos seen across the web for the geographic region, and platform(s) and screen sizes you expect your users to belong to. 
+
+2. Include a sentence about why you chose the combinations you did.
+
+3. Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
+
+4. if you can't find the browser/device/OS combinations you want on Browserstack with your GitHub student webpack (or you didn't activate that in time), note what you'd ideally test on then what you ended up testing on as a compromise. 
+
+5. Build a table to summarize the choices you made [markdown table generator](https://www.tablesgenerator.com/markdown_tables)
+
+The combinations above were chosen because of the following information I gathered  from [ga.statcounter.com]( https://gs.statcounter.com/browser-market-share) for the US from Aug-Oct 2021:
+**browser Version Market Share**:
+  - safari iphone: 26.32%
+  - chrome for android: 21.32%
+  - Chrome 105.0: 15.77%
+  - Chrome 104.0: 6.28%
+  - Edge 105: 4.99%
+  - Safari 15.6 3.76%
+**browser Market Share**
+  - chrome: 50.28%
+  - Safari: 34.65%
+  - Edge: 6.37%
+  - Firefox: 3.52%
+  - Samsung Internet: 2.04%
+  - Opera: 0.89%
+**platform breakdown**
+  - mobile: 51.26%
+  - desktop: 45.73%
+  - tablet: 2.97%
+  - console: 0.03%
 
 ## Accessibility Testing
+🚨**Required** 
 
-You should have test cases for accessibility and links to them here. Start with a brief paragraph and then link to the
-test cases. If you are ambitious you can record the screen of you using the keyboard, convert it to a gif and upload it
-to the test case too.
+Accessibility testing is aimed to make sure that those with visual or physical disabilities can still browse your website. Some users have had strokes or accidents that make it difficult to use a mouse, so they use keyboard keys to tab through sites. Others use screen readers that rely on HTML tags to help the user navigate quickly through the site to find information they want, others have color blindness or contrast issues. It's the law to provide services 
+Here's a [site](https://www.w3.org/WAI/fundamentals/accessibility-intro/#:~:text=Accessibility%20is%20Important%20for%20Individuals%2C%20Businesses%2C%20Society,-The%20Web%20is&text=That%20is%2C%20the%20accessibility%20barriers,older%20people) where you can learn more about accessibility and the internet.
 
-**example**
-> To ensure that the site was accessible to people with visual impairments, I used chrome's dev tools, lighthouse audits to ensure I had a score in the green for accessibility and that I could keyboard navigate through the page.
->
-> Here are links to the test cases for each which contains the screenshot for the lighthouse audit.
-> - [home page accessibility test](https://github.com/maliahavlicek/ci_mentor_insights/issues/12)
-> - [experience page accessibility test](https://github.com/maliahavlicek/ci_mentor_insights/issues/13)
-> - [skills page accessibility test](https://github.com/maliahavlicek/ci_mentor_insights/issues/14)
-> - [recommendations page accessibility test](https://github.com/maliahavlicek/ci_mentor_insights/issues/15)
->
-> To ensure the site was accessibility to people with physical impairments, I tried to navigate the site using tabbed navigation:
-> - [site tabbed navigation test](https://github.com/maliahavlicek/ci_mentor_insights/issues/10)
+### Accessibility Audits
+🚨**Required** 
 
-You can totally combine the tabbed navigation in the accessibility test and have 2 expected criteria, it's all up to
-you!
+Accessibility audits run through the HTML and determine if the parts of the WCAG (web content accessibility guidelines ) that are implemented through HTML tags and attributes are present. They can do some checking for low vision/contrast stuff too.
+
+You should run your deployed website pages through  at least on auditing tool. lighthouse's audit to check performance, accessibility, best practices and SEO scores. You should aim to get 85 or higher score on accessibility. 
+
+**You should fix issues associated with:**
+- contrast 
+- aria labels
+- alt text
+- large images
+- skewed images
+
+**Lighthouse**
+https://web.dev/measure/  If you have lower scores, read the report and follow the links to address the flagged issues. You can run this tool from Chrome Dev Tools too against your local machine, but chrome extensions can sometimes give you missing alt text on things like the grammarly plug in tracking pixel.
+
+You want a score in the green for accessibility and should look at ways to get it to 100.
+
+
+**[WAVE chrome](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en-US) extension**
+Wave is developed by webaim.org and does a bit better at contrast issues and uses 2.1 guidelines
+
+**Contrast Checkers**
+- https://webaim.org/resources/contrastchecker/
+- https://color.a11y.com/
+
+### Keyboard Navigation
+🚀 **merit & beyond**
+
+Another way to accessibility test your site is to try to click on the browser URL and see what happens if you use the tab, arrow and enter keys. Does it work well or does the user get stuck? Check this in a couple browsers as the focus & active outlines are typically styled by the browser
+
+The expected results for various keyboard entries and field types can be found [here](https://webaim.org/techniques/keyboard/#testing)
+
+You can take a video of this testing if you want and convert it to a gif and paste that into your readme. Record something to yourself in a Slack direct message, then download it. Then you can use https://cloudconvert.com/mp4-to-gif to convert the mp4 to a gif and just paste it into the readme via GiHu, and it'll resolve itself.
+
+### Chrome Vox Reader
+🚀 **merit & beyond**
+
+If you are really ambitious, you can use the [VoxReader](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en) extension in chrome to see what your site sounds like on a screen reader. It really drives home the need for good aria-labels & semantic HTML.
+
+## Core Web Vitals
+🚀 **merit & beyond**
+
+SEO is greatly impacted by your core web vitals. The readout from https://web.dev/measure/ which is essentially a lighthouse audit gives your site scores in 4 categories. Ideally you want your site to be in the green for all 4 scores. web.dev has dedicated servers to test deployed sites without extensions that skew the results, so it's best to get results from this site.
+ You should talk about the results for each section pay attention to 
 
 ## Validation Testing
+🚨**Required** 
 
-You should try to ensure you code is valid and follows proper indentation. In this section you should write up any
-websites you used to validate your code so there is credit given to those sites. Then add links to the test cases you
-put into GitHub for the validation. You can copy your validation success to those tests.
+In this section you should write up any websites you used to validate your code and include screenshots.
 
-The following site were used to aid in validation testing:
+**Validation issues are an automatic failure** You should run these about 3 times:
+- when you first deploy your site
+- just when you think you are done testing
+- right before you submit because 😼, ⚽, 🐶 & 👼 can eliminate a closing tag or curly bracket without you noticing.
 
-- **[CSS Validator](https://jigsaw.w3.org/css-validator/)**
+### CSS Validation
+🚨**Required** 
 
-> If you only have one CSS file, you can just run the validator through one deployed page URL, if you have custom CSS for diffent pages, make sure you hit those different URLS
+The [Jigsaw validator](https://jigsaw.w3.org/css-validator/) was used to validate CSS.
 
-- **[HTML Validator](https://validator.w3.org/)**
+> If you only have one CSS file, you can just run the validator through one deployed page URL, if you have custom CSS for different pages, make sure you hit those different URLS, or do direct input on each file.
+
+Include a screenshot for each CSS file which includes the Green no ERRORS bar, two check marks:
+
+**styles.css**
+![img.png](documentation/images/css-validation.png)
+
+### HTML Validation
+🚨**Required** 
+
+The **[W3 HTML Validator](https://validator.w3.org/)** was used to validate HTML by coping the page source as a direct input.
 
 > For each view you wrote, you should validate the HTML and have a test case for it linked to from here
 > NOTE: You may need to right-click to view the source of each page and paste that into the validator if you need to go through authentication to get to the page.
 
-- **[JS validation](https://jshint.com)**
+### JavaScript Validation
+🚨**Required** 
+
+The **[Jshint validator](https://jshint.com)** was used to validate each JS file.
 
 > for each .js file, copy the code and paste it into this site, and have a test case for it linked to from here. You can have warnings, but no errors.
-> if using ES6, add this before pasting in your file: `/*jshint esversion: 6 */ `, similarily you can update it to 7 if you see warnings about ES7 syntax `/*jshint esversion: 7 */ `
+> if using ES6, add this before pasting in your file: `/*jshint esversion: 6 */ `, similarly you can update it to 7 if you see warnings about ES7 syntax `/*jshint esversion: 7 */ `
 
-- **[PEP8 Validator](http://pep8online.com/)**
+### Python Validation
+🚨**Required** 
+
+The **[PEP8 online Validator](http://pep8online.com/)** was used to validate each .py file created.
 
 > for each .py file you created, copy the source code and paste it into this site, and have a test case for it linked to from here.
 > include a screenshot of results in the test case. (you should do this for all .py files in your repo, or note that there are no red errors in the gitpod Problems list after the file is saved)
 
-- **[JSON validation](https://jsonlint.com/)**
+> if the PEP8online site is down, you can add a PEP8 validator to your Gitpod Workspace [see slack](https://code-institute-room.slack.com/archives/C0L316Z96/p1664894886883819?thread_ts=1664894847.245969&cid=C0L316Z96)
+> Once installed, PEP8 issues will be reported in red and listed in the PROBLEMS tab of gitPod so take a screenshot of that being GOOD
+
+### JSON Validation
+🤷‍ **Required if you made some files** 
+The **[JSONLINT validatior](https://jsonlint.com/)** was used to validate JSON files.
 
 > for each .json file, you should copy the code and paste it into this site, and have a test case for it linked to from here.
 
 ## Automated Testing
+🚀 **merit & beyond**
 
-If you managed to write jasmine tests or some django tests, note those files out here and how to run them. I only did
-this in my last project as I didn't have the time or energy to learn how to write
-tests. https://github.com/maliahavlicek/ms4_challenger/blob/master/documentation/TESTING.md is my write up about those
-and how I ran them, but a simple test I'd recommend is authentication and any views you limit to superusers or logged in
-users:
+If you managed to write jasmine tests or some django tests, note those files out here and how to run them. I only did this in my last project as I didn't have the time or energy to learn how to write tests. https://github.com/maliahavlicek/ms4_challenger/blob/master/documentation/TESTING.md is my write-up about those and how I ran them, but a simple test I'd recommend is authentication and any views you limit to superusers or logged-in users:
 
 https://github.com/maliahavlicek/ms4_challenger/blob/master/challenges/tests/test_views.py
 
 ## Defects
+🚨**Required** 
 
-At this point you need to be using GITHUB's Issues to track these as it helps you with the AGILE process
-requirement as it's really easy to copy/paste screenshots in and then write up how you closed them.
+At this point you need to be using GITHUB's Issues to track these as it helps you with the AGILE process requirement and it's really easy to copy/paste screenshots in and then write up how you closed them.
 
-[Here's a brief overview](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit#heading=h.542xzc8ufx4x)
-I put together on how to do this.
+[Here's a brief overview](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit#heading=h.542xzc8ufx4x) I put together on how to do this.
 
-is what my custom bug tempalte looks like in the UX
+This what my custom bug template looks like in the UX
 ![image](https://user-images.githubusercontent.com/23039742/165650359-a352d64e-b128-473d-ab60-7df0568a44df.png)
 
+- provide a link to the issues link in GitHub
+- if you made a custom template include a screenshot
+- if you made a custom template include a link to the template
 
 ## Defects of Note
+🚀 **merit & beyond**
 
-Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and how you finally
-ended up resolving them. Just create a link to the issues/defect of note.
+Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and link to them directly here. The accessors really like to know the struggle is real and that by doing this you picked up more skills.
 
-### Outstanding Defects
+## Outstanding Defects
+🚨**Required** 
 
-It's ok to not resolve all the defects you found. If you know of something that isn't quite right, list it out and
-explain why you chose not to resolve it. Again, do this in gitHub and provide a link to the defects you are not closing
-and ensure they have a comment in them.
+It's ok to not resolve all the defects you found as long as:
+- it does not impact a user from completing a vital function on the website
+- it only affects a very small subset of users
+- is an extreme edge case that very few users would try
+- there is an open issue against a framework, browser or technology used
+
+If you know of something that isn't quite right, create an issue and link to it here and explain why you chose not to resolve it. 
+
+Sometimes it's as simple, word wrapping issue that makes the site look odd at a certain screensize that you just didn't have time to fix due to the impending deadline it's best to mention it but note why you allowed it to go live: "Yes it looks odd, but it doesn't impact core functionality of the site." than to let the accessors think you didn't notice it. 
+
+
+# Technologies Used
+🚀 **merit & beyond**
+
+This section just summarizers tools and programming languages you used.
+
+## Languages
+🚀 **merit & beyond**
+
+-write bullet points for the languages you used (HTML, CSS, JAVASCRIPT, PYTHON,  DJANGO)
+
+## Frameworks, Libraries & Programs Used
+🚀 **merit & beyond**
+
+List out the tools you used with a link and a short description (this helps others figure out where to get the bonus points & reminds you what you used for your next project
+- Balsamiq
+- Coolors.co
+- fontawesome
+- gitpod
+- github
+- google fonts
+- font awesome
+- amiresponsive
+- table of contents creator
+- markdown table generator
+
+
 
 # Deployment
+🚨**Required** 
 
 ## Requirements
 
-If the user is required to have certain keys and credentials you should include this section with diretions on how to
-get the necessary information. ex)
+If the user is required to have certain keys and credentials you should include this section with directions on how to get the necessary information. ex)
 
 1. **Google Account:** In order to have verification and forgot password emails sent to registered users you need a
    google account. If you don't have one  [Create a google account](https://accounts.google.com/Signup)
@@ -600,19 +684,19 @@ get the necessary information. ex)
         3. Search for Google Drive
         4. Click Enable
         5. Click Create Credentials
-        6. Select Google Drive API from the drop down, Application Data, then no and click the Next Button
+        6. Select Google Drive API from the drop-down, Application Data, then no and click the Next Button
         7. (https://developers.google.com/drive/api/v3/enable-drive-api)
         8. for service account details fill in a service account name ex) xxx_API, then click Create and Continue
-        9. For the Accoun acces, select Role: Basic/Editor then continue
+        9. For the Account access, select Role: Basic/Editor then continue
         10. Then Click Done
         11. Now select the newly created service account
         12. Click on the KEYS Tab
         13. Click Add Key
-        14. Select JSON type (right click to show in folder so you know where the file was saved.
+        14. Select JSON type (right click to show in folder, so you know where the file was saved.
 
        **GOOGLE SHEETS API Access**
-       You may need to us the back button get to the APIS & SErvices section from where you were.
-        1. click the Libray Tab and serarch for Google Sheets
+       You may need to use the back button get to the APIS & Services section from where you were.
+        1. click the Libray Tab and search for Google Sheets
         2. click enable
 
 3. The downloaded credentialsJSON file is basically your creds.json file that you need to put into your heroku settings
@@ -662,13 +746,13 @@ think they would make the process easier.
 You may want to re-watch the lessons when writing up this section.
 
 If you have project settings required for Heroku, provide a table of the keys and values. Do not share your personal
-keys but either cut them out of the screen shot or say <YOUR_VALUE> and include links on how the user would obtain such
+keys but either cut them out of the screenshot or say <YOUR_VALUE> and include links on how the user would obtain such
 values.
 
 ## Fork the repository
+🚀 **merit & beyond**
 
-Instruct users to make a fork so they have a copy of the repository in THEIR own git hub
-account: https://github.com/maliahavlicek/portfolio_project_03
+Instruct users to make a for, so they have a copy of the repository in THEIR own GitHub account: https://github.com/maliahavlicek/portfolio_project_03
 
 ![image](https://user-images.githubusercontent.com/23039742/132136504-eb79a6f3-0205-4c82-80c2-eef136ec7e4c.png)
 
@@ -708,9 +792,8 @@ To avoid plagiarism amd copyright infringement, you should mention any other pro
 that you used to gather imagery or ideas for your code even if you used it as a starting point and modified things.
 Giving credit to other people's efforts and ideas that saved you time acknowledges the hard work others did.
 
--[Code Institute Template](https://github.com/Code-Institute-Org/python-essentials-template)
-- The Template for the GUI for this project was provided by Code Institute. This allows for the Command line to be shown
-and used within the browser.
+- [Code Institute Template](https://github.com/Code-Institute-Org/python-essentials-template)
+- The Template for the GUI for this project was provided by Code Institute. This allows for the Command line to be shown and used within the browser.
 
 ## Content
 
@@ -723,9 +806,7 @@ This includes attribution for icons if they came from font awesome or other site
 
 ## Acknowledgments
 
-This is the section where you refer to code examples, mentors, blogs, stack overflow answers and videos that helped you
-accomplish your end project. Even if it's an idea that you updated you should note the site and why it was important to
-your completed project.
+This is the section where you refer to code examples, mentors, blogs, stack overflow answers and videos that helped you accomplish your end project. Even if it's an idea that you updated you should note the site and why it was important to your completed project.
 
 If you used a CodeInstitute Instructional project as a starting point. Make note of that here too.
 

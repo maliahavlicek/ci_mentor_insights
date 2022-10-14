@@ -338,6 +338,7 @@ The easiest way to track defects is by using GITHUB's Issues to track these as i
 
 ## Defects of Note
 🚀 **merit & beyond**
+
 Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and link to them directly here. The accessors really like to know the struggle is real and that by doing this you picked up more skills.
 
 
