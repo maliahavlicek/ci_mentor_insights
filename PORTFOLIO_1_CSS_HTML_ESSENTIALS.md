@@ -77,16 +77,16 @@ This section lists outs as a X I want Y, so I can Z format. It helps drive out t
 
 You can have many kinds of users so feel free to have one section or the subsections listed or more
 
-### Site User
+### Site User Stories
 🚀 **merit & beyond**
 
-### Website Owner
+### Website Owner Stories
 🚀 **merit & beyond**
 
-### Developer
+### Developer Stories
 🚀 **merit & beyond**
 
-## Design Choices
+## Design Choices Stories
 🚀 **merit & beyond**
 
 Your site is most likely geared to a certain audience, and your design choices should tie into them. Let the assessors know your thought process.
@@ -103,6 +103,7 @@ You may want to re-watch the videos about the [5 planes of UX development ](http
 🚀 **merit & beyond**
 
 - discuss font size, font types for headers vs buttons vs general text and how it ties into users' emotions or target audience.
+- Clarity of letters, putting a capital i next to a lower case L is always a good test
 - include screenshots of fonts used and links to the appropriate website ex) https://fonts.google.com/specimen/Raleway
 
 ### Imagery
@@ -121,6 +122,12 @@ Explain why you used certain icons and images on your site & tie it back into yo
 
 Talk about if the site is 1 page vs multiple pages. Say what loads by default & how to get access to other pages/sections.
 
+## Design Elements
+🚀 **merit & beyond**
+
+what are some of they key User Interactive elements and bits of functionally you will have on your site:
+tables, accordions, maps, videos, forms with inputs, text areas, select/dropdowns
+
 ## Wireframes
 🚀 **merit & beyond**
 
@@ -128,13 +135,13 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 Wireframes can be as simple as a picture of a drawing of how you envisioned laying out the information for you pages in desktop, tablet and mobile views. They are a roadmap and do not have to be 100% accurate of the final product. Or you can use the [Balsamiq](https://code-institute-room.slack.com/archives/C0L316Z96/p1640099614368000) tool that Code Institute provides students access to. 
 
-## mobile
+## mobile wireframes
 🚀 **merit & beyond**
 
-## tablet
+## tablet wireframes
 🚀 **merit & beyond**
 
-## desktop
+## desktop wireframes
 🚀 **merit & beyond**
 
 # Features
