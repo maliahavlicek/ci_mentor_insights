@@ -276,7 +276,7 @@ Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/1vc1I
 
 **3.Use Github Agile Tools**
 
-Create Custom Issue Template and A Pojrect Board in git hub.[Here's a brief overview](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit?usp=sharing) I put together on how to do this
+Create Custom Issue Template and A Project Board in git hub.[Here's a brief overview](https://docs.google.com/document/d/1nDS5tZeMO77Dfq85IZGMSV6C41XaPm9FwcpR3k-UTVc/edit?usp=sharing) I put together on how to do this
 
 It's ok to spot check specific functionality across devices and browsers but each page should be viewed as a whole for each device/browser combo at least once too.
 
@@ -289,7 +289,7 @@ var docWidth = document.documentElement.offsetWidth;
 
 
 ### Defect Tracking
-🚀 **merit & beyond**
+🚨**Required** 
 
 Try to create issues in real time as it better reflects the daily life of a developer.
 
@@ -306,7 +306,7 @@ Some defects are more pesky than others. Highlight 3-5 of the bugs that drove yo
 ## Outstanding Defects
 🚨**Required** 
 
-t's ok to not resolve all the defects you found as long as:
+It's ok to not resolve all the defects you found as long as:
 - it does not impact a user from completing a vital function on the website
 - it only affects a very small subset of users
 - is an extreme edge case that very few users would try
