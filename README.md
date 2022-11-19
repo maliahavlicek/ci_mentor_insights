@@ -6,6 +6,8 @@ The hope is to provide a more standard writeup to lead students to success and m
 
 ## Project Specific Readme Templates
 
+<img width="591" alt="image" src="https://user-images.githubusercontent.com/23039742/202874835-7991f6b9-b882-4338-bb1a-9bfe76df4f81.png">
+
 
 ### Ecommerce Path with 5 Portfolio Projects
 
