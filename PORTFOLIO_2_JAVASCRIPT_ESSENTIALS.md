@@ -8,6 +8,25 @@ Sections marked as 🚨**Required**  and 🚀 **merit & beyond**
 
 ## Helpful tools
 
+### Screenshots and Videos
+**Here’s a great video on how to add videos to your readme! no need to convert to gifs!!**
+
+https://www.youtube.com/watch?v=G3Cytlicv8Y
+
+> 1. record a video via slack
+> 2. download it
+> 3. in github, edit your readme via the pencil icon
+> 4. type a place holder word and highlight it
+> 5. drag and drop mp4 file over that text
+> 6. scroll down to the commit area
+> 7. update the default commit message
+> 8. click the green button
+> 9. ```git pull``` changes to your gitpod workspace
+
+**You can do the steps 3-9 for the image/screenshot uploads too!**
+
+### Cheatsheets and Auto Generation Tools
+
 Markdown's not all that easy so sometimes you may want to use some tools to make tables. 
 
 - [Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
