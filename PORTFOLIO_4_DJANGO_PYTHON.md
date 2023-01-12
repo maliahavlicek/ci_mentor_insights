@@ -12,6 +12,25 @@ Sections marked as 🚨**Required** and 🚀 **merit & beyond**
 
 ## Helpful tools
 
+### Screenshots and Videos
+**Here’s a great video on how to add videos to your readme! no need to convert to gifs!!**
+
+https://www.youtube.com/watch?v=G3Cytlicv8Y
+
+> 1. record a video via slack
+> 2. download it
+> 3. in github, edit your readme via the pencil icon
+> 4. type a place holder word and highlight it
+> 5. drag and drop mp4 file over that text
+> 6. scroll down to the commit area
+> 7. update the default commit message
+> 8. click the green button
+> 9. ```git pull``` changes to your gitpod workspace
+
+**You can do the steps 3-9 for the image/screenshot uploads too!**
+
+### Cheatsheets and Auto Generation Tools
+
 Markdown's not all that easy so sometimes you may want to use some tools to make tables.
 
 - [Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
@@ -621,13 +640,24 @@ The **[Jshint validator](https://jshint.com)** was used to validate each JS file
 ### Python Validation
 🚨**Required** 
 
-The **[PEP8 online Validator](http://pep8online.com/)** was used to validate each .py file created.
+**[CI's pep8 tool](https://pep8ci.herokuapp.com/)** was used to validate each .py file created.
 
 > for each .py file you created, copy the source code and paste it into this site, and have a test case for it linked to from here.
-> include a screenshot of results in the test case. (you should do this for all .py files in your repo, or note that there are no red errors in the gitpod Problems list after the file is saved)
+> include a screenshot of results in the test case showing NO ERRORS. (you should do this for all .py files in your repo
 
-> if the PEP8online site is down, you can add a PEP8 validator to your Gitpod Workspace [see slack](https://code-institute-room.slack.com/archives/C0L316Z96/p1664894886883819?thread_ts=1664894847.245969&cid=C0L316Z96)
-> Once installed, PEP8 issues will be reported in red and listed in the PROBLEMS tab of gitPod so take a screenshot of that being GOOD
+**run.py**
+
+![image](https://user-images.githubusercontent.com/23039742/212106175-36b2f18a-7c75-458d-94dd-9886e81c71f3.png)
+
+Ideally you would have no errors remaining outside of line too long which you can fix by 
+
+adding
+```$python 
+# noqa
+```
+There is a space before the # and after it to skip the quality assurance for that line.
+
+Note any errors or warnings you are ignoring and why.
 
 ### JSON Validation
 🤷‍ **Required if you made some files** 
