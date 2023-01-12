@@ -169,19 +169,19 @@ In this section, you need to convince the assessor that you have conducted enoug
 
 You should try to ensure you code is valid and follows proper indentation.  In this section you should write up any websites you used to validate your code. As your projects becomes more complex these tools may change.
 
-For each python file in your project, take a screenshot of the linter output showing NO RED problems on the problem tab in gitpod
+For each python file in your project, paste it into [CI's pep8 tool](https://pep8ci.herokuapp.com/), and take a screenshot of the linter output showing NO ERRORS
 
-![img_5.png](documentation/images/pep8-validation.png)
+![image](https://user-images.githubusercontent.com/23039742/212106175-36b2f18a-7c75-458d-94dd-9886e81c71f3.png)
 
-Note any errors or warnings you are ignoring and why.
+Ideally you would have no errors remaining outside of line too long which you can fix by 
 
-If the line is too long just add 
+adding
 ```$python 
 # noqa
 ```
 There is a space before the # and after it to skip the quality assurance for that line.
 
-[this slack](https://code-institute-room.slack.com/archives/CPCT0MBKL/p1668522623067369) talks about the validation process since pep8online.com went down.
+Note any errors or warnings you are ignoring and why.
 
 ### Manual Testing
 🚨**Required** 
