@@ -1,5 +1,11 @@
 The easiest way to track defects is by using GITHUB's Issues to track these as it's really easy to copy/paste screenshots in and then write up how you closed them. At this stage you don't need a custom template or labels, that comes in P4.
 
+
+
+https://user-images.githubusercontent.com/23039742/212498482-71ffe8dc-f08d-42a7-a006-a7cc62e3b4ec.mp4
+
+
+
 **Creating Defects**
 1. Click the Issues menu item 
 ![image](https://user-images.githubusercontent.com/23039742/169566835-240ce89c-6ab1-45b6-8ee8-5f693de70e5d.png)
