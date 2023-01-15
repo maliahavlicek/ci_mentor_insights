@@ -9,6 +9,12 @@ Sections marked as 🚨**Required**  and 🚀 **merit & beyond**
 
 ## Helpful tools
 
+### Debugging Your run.py in gitpod
+With a single file importing others, gitpod lets you set breakpoints where you then can look at variables and try out syntax.
+
+https://user-images.githubusercontent.com/23039742/212526268-ec02736e-e199-4c63-92b0-96b219f24abc.mp4
+
+
 ### Screenshots and Videos
 **Here’s a great video on how to add videos to your readme! no need to convert to gifs!!**
 
