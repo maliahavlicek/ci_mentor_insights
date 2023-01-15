@@ -12,6 +12,15 @@ Sections marked as 🚨**Required** and 🚀 **merit & beyond**
 
 ## Helpful tools
 
+### PDB Debugging
+Here’s a [cheatsheet](https://kapeli.com/cheat_sheets/Python_Debugger.docset/Contents/Resources/Documents/index) on how to navigate into functions and to the next line using pdb.
+
+This video shows you how to set a trace and then use the print() to evaluate variables
+
+https://user-images.githubusercontent.com/23039742/212526614-f3d19b8a-6841-43d4-a527-bfb6da95e0ad.mp4
+
+
+
 ### Screenshots and Videos
 **Here’s a great video on how to add videos to your readme! no need to convert to gifs!!**
 
