@@ -105,10 +105,10 @@ Markdown's not all that easy so sometimes you may want to use some tools to make
   - [Languages](#languages)
   - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 - [Deployment](#deployment)
-  - [Requirements](#requirements)
-  - [Gitpod](#gitpod)
-  - [Heroku](#heroku)
-  - [Fork the repository](#fork-the-repository)
+  - [Prerequisites](#prerequisites)
+  - [Fork and Clone the Repository](#fork-and-clone-the-repository ) 
+  - [Local Deployment](#local-deployment)
+  - [production Deployment](#production-deployment)
 - [Credits](#credits)
   - [Content](#content)
   - [Media](#media)
@@ -744,125 +744,92 @@ List out the tools you used with a link and a short description (this helps othe
 # Deployment
 🚨**Required** 
 
-## Requirements
+## Prerequisits
+🚀 **merit & beyond**
 
 If the user is required to have certain keys and credentials you should include this section with directions on how to get the necessary information. ex)
 
-1. **Google Account:** In order to have verification and forgot password emails sent to registered users you need a
-   google account. If you don't have one  [Create a google account](https://accounts.google.com/Signup)
-2. **Google APIs**
-    1. in a new incognito tab, log into your new google account.
-    1. then update the url to be: https://console.cloud.google.com/getting-started?pli=1
+1. **Gmail Account:** In order to have verification and forgot password emails sent to registered users you need a
+   google account. 
+  - [create a gmail accoount](https://accounts.google.com/signup) 
+  - [downgrade to less secure](https://myaccount.google.com/lesssecureapps?pli=1) after you are signed into the gmail account, downgrade to less secure
+2. **Couldinary URL**
+  - [create an account](https://cloudinary.com/)
+  - go to the dashboard and copy your API environmental variable
+   
+    <img width="1230" alt="image" src="https://user-images.githubusercontent.com/23039742/213839829-b4f349b3-419d-4ea2-bbca-90cf3c663bba.png">     
+ 
+## Fork and Clone the Repository
+🚀 **merit & beyond**
+To keep the main reposotory for this project clean, please fork the repostiory into your own account. GitHub has [forking directions](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) but here's what you might do:
+1. login to your own gitHub account
+2. navigate to [my repository](URL OF YOUR LIVE REPOSITORY)
+3. In the top right corner of the page, click fork 
 
-       **GOOGLE DRIVE API Access**
-        1. create a new project for this, call it XXXXXX (You might want to refer to what you see in this
-           video: https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LS101+2021_T1/courseware/293ee9d8ff3542d3b877137ed81b9a5b/071036790a5642f9a6f004f9888b6a45/
-           at the bottom of the screen to write out steps.)
-        2. Then click on Add APIs and Services and select Libraries
-        3. Search for Google Drive
-        4. Click Enable
-        5. Click Create Credentials
-        6. Select Google Drive API from the drop-down, Application Data, then no and click the Next Button
-        7. (https://developers.google.com/drive/api/v3/enable-drive-api)
-        8. for service account details fill in a service account name ex) xxx_API, then click Create and Continue
-        9. For the Account access, select Role: Basic/Editor then continue
-        10. Then Click Done
-        11. Now select the newly created service account
-        12. Click on the KEYS Tab
-        13. Click Add Key
-        14. Select JSON type (right click to show in folder, so you know where the file was saved.
+![image](https://user-images.githubusercontent.com/23039742/213840378-e785eaa0-712b-468c-bcda-64fde56eae44.png)
 
-       **GOOGLE SHEETS API Access**
-       You may need to use the back button get to the APIS & Services section from where you were.
-        1. click the Libray Tab and search for Google Sheets
-        2. click enable
+4. set yourself as the owner
+5. change the name of the repo if you want
+6. add a description if you want
+7. choose what to copy, typicall the main branch only
+8. click the snazy green button
 
-3. The downloaded credentialsJSON file is basically your creds.json file that you need to put into your heroku settings
-   or gitpod environment to access your google drive.
+![image](https://user-images.githubusercontent.com/23039742/213840549-5bef12ae-198e-412b-84b6-0cc718b6fa1d.png)
 
-4. Google Sheet Template
+9. To get files to your local environment, you need to clone it: click the code button
+10. Copy the url as needed (here's gitHub instructions)[https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository}
 
-- If you had to create specific sheets for your project, instruct users to make their own copy of it from yours and
-  rename it back to what the python project expects
-- And don't forget to share the spreadsheet in question with the client_email from the creds.json
 
-## Gitpod
 
-This section should describe the process someone would have to go through to get the local working in gitpod. Such as
-install requirements.txt and setting up a creds.json file that is in the gitignore and keeping their workspace and what
-goes in the env.py file without REAL KEYS.
+## Development Deployment 
+🚨**Required** 
 
-If you have project settings required such as a creds.json file from the GOOGLE DRIVE API acess, please provide an
-example of that file in the writeup with the project key values:
+This section should describe the process someone would have to go through to get the local working in GitPod, or your preferred IDE. Start from installing the chrome extension then clicking the green gitpod button in THEIR FORKED repository, the enumerate the steps to walk them through the process as if they were brand new to this proccess. **Include screenshots** where applicable.
 
-```$python
-{
-    "type": "service_account",
-    "project_id": "<YOUR_VALUE>",
-    "private_key_id": "<YOUR_VALUE>",
-    "private_key": "<YOUR_VALUE>",
-    "client_email": "<YOUR_VALUE>",
-    "client_id": "<YOUR_VALUE>",
-    "auth_uri": "https://accoutns.google.com/0/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cer_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "clien_x509_cert_url": "<YOUR_VALUE>"
-}
-```
+**Key points to cover** 
+- Install required python packages: `pip3 install -r requirements.txt`
+- Create env.py
+- What to put in the env.py, don’t disclose real values
+>  - EMAIL_HOST_PASSWORD=<YOUR_VALUE>
+>  - DEFAULT_FROM_EMAIL=<YOUR_VALUE>
+>  - EMAIL_USERNAME=<YOUR_VALUE>
+>  - SECRET_KEY=<YOUR_VALUE>
+>  - CLOUDINARY_URL=<YOUR_VALUE>
+>  - DEV=True
+- Apply Database Migrations so the database starts up `python3 manage.py migrate`
+- Create a super user so you can add and inspect things via django admin  `python3 manage.py createsuperuser`
+- Preload data: Sometimes you might want to include steps to create data in the admin or preload a data dump [coderwall blog](https://coderwall.com/p/mvsoyg/django-dumpdata-and-loaddata) has examples on how to dump data and load it which saves a bunch of time when deploying the application from a local database to a hosted database but you don’t  have to do this step
+- Start the server `python3 manage.py runserver`
 
-If you have any dependencies, you should instruct users to install them
 
-```$python
-pip3 install -r requirements.txt
-```
+## Production Deployment
+🚨**Required** 
 
-## Heroku
-
-This section should describe the process you went through to deploy the project to Heroku. Include screenshots if you
-think they would make the process easier.
-
-You may want to re-watch the lessons when writing up this section.
+This section should describe the process you went through to deploy the project to a server where anyone can access the url without your machine running. This is typically Heroku. **Include screenshots** if you think they would make the process easier. Start with getting an heroku account and then setting up databases and other packages.
 
 If you have project settings required for Heroku, provide a table of the keys and values. Do not share your personal
 keys but either cut them out of the screenshot or say <YOUR_VALUE> and include links on how the user would obtain such
 values.
 
-## Fork the repository
-🚀 **merit & beyond**
-
-Instruct users to make a for, so they have a copy of the repository in THEIR own GitHub account: https://github.com/maliahavlicek/portfolio_project_03
-
-![image](https://user-images.githubusercontent.com/23039742/132136504-eb79a6f3-0205-4c82-80c2-eef136ec7e4c.png)
-
-#### New Project
-
-Log into Heroku and create a new project. Name it something like XXX_coders_bistro.
-
-#### Settings
-
-On the settings tab you have to address two things:
-
-1. **Config Vars**
-
-![image](https://user-images.githubusercontent.com/23039742/132135869-215d2e0f-805d-40a8-a8c2-fb1098e2645d.png)
-
-At a bar minimum you should show the user that they need to add the PORT. 8000 key value pair.
-
-2. **Build Packs**
-
-![image](https://user-images.githubusercontent.com/23039742/132135918-28cac112-7766-4277-905c-4a4963d8442d.png)
-
-add Python Then Node.js
-
-#### Deploy
-
-1. Set up to github and select the correct repository:
-
-![image](https://user-images.githubusercontent.com/23039742/132136113-c257c921-d10c-4ccc-af09-6a1d25136395.png)
-
-2. Deploy either manual or automatic
-
-![image](https://user-images.githubusercontent.com/23039742/132136241-9d76fabb-39f0-4696-bc5f-047398fdaf41.png)
+**Key points to cover** 
+- cerating new app
+- setting app name
+- setting region
+- entering dreaded billing info
+- subscribing to a plan
+- setting up db
+- adding environmental values- have a list or table so user has less chance of typos
+>  - EMAIL_HOST_PASSWORD
+>  - DEFAULT_FROM_EMAIL
+>  - EMAIL_USERNAME
+>  - SECRET_KEY
+>  - CLOUDINARY_URL
+>  - COLLECT_STATIC
+- adding build packages
+- deploy
+- gitHub connection
+- auto vs manul deploy
+- monotior logs
 
 # Credits
 
