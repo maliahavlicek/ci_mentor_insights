@@ -33,6 +33,51 @@ Markdown's not all that easy so sometimes you may want to use some tools to make
 # Table of Contents
 Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a table of contents.  This will help assessors to see the structure of your readme. Just test it out ast this tool isn't perfect. It tends to mess up with special characters like dashes.
 
+- [PROJECT_NAME](#project_name)
+  - [Author](#author)
+  - [Project Overview](#project-overview)
+- [UX](#ux)
+  - [Target Audience](#target-audience)
+  - [Goals](#goals)
+  - [User Stories](#user-stories)
+  - [Initial Stories](#initial-stories)
+  - [Feasibility vs Importance](#feasibility-vs-importance)
+  - [Scope](#scope)
+  - [Design Choices](#design-choices)
+  - [Wireframes](#wireframes)
+- [Information Architecture](#information-architecture)
+  - [Entity Relationship Diagram](#entity-relationship-diagram)
+  - [Database Choice](#database-choice)
+  - [Data Models](#data-models)
+- [Agile Process](#agile-process)
+  - [GitHub User Stories](#github-user-stories)
+  - [Iterations](#iterations)
+  - [Progress Boards](#progress-boards)
+- [Features](#features)
+  - [Implemented Features](#implemented-features)
+  - [Future Features](#future-features)
+- [Testing](#testing)
+  - [Cross Browser and Cross Device Testing](#cross-browser-and-cross-device-testing)
+  - [Accessibility Testing](#accessibility-testing)
+  - [Validation Testing](#validation-testing)
+  - [Automated Testing](#automated-testing)
+  - [Defects](#defects)
+  - [Defects of Note](#defects-of-note)
+- [E-commerce Business Model](#e-commerce-business-model)
+  - [Facebook Business Page](#facebook-business-page)
+  - [Newsletter Signup](#newsletter-signup)
+  - [Links](#links)
+  - [SEO Strategy](#seo-strategy)
+- [Deployment](#deployment)
+  - [Prerequisits](#prerequisits)
+  - [Fork and Clone the Repository](#fork-and-clone-the-repository)
+  - [Development Deployment](#development-deployment)
+  - [Production Deployment](#production-deployment)
+- [Credits](#credits)
+  - [Content](#content)
+  - [Media](#media)
+  - [Acknowledgments](#acknowledgments)
+
 ====================================== The Sections you Fill in are below ==============================
 
 
@@ -637,88 +682,94 @@ Call out how you purposefully incorporated keywords into your content, H1, meta 
 - [robots.txt file]() to restrict pages that are should be searched by google, authentication and others are blocked to only allow relevant pages to be searched by google
 
 # Deployment
-🚨**Required**
+🚨**Required** 
 
-## Requirements
-🚀 **merit & beyhond**
-If the user is required to have certain keys and credentials you should include this section with diretions on how to get the necessary information.
-ex)
-1. **Google Account:** In order to have verification and forgot password emails sent to registered users you need a google account. If you don't have one  [Create a google account](https://accounts.google.com/Signup)
-2. **FB Account **
-3. **GMAIL Account**
-4. **STRIPE account**
+## Prerequisits
+🚀 **merit & beyond**
 
+If the user is required to have certain keys and credentials you should include this section with directions on how to get the necessary information. ex)
 
-## Gitpod
-🚨**Required**
+1. **Gmail Account:** In order to have verification and forgot password emails sent to registered users you need a
+   google account. 
+  - [create a gmail accoount](https://accounts.google.com/signup) 
+  - [downgrade to less secure](https://myaccount.google.com/lesssecureapps?pli=1) after you are signed into the gmail account, downgrade to less secure
+2. **Couldinary URL**
+  - [create an account](https://cloudinary.com/)
+  - go to the dashboard and copy your API environmental variable
+   
+    <img width="1230" alt="image" src="https://user-images.githubusercontent.com/23039742/213839829-b4f349b3-419d-4ea2-bbca-90cf3c663bba.png">     
+ 
+## Fork and Clone the Repository
+🚀 **merit & beyond**
+To keep the main reposotory for this project clean, please fork the repostiory into your own account. GitHub has [forking directions](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) but here's what you might do:
+1. login to your own gitHub account
+2. navigate to [my repository](URL OF YOUR LIVE REPOSITORY)
+3. In the top right corner of the page, click fork 
 
-This section should describe the process someone would have to go through to get the local working in gitpod.  Such as install requirements.txt  and setting up a creds.json file that is in the gitignore and keeping their workspace and what goes in the env.py file without REAL KEYS.
+![image](https://user-images.githubusercontent.com/23039742/213840378-e785eaa0-712b-468c-bcda-64fde56eae44.png)
 
-If you have project settings required such as a creds.json file from the GOOGLE DRIVE API acess, please provide an example of that file in the writeup with the project key values:
-```$python
-{
-    "type": "service_account",
-    "project_id": "<YOUR_VALUE>",
-    "private_key_id": "<YOUR_VALUE>",
-    "private_key": "<YOUR_VALUE>",
-    "client_email": "<YOUR_VALUE>",
-    "client_id": "<YOUR_VALUE>",
-    "auth_uri": "https://accoutns.google.com/0/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cer_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "clien_x509_cert_url": "<YOUR_VALUE>"
-}
-```
+4. set yourself as the owner
+5. change the name of the repo if you want
+6. add a description if you want
+7. choose what to copy, typicall the main branch only
+8. click the snazy green button
 
-If you have any dependencies, you should instruct users to install them
-```$python
-pip3 install -r requirements.txt
-```
+![image](https://user-images.githubusercontent.com/23039742/213840549-5bef12ae-198e-412b-84b6-0cc718b6fa1d.png)
 
-
-## Heroku
-🚨**Required**
-This section should describe the process you went through to deploy the project to Heroku. Include screenshots if you think they would make the process easier.
-
-You may want to re-watch the lessons when writing up this section.
-
-If you have project settings required for Heroku, provide a table of the keys and values.
-Do not share your personal keys but either cut them out of the screen shot or say <YOUR_VALUE> and include links on how the user would obtain such values.
-
-## Fork the repository
-Instruct users to make a fork so they have a copy of the repository in THEIR own git hub account: https://github.com/maliahavlicek/portfolio_project_03
-
-![image](https://user-images.githubusercontent.com/23039742/132136504-eb79a6f3-0205-4c82-80c2-eef136ec7e4c.png)
+9. To get files to your local environment, you need to clone it: click the code button
+10. Copy the url as needed (here's gitHub instructions)[https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository}
 
 
-#### New Project
-Log into Heroku and create a new project. Name it something like XXX_coders_bistro.
+
+## Development Deployment 
+🚨**Required** 
+
+This section should describe the process someone would have to go through to get the local working in GitPod, or your preferred IDE. Start from installing the chrome extension then clicking the green gitpod button in THEIR FORKED repository, the enumerate the steps to walk them through the process as if they were brand new to this proccess. **Include screenshots** where applicable.
+
+**Key points to cover** 
+- Install required python packages: `pip3 install -r requirements.txt`
+- Create env.py
+- What to put in the env.py, don’t disclose real values
+>  - EMAIL_HOST_PASSWORD=<YOUR_VALUE>
+>  - DEFAULT_FROM_EMAIL=<YOUR_VALUE>
+>  - EMAIL_USERNAME=<YOUR_VALUE>
+>  - SECRET_KEY=<YOUR_VALUE>
+>  - CLOUDINARY_URL=<YOUR_VALUE>
+>  - DEV=True
+- Apply Database Migrations so the database starts up `python3 manage.py migrate`
+- Create a super user so you can add and inspect things via django admin  `python3 manage.py createsuperuser`
+- Preload data: Sometimes you might want to include steps to create data in the admin or preload a data dump [coderwall blog](https://coderwall.com/p/mvsoyg/django-dumpdata-and-loaddata) has examples on how to dump data and load it which saves a bunch of time when deploying the application from a local database to a hosted database but you don’t  have to do this step
+- Start the server `python3 manage.py runserver`
 
 
-#### Settings
-On the settings tab you have to address two things:
-1. **Config Vars**
+## Production Deployment
+🚨**Required** 
 
-  ![image](https://user-images.githubusercontent.com/23039742/132135869-215d2e0f-805d-40a8-a8c2-fb1098e2645d.png)
+This section should describe the process you went through to deploy the project to a server where anyone can access the url without your machine running. This is typically Heroku. **Include screenshots** if you think they would make the process easier. Start with getting an heroku account and then setting up databases and other packages.
 
-  At a bar minimum you should show the user that they need to add the PORT. 8000 key value pair.
+If you have project settings required for Heroku, provide a table of the keys and values. Do not share your personal
+keys but either cut them out of the screenshot or say <YOUR_VALUE> and include links on how the user would obtain such
+values.
 
-
-2. **Build Packs**
-
-  ![image](https://user-images.githubusercontent.com/23039742/132135918-28cac112-7766-4277-905c-4a4963d8442d.png)
-
-  add Python Then Node.js
-
-
-#### Deploy
-1. Set up to github and select the correct repository:
-
-  ![image](https://user-images.githubusercontent.com/23039742/132136113-c257c921-d10c-4ccc-af09-6a1d25136395.png)
-
-2. Deploy either manual or automatic
-
-![image](https://user-images.githubusercontent.com/23039742/132136241-9d76fabb-39f0-4696-bc5f-047398fdaf41.png)
+**Key points to cover** 
+- cerating new app
+- setting app name
+- setting region
+- entering dreaded billing info
+- subscribing to a plan
+- setting up db
+- adding environmental values- have a list or table so user has less chance of typos
+>  - EMAIL_HOST_PASSWORD
+>  - DEFAULT_FROM_EMAIL
+>  - EMAIL_USERNAME
+>  - SECRET_KEY
+>  - CLOUDINARY_URL
+>  - COLLECT_STATIC
+- adding build packages
+- deploy
+- gitHub connection
+- auto vs manul deploy
+- monotior logs
 
 
 # Credits
