@@ -207,7 +207,7 @@ Explain why you used certain icons and images on your site
 > - file pickers
 > - video players
 > - audio players
-
+z
 ### Animations and Transitions
 🚀 **merit & beyond**
 
@@ -436,6 +436,10 @@ Don't forget the 3 phases of navigation:
 - unauthenticated
 - general authenticated user
 - superuser authenticated
+
+And don't forget Defensive programming bits
+- validation of form inputs
+- not allowing users to create, read, update and delete information they shouldn't
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
