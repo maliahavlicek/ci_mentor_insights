@@ -3,6 +3,8 @@
 This template was made as a guide to ensure you cover assessment criteria in your first write up. It is specific to the **USER CENTRIC FRONTEND MILESTONE** project.
 
 ## Helpful tools
+![image](https://user-images.githubusercontent.com/23039742/220477509-f24c0967-f184-41b6-8b5d-ac5d334abae5.png)
+
 
 Markdown's not all that easy so sometimes you may want to use some tools to make tables. 
 
