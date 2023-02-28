@@ -189,6 +189,10 @@ You should try to ensure you code is valid and follows proper indentation.  In t
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) Note, any error associated with root: color variables were ignored.
 - [HTML Validator](https://validator.w3.org/) 
 
+Blue to blue
+![image](https://user-images.githubusercontent.com/23039742/221760092-0075b498-63eb-49b0-ae27-3a90ba0d5f05.png)
+
+
 Note any errors or warnings you are ignorning and why. IT IS BEST NOT to have ERRORS, but COLOR VARIABLES sometimes are ok to ignore if you say the IDE that has the correct linters noted no errors. Or you can take the rendered HTML and run it through the HTML validator for the Flask html templates.
 
 Ideally you would bullet point your each of your HTML files and each ofyour CSS files and add a screenshot of the validation tool's output proving all was good.
