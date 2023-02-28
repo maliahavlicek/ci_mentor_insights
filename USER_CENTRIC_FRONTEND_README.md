@@ -192,6 +192,8 @@ You should try to ensure you code is valid and follows proper indentation.  In t
 Blue to blue
 ![image](https://user-images.githubusercontent.com/23039742/221760092-0075b498-63eb-49b0-ae27-3a90ba0d5f05.png)
 
+![image](https://user-images.githubusercontent.com/23039742/221760539-e4ff0260-1a58-43ca-9d2f-6767976c42d2.png)
+
 
 Note any errors or warnings you are ignorning and why. IT IS BEST NOT to have ERRORS, but COLOR VARIABLES sometimes are ok to ignore if you say the IDE that has the correct linters noted no errors. Or you can take the rendered HTML and run it through the HTML validator for the Flask html templates.
 
