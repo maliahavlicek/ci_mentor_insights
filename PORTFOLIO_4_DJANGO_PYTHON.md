@@ -378,9 +378,14 @@ Now you have to talk about the scope to reduce things more, you don't necessaril
 
 You are required to use an agile tool to track user stories through the development process. You could use a spreadsheet, JIRA, or another tool, and CI taught you how to use GitHub Issues to write your user stories.
 
-- State what tool you used
-- Include a link to the tool's progress board
-- Include a screenshot of the tool's progress board
+- State what tool you used (GitHub, Jira, Rally, Trello, a spreadsheet)
+- Include a link to the tool's product/progress board
+- Include a screenshot of the tool's product/progress board
+
+Lessons on how to use gitHub for a product board can be found in the LMS system under:  
+- Principles of Agile Development > 
+  - Common Agile Practices > 
+    - Product Backlog
 
 ### User Story Example
 🚨**Required** 
@@ -419,6 +424,7 @@ Acceptance Criteria
 - screenshot of epic story
 - EPIC TEMPLATE screenshot
 - link to EPIC TEMPLATE
+
 
 # Features
 🚨**Required** 
