@@ -498,7 +498,9 @@ Please note, if this gets more than 5 items, you may want to break it down into 
 - [SMTP](https://github.com/python/cpython/blob/3.8/Lib/smtplib.py) - Send emails to users 
 - [Google Maps Javascript API](https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/javascript/examples/) - Customized Mapping Widgets
 
-
+# Vesrion Control
+**OPTIONAL**
+If you have trouble with being able to check in your code, add this section and explain why your commits are so few, or why your commit messages were bad in the beginning. You need to let the accessors know why you didn't follow best practices, but you are aware of those best practices are.
 
 # Deployment
 🚨**Required** 
