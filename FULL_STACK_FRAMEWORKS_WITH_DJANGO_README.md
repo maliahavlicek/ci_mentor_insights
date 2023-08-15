@@ -289,6 +289,7 @@ You should mention  any  bugs or problems you discovered during your testing, ev
 
 Here is a [Defect Tracking Template](https://docs.google.com/spreadsheets/d/1tYB4X4wTCNEW_Y1no3hsGbclh2bLokl_I5Ev3s5EuJA/edit?usp=sharing) you use as a starting point to track defects. Make a copy of the sheet to your own account and update the Features sheet to match your project. 
 
+Or better yet, use github issues as you find them. Here's a quick overview of creating[ GitHub issues](https://github.com/maliahavlicek/ci_mentor_insights/blob/main/Defects.md)
 
 ### Defects of Note
 Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and how you finally ended up resolving them.
