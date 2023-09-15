@@ -754,7 +754,7 @@ List out the tools you used with a link and a short description (this helps othe
 # Deployment
 🚨**Required** 
 
-## Prerequisits
+## Prerequisites
 🚀 **merit & beyond**
 
 If the user is required to have certain keys and credentials you should include this section with directions on how to get the necessary information. ex)
@@ -822,7 +822,7 @@ keys but either cut them out of the screenshot or say <YOUR_VALUE> and include l
 values.
 
 **Key points to cover** 
-- cerating new app
+- creating new app
 - setting app name
 - setting region
 - entering dreaded billing info
@@ -838,10 +838,11 @@ values.
 - adding build packages
 - deploy
 - gitHub connection
-- auto vs manul deploy
-- monotior logs
+- auto vs manual deploy
+- monitor logs
 
 # Credits
+🚨**Required** 
 
 To avoid plagiarism amd copyright infringement, you should mention any other projects, stackoverflow, videos, blogs, etc
 that you used to gather imagery or ideas for your code even if you used it as a starting point and modified things.
