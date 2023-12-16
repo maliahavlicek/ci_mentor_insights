@@ -283,7 +283,7 @@ def yes_no(question):
 ## Deployment
 🚨**Required** 
 
-### Requirements
+### Prerequisites
 🚨**Required** 
 
 If the user is required to have certain keys and credentials you should include this section with directions on how to get the necessary information.
