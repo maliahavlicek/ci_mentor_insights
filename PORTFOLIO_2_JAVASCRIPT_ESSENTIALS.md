@@ -307,14 +307,14 @@ var docWidth = document.documentElement.offsetWidth;
 ```
 
 
-### Defect Tracking
+### Defects
 🚨**Required** 
 
-Try to create issues in real time as it better reflects the daily life of a developer.
+Try to create issues in real-time as it better reflects the daily life of a developer.
 
 GitHub has an issues bar that helps you track things pretty quickly. Here's a [guide to GitHub Defects](Defects.md)
 
-You could do track them as bullet items in this document, or create a google speadsheet too. 
+Minimally you could track them as bullet items in this document but the accessors want to know the struggle was real.
 
 ### Defects of Note
 🚀 **merit & beyond**
